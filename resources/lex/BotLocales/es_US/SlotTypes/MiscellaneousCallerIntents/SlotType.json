@@ -1,1 +1,0 @@
-{"name":"MiscellaneousCallerIntents","identifier":"V4UAESB96R","description":null,"slotTypeValues":[{"synonyms":[{"value":"Necesita ayuda con la facturación electrónica"}],"sampleValue":{"value":"Paperless"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","advancedRecognitionSetting":null,"regexFilter":null}}
