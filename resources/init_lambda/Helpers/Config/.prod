@@ -1,0 +1,13 @@
+region = us-west-2
+environment = prod
+logLevel = debug
+#API
+#------------
+AU_WS01 = https://soagwx.sempra.com/OpEx/CC/eServices/getBillAcctInfo/1.0
+AU_WS02 = https://soagwx.sempra.com/OpEx/CC/eServices/updateCustomerProfile/1.0
+AU_WS03 = https://soagwx.sempra.com/OpEx/CC/eServices/ScreenPop/E92660CC/1.0
+AU_WS04 = https://soagwx.sempra.com/OpEx/CC/eServices/AuthenticateAni/E92661CC/1.0
+AU_WS05 = https://soagwx.sempra.com/OpEx/CC/eServices/CareFunctions/E92640CC/1.0
+#API Logging
+#-----------------
+DashboardNamespace = scg-gyyst-prd-wus2-iva-api-duration-mns

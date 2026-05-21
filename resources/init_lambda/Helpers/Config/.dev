@@ -1,0 +1,15 @@
+region = us-west-2
+environment = dev
+logLevel = debug
+#API
+#------------
+I_DG_06_006 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGAniAuthCustDetailsSet
+I_DG_02_001 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGBPGetInfoSet
+I_DG_02_001_Update = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGBPUpdateSet
+I_DG_05_004 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGGetCareStatus
+#API Logging
+#-----------------
+DashboardNamespace = scg-gyyst-dev-wus2-iva-api-duration-mns
+TokenDynamoDBName = scg-gyyst-dev-wus2-dydb-iva-master-tokentable
+
+

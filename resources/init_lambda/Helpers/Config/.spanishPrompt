@@ -1,0 +1,84 @@
+scg_ccc_prmt_1000_init_07_CommonBEFailure = Lo sentimos, se produjo un error inesperado.
+scg_ccc_prmt_7000_auth_02_CommonRetry1 = no entendí eso <break time = "0.2s"/>
+scg_ccc_prmt_7000_auth_03_CommonRetry2 = Todavia no entendi eso <break time = "0.2s"/>
+scg_ccc_menu_1014_init_01_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con <break time = "0.2s"/>
+scg_ccc_menu_1014_init_01_AddressConfirmationYN = <break time = "0.2s"/> Si ese es el domicilio a cerca del cuál usted está llamando, diga "Sí"<break time="0.1s"/>  De lo contrario, diga "no".
+scg_ccc_prmt_1014_init_04_AddrFound = Nuestros registros indican que el número de teléfono celular, asociado con esta cuenta, es <break time = "0.2s"/>
+scg_ccc_menu_1014_init_06_CellPhnConfirmation = <break time = "0.2s"/> Para confirmar el número de teléfono celular, diga "Sí"<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, diga "No".
+scg_ccc_menu_ninm1_1014_init_07_CellPhnConfirmation = Para confirmar el número de teléfono celular, presione 1 o diga "Sí"<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, presione 2 o diga "No".
+scg_ccc_menu_ninm2_1014_init_08_CellPhnConfirmation = Para confirmar el número de teléfono celular, presione 1<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, presione 2.
+scg_ccc_prmt_1014_init_05_AddrNotFound = Desafortunadamente, no podemos hacer coincidir la dirección<break time="0.1s"/>  Un momento mientras te transfiero al menú principal.
+scg_ccc_menu_ninm1_1014_init_02_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con
+scg_ccc_menu_ninm1_1014_init_02_AddressConfirmationYN = Si ese es el domicilio a cerca del cuál usted está llamando, diga "Sí" o presione 1<break time="0.1s"/>  De lo contrario, diga "no" o presione 2.
+scg_ccc_menu_ninm2_1014_init_03_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con
+scg_ccc_menu_ninm2_1014_init_03_AddressConfirmationYN = Si ese es el domicilio a cerca del cuál usted está llamando, presione 1<break time="0.1s"/>  De lo contrario, presione 2.
+scg_ccc_collect_1016_init_01_CellPhnCollection = Por favor, diga el número de teléfono celular asociado con la cuenta, comenzando con el código de área o diga "No tengo uno".
+scg_ccc_collect_ninm1_1016_init_02_CellPhnCollection = Diga o ingrese el número de teléfono celular asociado con la cuenta, comenzando con el código de área<break time="0.1s"/> De lo contrario, diga "No lo tengo" o presione 1.
+scg_ccc_collect_ninm2_1016_init_03_CellPhnCollection = Por favor presione el número de teléfono celular asociado con la cuenta, comenzando con el código de área, o presione 1 si no tiene uno.
+scg_ccc_prmt_1016_init_04_CellPhoneConfirmation = Para confirmarlo, ese número es <break time = "0.2s"/>
+scg_ccc_menu_1016_init_05_CellPhoneConfirmation = <break time = "0.2s"/> ¿Es esto correcto?, diga "sí"<break time="0.1s"/> De lo contrario, diga "no"<break time="0.1s"/> Para volver a escucharlo, diga "repetir".
+scg_ccc_menu_ninm1_1016_init_06_CellPhoneConfirmation = Si es correcto, diga "Si" o presione 1, de lo contrario diga "No" o presione 2<break time="0.1s"/> Para volver a escucharlo, diga "repita eso" o presione 3.
+scg_ccc_menu_ninm2_1016_init_07_CellPhoneConfirmation = Si es correcto, presione 1 para "sí", o 2 para "no"<break time="0.1s"/> Para volver a escucharlo, presione 3.
+scg_ccc_prmt_1016_init_08_CellNumberUpdated = Se ha actualizado el número de teléfono móvil.
+scg_ccc_prmt_1015_init_02_AuthVerToSAPPhoneConfirmation = Gracias por confirmar el número de teléfono celular. 
+scg_ccc_prmt_1015_init_01_AuthVerToSAPCellPhnNotUpdate = Desafortunadamente, no podemos actualizar el número de teléfono celular.
+scg_ccc_prmt_1016_init_09_CellNumberNotUpdated = Desafortunadamente, no podemos actualizar el número de teléfono celular.
+scg_ccc_prmt_7000_auth_04_CommonHoldOn = Un momento por favor en lo que obtenemos informacion de la cuenta.
+scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = Para confirmar, no está seguro del número de la calle<break time="0.1s"/> ¿Es eso correcto?
+scg_ccc_menu_ninm1_7004_auth_05_StreetNumberDontKnow = Si no está seguro del número de la calle, diga "sí" o presione 1<break time="0.1s"/> De lo contrario, diga "no" o presione 2.
+scg_ccc_menu_ninm2_7004_auth_06_StreetNumberDontKnow = Si no está seguro del número de la calle, presione 1<break time="0.1s"/> De lo contrario, presione 2.
+scg_ccc_menu_7005_auth_01_StreetNumberConfirmation = Para confirmar, el número es <break time = "0.4s"/>
+scg_ccc_menu_7005_auth_01_StreetNumberConfirmationYN = ¿Es correcto?
+scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmation = Usted dijo: <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmationYN = Si es correcto, diga "sí" o presione 1<break time="0.1s"/> De lo contrario diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7.
+scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmation = Usted dijo: <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmationYN = Si es correcto, presione 1<break time="0.1s"/> De lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
+scg_ccc_prmt_7005_auth_05_StreetNumberNotMatch = El número de la calle no corresponde a una cuenta existente<break time="0.1s"/> <break time = "0.2s"/>
+scg_ccc_collect_7006_auth_01_AccountNumberMS = Si actualmente no tiene servicio con nosotros, diga "nuevo cliente"<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo"<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere".
+scg_ccc_collect_7006_auth_02_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo"<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere".
+scg_ccc_collect_ninm1_7006_auth_03_AccountNumberMS = Si actualmente no tiene servicio con nosotros, diga "nuevo cliente" o presione 1<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo" o presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
+scg_ccc_collect_ninm2_7006_auth_04_AccountNumberMS = Si actualmente no tiene servicio con nosotros, presione 1<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
+scg_ccc_collect_ninm1_7006_auth_05_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo" o presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
+scg_ccc_collect_ninm2_7006_auth_06_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
+scg_ccc_prmt_7006_auth_14_AccountNumberNotMatch = El numero no esta asociado con una cuenta existente<break time="0.1s"/>  Por favor intente otra vez. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmation =  Usted dijo <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmationYN = Si es correcto, diga "sí" o presione 1, de lo contrario diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7
+scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmation = Usted dijo <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmationYN = Si es correcto, presione 1, de lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
+scg_ccc_prmt_7000_auth_01_PhoneNumberRecognize = Su número de teléfono fue reconocido. <break time = "0.2s"/>
+scg_ccc_collect_7002_auth_01_PhoneNumberMS = Por favor diga el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, diga "cliente nuevo". <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé".
+scg_ccc_collect_ninm1_7002_auth_05_PhoneNumber = Por favor diga o ingrese el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé" o presione 1.
+scg_ccc_collect_ninm2_7002_auth_06_PhoneNumber = Por favor ingrese el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, presione 1.
+scg_ccc_collect_ninm1_7002_auth_03_PhoneNumberMS =  Por favor diga o ingrese el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, diga "cliente nuevo" o presione 1. <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé" o presione 2.
+scg_ccc_collect_ninm2_7002_auth_04_PhoneNumberMS = Por favor ingrese el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, presione 1. <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, presione 2. 
+scg_ccc_collect_7002_auth_02_PhoneNumber = Por favor diga el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé"
+scg_ccc_collect_7004_auth_01_StreetNumber = Ahora, por favor diga solo el número con el que comienza su dirección<break time="0.1s"/> Si no está seguro, diga "no lo sé".
+scg_ccc_collect_ninm1_7004_auth_02_StreetNumber = Por favor diga o ingrese el número con el que comienza su dirección<break time="0.1s"/> Si no está seguro, diga "no lo sé".
+scg_ccc_collect_ninm2_7004_auth_03_StreetNumber =  Por favor ingrese el número con el que comienza su dirección.
+scg_ccc_menu_7002_auth_07_PhoneNumberConfirmation = Bueno, usted dijo  <break time = "0.2s"/>
+scg_ccc_menu_7002_auth_07_PhoneNumberConfirmationYN = <break time = "0.5s"/> Es esto correcto?
+scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmation = Usted dijo: <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmationYN = Si es correcto, diga "sÍ" o presione 1<break time="0.1s"/> De lo contrario, diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7. 
+scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmation = Usted dijo: <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmationYN = Si es correcto, presione 1<break time="0.1s"/> De lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
+scg_ccc_prmt_7003_auth_01_PhoneNumberNotMatch = El número de teléfono no está asociado con una cuenta existente.
+scg_ccc_menu_7003_auth_02_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, diga "sí"<break time="0.1s"/> Si no sabe el número de teléfono asociado con esta cuenta, diga "no lo sé".
+scg_ccc_menu_ninm1_7003_auth_03_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, diga "sí" o presione 1<break time="0.1s"/> De lo contrario, diga "no lo sé" o presione 2.
+scg_ccc_menu_ninm2_7003_auth_04_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, presione 1<break time="0.1s"/> De lo contrario presione 2.
+scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = Para confirmar, no esta seguro del número de la calle<break time="0.1s"/> Es correcto?
+scg_ccc_menu_7006_auth_11_AccountNumberConfirmation = Bueno, usted dijo <break time = "0.2s"/> 
+scg_ccc_menu_7006_auth_11_AccountNumberConfirmationYN = <break time = "0.5s"/> Es esto correcto?
+scg_ccc_prmt_7000_auth_05_CommonTryDiffWay = Intentemos de otra forma. <break time = "0.2s"/>
+scg_ccc_menu_7001_auth_01_AddressConfirmation = En base a su número de teléfono, parece que el domicilio comienza con…<break time = "0.2s"/> 
+scg_ccc_menu_7001_auth_01_AddressConfirmationYN = ¿Es correcto?
+scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmation = Si está llamando sobre el domicilio que comienza con 
+scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmationYN = <break time = "0.2s"/>  diga "sí" o presione 1, de lo contrario diga "no" o presione 2.
+scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmation = Si está llamando sobre el domicilio que comienza con 
+scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmationYN = <break time = "0.2s"/> presione 1, de lo contrario presione 2.
+scg_ccc_prmt_7006_auth_09_WaitAndContinueDisconnect = Esta llamada se desconectará ahora<break time="0.1s"/> Por favor, vuelva a llamar cuando tenga la información de su contrato<break time="0.1s"/> Si no la encuentra, aún puede hablar con nuestro representante<break time="0.1s"/> Adiós.
+scg_ccc_prmt_7006_auth_10_WaitAndContinueSuccess = De acuerdo<break time="0.1s"/> ¿Cuál es el número de cuenta?
+scg_ccc_prmt_7006_auth_07_WaitAndContinue = No hay problema<break time="0.1s"/> El número de cuenta se encuentra en la parte superior de su factura de gas. <break time = "0.2s"/> Cuando esté listo para continuar, por favor presione cualquier tecla.
+scg_ccc_prmt_7009_auth_01_CommercialTransfer =  Nuestros técnicos traen consigo una variedad de piezas para reparaciones de equipo de gas a precios razonables<break time="0.1s"/> Se le facturarán por los cargos.
+scg_ccc_prmt_1016_init_10_CellNumberNotUpdated = Está bien, el número de teléfono celular no ha sido actualizado<break time="0.1s"/> Continuemos.
+scg_ccc_menu_1004_init_01_EmergencyConfirmMenu = Solo para confirmar, ¿Está llamando por una emergencia de gas? Diga 'sí' o presione 1<break time="0.1s"/> De lo contrario, diga 'no' o presione 2.
+scg_ccc_menu_ninm1_1004_Init_02_EmergencyConfirmMenu =  Si está llamando por una emergencia de gas diga 'sí' o presione 1<break time="0.1s"/> De lo contrario, diga 'no' o presione 2.

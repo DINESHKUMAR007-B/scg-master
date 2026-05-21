@@ -1,0 +1,102 @@
+{
+  "I_DG_02_001": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "RelatedBusinessPartner": "",
+      "ZGEmailAddress": [],
+      "ZGPhoneNumber": [],
+      "ZGExtension": [
+        {
+          "RefObject": "",
+          "RefFieldName": "",
+          "RefFieldValue": ""
+        }
+      ],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_001_Update": {
+   "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "2",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "RelatedBusinessPartner": "",
+      "ZGUpdContactInfo": [
+        {
+          "Operation": "",
+          "ContactType": "PHONE",
+          "Contact": "",
+          "PhoneNumberExtension": "",
+          "IsMyAccountEmail": false,
+          "IsPrimaryEmail": false,
+          "PhoneType": "M",
+          "IsPrimaryPhone": true,
+          "AddressNumber": "",
+          "SequenceNumber": ""
+        }
+      ],
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_06_006": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "",
+      "RequestedBy": "",
+      "RequestedTimeStamp": "",
+      "ContractAccount": "",
+      "PhoneNumber": "",
+      "CheckDigit": "",
+      "ZGGetAccInfoAddr": [
+        {}
+      ],
+      "ZGGetAccInfoMail": {},
+      "ZGGetAccInfoServ": {},
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_05_004": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "ContractAccount": "",
+      "RelatedBusinessPartner": "",
+      "Channel": "",
+      "LetterId": "",
+      "Premise": "",
+      "Language": "",
+      "ZGExtension": [
+        {
+          "RefObject": "",
+          "RefFieldName": "",
+          "RefFieldValue": ""
+        }
+      ],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "httpsAgent": {
+    "keepAlive": true,
+    "keepAliveMsecs": 5000,
+    "maxSockets": 100,
+    "maxFreeSockets": 20,
+    "timeout": 60000,
+    "freeSocketTimeout": 30000
+  }
+}

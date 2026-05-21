@@ -1,0 +1,13 @@
+region = us-west-2
+environment = trng
+logLevel = debug
+#API
+#------------
+AU_WS01 = https://soagwqx.sempra.com/OpEx/CC/eServices/getBillAcctInfo/1.0/q2
+AU_WS02 = https://soagwqx.sempra.com/OpEx/CC/eServices/updateCustomerProfile/1.0/q2
+AU_WS03 = https://soagwqx.sempra.com/OpEx/CC/eServices/ScreenPop/E92660CC/1.0/q2
+AU_WS04 = https://soagwqx.sempra.com/OpEx/CC/eServices/AuthenticateAni/E92661CC/1.0/q2
+AU_WS05 = https://soagwqx.sempra.com/OpEx/CC/eServices/CareFunctions/E92640CC/1.0/q2
+#API Logging
+#-----------------
+DashboardNamespace = scg-gyyst-trng-wus2-iva-api-duration-mns
