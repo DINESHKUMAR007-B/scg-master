@@ -1,0 +1,12 @@
+region = us-west-2
+environment = tst
+logLevel = debug
+#API
+#------------
+I_DG_06_006 = https://api.cisqua.aws.socalgas.com/digital/ivr/getaccountinfo?action_type=retrievecustomerdetails
+I_DG_02_001 = https://api.cisqua.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Get
+I_DG_02_001_Update = https://api.cisqua.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Update
+I_DG_05_004 = https://api.cisqua.aws.socalgas.com/digital/ivr/common_correspondence
+#API Logging
+#-----------------
+DashboardNamespace = scg-gyyst-tst-wus2-iva-api-duration-mns

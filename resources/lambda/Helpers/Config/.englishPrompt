@@ -1,0 +1,84 @@
+scg_ccc_prmt_1000_init_07_CommonBEFailure = Sorry, an unexpected error occurred.
+scg_ccc_prmt_7000_auth_02_CommonRetry1 = I didn’t get that <break time = "0.2s"/>
+scg_ccc_prmt_7000_auth_03_CommonRetry2 = I Still didn’t get that <break time = "0.2s"/>
+scg_ccc_menu_1014_init_01_AddressConfirmation = Based on your phone number, it looks like the address starts with <break time = "0.2s"/>  
+scg_ccc_menu_1014_init_01_AddressConfirmationYN =  <break time = "0.2s"/> If that's the address you're calling about, say "yes"<break time="0.1s"/> Otherwise, say "no".
+scg_ccc_prmt_1014_init_04_AddrFound = Our records indicate the cell phone number, associated with this account, is <break time = "0.2s"/>
+scg_ccc_menu_1014_init_06_CellPhnConfirmation = <break time = "0.2s"/> To confirm the cell phone number,  say “Yes”<break time="0.1s"/> Otherwise, to provide a different cell phone number  say “No”.
+scg_ccc_menu_ninm1_1014_init_07_CellPhnConfirmation = To confirm the cell phone number, say “Yes” or press 1<break time="0.1s"/> Otherwise, to provide a different cell phone number say “No” or press 2.
+scg_ccc_menu_ninm2_1014_init_08_CellPhnConfirmation = To confirm the cell phone number, press 1”<break time="0.1s"/> Otherwise, to provide a different cell phone number, press 2. 
+scg_ccc_prmt_1014_init_05_AddrNotFound = Unfortunately, we're unable to match the address<break time="0.1s"/> One moment while I transfer you to the main menu.
+scg_ccc_menu_ninm1_1014_init_02_AddressConfirmation = Based on your phone number, it looks like the address starts with
+scg_ccc_menu_ninm1_1014_init_02_AddressConfirmationYN = If that's the address you're calling about, say “Yes” or press 1<break time="0.1s"/> Otherwise, say “No” or press 2.
+scg_ccc_menu_ninm2_1014_init_03_AddressConfirmation = Based on your phone number, it looks like the address starts with 
+scg_ccc_menu_ninm2_1014_init_03_AddressConfirmationYN =  If that's the address you're calling about, press 1, Otherwise, press 2<break time="0.1s"/>
+scg_ccc_collect_1016_init_01_CellPhnCollection = Please say the cell phone number associated with the account, starting with the area code or say “I don’t have one”.
+scg_ccc_collect_ninm1_1016_init_02_CellPhnCollection = Please say or enter the cell phone number associated with the account, starting with the area code otherwise say “I don’t have one” or press 1.
+scg_ccc_collect_ninm2_1016_init_03_CellPhnCollection = Please enter  the cell phone number associated with the account, starting with the area code or press 1 if you don’t have one.
+scg_ccc_prmt_1016_init_04_CellPhoneConfirmation = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_1016_init_05_CellPhoneConfirmation = <break time = "0.2s"/> Is that correct? say "yes", otherwise say "no"<break time="0.1s"/> To hear it again, say ‘repeat.’
+scg_ccc_menu_ninm1_1016_init_06_CellPhoneConfirmation = If that's correct, say Yes or press 1 otherwise say No or press 2<break time="0.1s"/> To hear it again, say Repeat that or press 3.
+scg_ccc_menu_ninm2_1016_init_07_CellPhoneConfirmation = If that's correct, press 1 for “Yes” or press 2 for "No"<break time="0.1s"/> To hear it again, press 3 to "repeat that".
+scg_ccc_prmt_1016_init_08_CellNumberUpdated = The Cell Phone number has been updated.
+scg_ccc_prmt_1015_init_02_AuthVerToSAPPhoneConfirmation = Thank you for confirming the cell phone number.
+scg_ccc_prmt_1015_init_01_AuthVerToSAPCellPhnNotUpdate = Unfortunately, we're unable to update the Cell Phone number.
+scg_ccc_prmt_1016_init_09_CellNumberNotUpdated = Unfortunately, we're unable to update the Cell Phone number.
+scg_ccc_prmt_7000_auth_04_CommonHoldOn = Please hold while we retrieve that account information.
+scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = To confirm, you’re not sure about the street number<break time="0.1s"/> Is that correct?
+scg_ccc_menu_ninm1_7004_auth_05_StreetNumberDontKnow = If you're not sure about the street number, say 'yes' or press 1, otherwise say 'no' or press 2.
+scg_ccc_menu_ninm2_7004_auth_06_StreetNumberDontKnow = If you're not sure about the street number, press 1, otherwise press 2.
+scg_ccc_menu_7005_auth_01_StreetNumberConfirmation = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_7005_auth_01_StreetNumberConfirmationYN = Is that correct?
+scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmation =  You said <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
+scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmation = You said <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
+scg_ccc_prmt_7005_auth_05_StreetNumberNotMatch = The street number does not match an existing account<break time="0.1s"/> <break time = "0.2s"/>
+scg_ccc_collect_7006_auth_01_AccountNumberMS = If you don't currently have service with us, say 'new customer'<break time="0.1s"/> Otherwise, please say the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it'<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
+scg_ccc_collect_7006_auth_02_AccountNumber = Please say the full 10- or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it'<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
+scg_ccc_collect_ninm1_7006_auth_03_AccountNumberMS = If you don't currently have service with us, say 'new customer' or press 1<break time="0.1s"/> Otherwise, please say or enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it' or press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
+scg_ccc_collect_ninm2_7006_auth_04_AccountNumberMS = If you don't currently have service with us, press 1<break time="0.1s"/> Otherwise, please enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
+scg_ccc_collect_ninm1_7006_auth_05_AccountNumber = Please say or enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it' or press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
+scg_ccc_collect_ninm2_7006_auth_06_AccountNumber =  Please enter the full 10- or 11-digit account number<break time="0.1s"/> If you don't have the account number, press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
+scg_ccc_prmt_7006_auth_14_AccountNumberNotMatch = The number does not match an existing account<break time="0.1s"/> Please try again <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmation =  You said <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
+scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmation = You said <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
+scg_ccc_prmt_7000_auth_01_PhoneNumberRecognize = Your phone number was recognized <break time = "0.2s"/>
+scg_ccc_collect_7002_auth_01_PhoneNumberMS = Please say the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, say 'new customer'. <break time="2s"/> If you don't know the phone number listed on the account, say 'I don't know it'.
+scg_ccc_collect_ninm1_7002_auth_05_PhoneNumber =  Please say or enter the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, say 'I don't know it' or press 1.
+scg_ccc_collect_ninm2_7002_auth_06_PhoneNumber =  Please enter the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, press 1.
+scg_ccc_collect_ninm1_7002_auth_03_PhoneNumberMS = Please say or enter the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, say 'new customer' or press 1. <break time="2s"/> If you don't know the phone number listed on the account, say 'I don't know it' or press 2.
+scg_ccc_collect_ninm2_7002_auth_04_PhoneNumberMS = Please enter the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, press 1. <break time="2s"/> If you don't know the phone number listed on the account, press 2.
+scg_ccc_collect_7002_auth_02_PhoneNumber = Please say the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, say 'I don't know it'.
+scg_ccc_collect_7004_auth_01_StreetNumber = Now, please say just the street number of the address you're calling about<break time="0.1s"/> If you're not sure, say 'I don't know it'.
+scg_ccc_collect_ninm1_7004_auth_02_StreetNumber = Please say or enter the street number of the address you're calling about<break time="0.1s"/> If you're not sure, say 'I don't know it'.
+scg_ccc_collect_ninm2_7004_auth_03_StreetNumber = Please enter the street number of the address you're calling about.
+scg_ccc_menu_7002_auth_07_PhoneNumberConfirmation = Ok. You said <break time = "0.2s"/>
+scg_ccc_menu_7002_auth_07_PhoneNumberConfirmationYN = Is that correct?
+scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmation = You said <break time = "0.2s"/>
+scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
+scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmation = You said <break time = "0.2s"/>
+scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
+scg_ccc_prmt_7003_auth_01_PhoneNumberNotMatch = The phone number does not match an existing account. 
+scg_ccc_menu_7003_auth_02_DifferentPhoneNumber = To try a different phone number, say 'yes'<break time="0.1s"/> If you don't know the phone number associated with this account, say 'I don't know it'.
+scg_ccc_menu_ninm1_7003_auth_03_DifferentPhoneNumber = To try a different phone number, say 'yes' or press 1, otherwise say 'I don't know it' or press 2.
+scg_ccc_menu_ninm2_7003_auth_04_DifferentPhoneNumber = To try a different phone number, press 1, otherwise press 2.
+scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = To confirm, you’re not sure about the street number<break time="0.1s"/>  Is that correct?
+scg_ccc_menu_7006_auth_11_AccountNumberConfirmation = Ok<break time="0.1s"/> You said <break time = "0.2s"/>
+scg_ccc_menu_7006_auth_11_AccountNumberConfirmationYN = Is that correct? 
+scg_ccc_prmt_7000_auth_05_CommonTryDiffWay = Let's try this a different way <break time = "0.2s"/>
+scg_ccc_menu_7001_auth_01_AddressConfirmation = Based on your phone number, it looks like the address starts with <break time = "0.2s"/>
+scg_ccc_menu_7001_auth_01_AddressConfirmationYN = Is that correct?
+scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmation = If you're calling about the address starting with
+scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmationYN = <break time = "0.2s"/> say 'yes' or press 1, otherwise say 'no' or press 2.
+scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmation = If you're calling about the address starting with
+scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmationYN = <break time = "0.2s"/> press 1, otherwise press 2.
+scg_ccc_prmt_7006_auth_09_WaitAndContinueDisconnect = This call will now be disconnected<break time="0.1s"/> Please call us back when you have your account information<break time="0.1s"/> If you can’t find it, you can still speak with our customer service team<break time="0.1s"/> Good bye.
+scg_ccc_prmt_7006_auth_10_WaitAndContinueSuccess = Ok<break time="0.1s"/> What is the account number?
+scg_ccc_prmt_7006_auth_07_WaitAndContinue = No problem<break time="0.1s"/> The account number is located at the top of the bill. <break time = "0.2s"/> When ready to move on, please press any key.
+scg_ccc_prmt_7009_auth_01_CommercialTransfer = Our technicians carry a variety of reasonably-priced parts and may be able to repair your gas equipment<break time="0.1s"/>  You would be billed for the charges
+scg_ccc_prmt_1016_init_10_CellNumberNotUpdated = Okay, the cell phone number has <break time = "0.2s"/> not been <break time = "0.2s"/> updated<break time="0.1s"/> Let’s continue.
+scg_ccc_menu_1004_init_01_EmergencyConfirmMenu = Just to confirm, are you calling about a gas emergency? Say "yes" or press 1<break time="0.1s"/> Otherwise, say "no" or press 2.
+scg_ccc_menu_ninm1_1004_Init_02_EmergencyConfirmMenu = If you are calling about a gas emergency? Say ""yes"" or press 1<break time="0.1s"/> Otherwise, say ""no"" or press 2.

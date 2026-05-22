@@ -1,1 +1,0 @@
-{"name":"ProgramsCallerIntents","identifier":"DGYO9PM3XV","description":null,"slotTypeValues":[{"synonyms":[{"value":"quiero saber informacion sobre cuidados"}],"sampleValue":{"value":"Care"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","advancedRecognitionSetting":null,"regexFilter":null}}

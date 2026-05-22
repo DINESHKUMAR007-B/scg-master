@@ -1,1 +1,0 @@
-{"name":"ProgramsCallerIntents","identifier":"9BUXVPJYUH","description":null,"slotTypeValues":[{"synonyms":[{"value":"I want to know information about care"}],"sampleValue":{"value":"Care"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","advancedRecognitionSetting":null,"regexFilter":null}}
