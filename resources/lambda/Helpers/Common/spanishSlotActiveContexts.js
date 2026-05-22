@@ -10,68 +10,46 @@ exports.SpanishSlotActiveContexts = function (intentName, appSession, intentRequ
     let promptOutR2;
     let activeContexts = intentRequest.sessionState.activeContexts;
     availableIntents = activeContexts.map(context => context.name);
-    //console.log(availableIntents);
     switch (appSession.nextIntent) {
-        case "AU103_AccountNumber":
-            //appSession.stateName = appSession.baseLine + process.const.STR_Underscore + process.const.SN_AccountNumber;
-            let nameMap1 = {
-                DontHaveIt: 'AU205_DontHaveIt',
-                MainMenu: 'AU106_MainMenu',
-                HoldOn:'AU107_HoldOn',
-                AccountNumber: 'AU103_AccountNumber',
-                NewCustomer: 'AU105_NewCustomer'
-            };
-            let nameMap2 = {
-                DontHaveIt: 'AU205_DontHaveIt',
-                MainMenu: 'AU106_MainMenu',
-                HoldOn:'AU107_HoldOn',
-                AccountNumber: 'AU103_AccountNumber',
-            };
-            nameMap = appSession.callerGoal == process.const.CG_StartService || appSession.callerGoal == process.const.CG_StartOther ||
-                appSession.callerGoal == process.const.CG_NewConstruction || appSession.callerGoal == process.const.CG_TailorTreatmentPrediction ?
-                nameMap1 : nameMap2;
-            slotkey = process.const.STR_AccountNumber;
-            break;
-        case "AU101_PhoneNumber":
-            if (appSession.appSessionObj.cellPhoneCollectionPrompt == "Y") {
+        case "MS404_GetPhoneNumber":
+            if (appSession.nextStateName == process.const.NS_SendSMSDiffSamePhNo || appSession.nextStateName == process.const.NS_SendSMS_DifferentPhoneNumberConfirmation||
+                appSession.nextStateName == process.const.NS_SmartPhoneWebLinkConfimation) {
                 nameMap = {
-                    DontHaveIt: 'AU205_DontHaveIt',
-                    PhoneNumber: 'AU101_PhoneNumber',
+                    PhoneNumber: 'MS404_GetPhoneNumber',
                 };
             }
-            else {
-                let nameMap1 = {
-                    DontHaveIt: 'AU205_DontHaveIt',
-                    PhoneNumber: 'AU101_PhoneNumber',
-                    NewCustomer: 'AU105_NewCustomer'
-                };
-                let nameMap2 = {
-                    DontHaveIt: 'AU205_DontHaveIt',
-                    PhoneNumber: 'AU101_PhoneNumber',
-                };
-                nameMap = appSession.callerGoal == process.const.CG_StartService || appSession.callerGoal == process.const.CG_StartOther ||
-                    appSession.callerGoal == process.const.CG_NewConstruction || appSession.callerGoal == process.const.CG_TailorTreatmentPrediction ?
-                    nameMap1 : nameMap2;
+            else if (appSession.appSessionObj.type == "2" && appSession.nextStateName != process.const.NS_Business_ExtensionNo) {
+                nameMap = {
+                    DontHaveIt: 'MS209_DontHaveIt',
+                    PhoneNumber: 'MS404_GetPhoneNumber',
+                    RemovePhoneNumber:'MS411_RemovePhoneNumber,'
+                };  
             }
-            slotkey = process.const.STR_PhoneNumber;
+            else{
+                nameMap = {
+                    DontHaveIt: 'MS209_DontHaveIt',
+                    PhoneNumber: 'MS404_GetPhoneNumber',
+                }; 
+            }
+            slotkey = "phoneNumber";
             break;
-        case "AU102_StreetNumber":
+        case "MS423_GetWorkPhoneExtNumber":
             nameMap = {
-                DontHaveIt: 'AU205_DontHaveIt',
-                StreetNumber: 'AU102_StreetNumber',
+                DontHaveIt: 'MS209_DontHaveIt',
+                PhoneExtNumber: 'MS423_GetWorkPhoneExtNumber',
             };
-            slotkey = process.const.STR_StreetNumber;
+            slotkey = "getWorkPhoneExtNumber";
             break;
         default:
             availableIntents;
             break;
     }
     availableIntents = availableIntents.map(name => nameMap[name] || name);
-    //console.log(availableIntents);
     if (availableIntents.includes(intentName) == false) {
         appSession.appSessionObj[slotkey + "Count"] = appSession.appSessionObj[slotkey + "Count"] == undefined || null ?
             0 : appSession.appSessionObj[slotkey + "Count"];
         appSession.appSessionObj[slotkey + "Retry"] = process.const.STR_True;
+        intentRequest.sessionState.intent.slots = {};
         intentRequest.sessionState.intent.slots[slotkey] = null;
         intentRequest.sessionState.intent.name = appSession.nextIntent;
         return appSession.nextIntent;

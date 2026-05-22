@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:emf="http://ns.sempra.com/im/BusinessTechnology/Common/EMFSchemaV2" xmlns:ond="http://ns.sempra.com/im/BusinessTechnology/Common/CustomerContact/OnDemandTextServiceTypesV1" xmlns:tex="http://ns.sempra.com/im/BusinessTechnology/Common/CustomerContact/ContactRequest/TextingRequestV1">
+    <soapenv:Header/>
+   <soapenv:Body>
+      <ond:getCustomerContactTextRequest>
+         <tex:CustomerContactTextRequestMessage>
+            <tex:MessagePayload>
+               <tex:textingRequest>
+                  <tex:phoneNumber></tex:phoneNumber>
+                  <tex:templateId></tex:templateId>
+                  <!--Optional:-->
+                  <tex:billAccountNumber></tex:billAccountNumber>
+                  <!--Optional:-->
+                  <tex:promotionId></tex:promotionId>
+                  <!--Optional:-->
+                  <tex:customActionId></tex:customActionId>
+                  <!--Optional:-->
+                  <tex:needTracking>false</tex:needTracking>
+                  <!--Optional:-->
+                  <tex:dynamicProperties>
+                     <!--Zero or more repetitions:-->
+                     <tex:dynamicProperty>
+                        <tex:propertyKey></tex:propertyKey>
+                        <tex:propertyValue></tex:propertyValue>
+                     </tex:dynamicProperty>
+                     <tex:dynamicProperty>
+                        <tex:propertyKey></tex:propertyKey>
+                        <tex:propertyValue></tex:propertyValue>
+                     </tex:dynamicProperty>
+                  </tex:dynamicProperties>
+               </tex:textingRequest>
+            </tex:MessagePayload>
+         </tex:CustomerContactTextRequestMessage>
+      </ond:getCustomerContactTextRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

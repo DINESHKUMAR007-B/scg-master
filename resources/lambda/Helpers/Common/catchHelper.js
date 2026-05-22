@@ -7,7 +7,7 @@ exports.CatchUpdate = function (error, intentRequest, intentName, callback) {
     let appSession = sessionHelper.AppSession;
     let cxiSession = sessionHelper.CxiSession;
     let promptOut = "";
-    appSession.callerGoal = process.const.CG_OtherMatters;
+    appSession.callerGoal = process.const.CG_ChangeService;
     cxiSession.cxiSessionObj.exitType = process.const.Cxi_BE_Failure;
     return agentHelper.AgentTransfer(
         intentRequest,

@@ -1,80 +1,375 @@
+#SelfServicePath
+#------------
+CloseOrderCreateOperation4Success =Close Order Create – Operation 4 is Success
+CloseOrderScheduledNeedMA =Close order scheduled; need MA
+CloseOrderCancelledSuccess = Close Order Cancelled
+StartServiceDDWeblinkSent = Start Service DD Weblink Sent
+HearPendingCloseInfo = Hear Pending Close Information
+NewServiceAddressRecieved = New Service Address Received
+
 #Baseline
 #--------------
-Initial = Initial
+BL_MainServices = MainServices
+#BotName
+Billing_Bot = Billing_Bot
+Success = success
+TypeMenu = menu
+
 #Intents
 #-------
 FallbackIntent = FallbackIntent
-AU100 = AU100_InitialIdentification
-AU101 = AU101_PhoneNumber 
-AU102 = AU102_StreetNumber
-AU103 = AU103_AccountNumber
-AU104 = AU104_PostIdentification
-AU105 = AU105_NewCustomer
-AU106 = AU106_MainMenu
-AU107 = AU107_HoldOn
-AU108 = AU108_Emergency
-AU200 = AU200_InitialConfirmation
-AU201 = AU201_Yes
-AU202 = AU202_No
-AU203 = AU203_Repeat
-AU204 = AU204_Previous
-AU205 = AU205_DontHaveIt
-AU300 = AU300_CellPhoneCollection
-MS300 = MS300_NewCustomer
-MA100 = MA100_InitialMenu
+MS100 = MS100_MainServicesMenu
 MS101 = MS101_StartService
-MS500 = MS500_Fumigation
+MS102 = MS102_MoveStop
+MS103 = MS103_ReconnectFumigation
+MS104 = MS104_NewConstructionService
+MS105 = MS105_CheckChangeCancelService
+MS106 = MS106_OtherMatters
+MS107 = MS107_MoreOptions
+MS108 = MS108_MainMenu
+MS200 = MS200_InitialConfirmation
+MS201 = MS201_Yes
+MS202 = MS202_No
+MS203 = MS203_Repeat
+MS204 = MS204_Previous
+MS205 = MS205_HearDetails
+MS206 = MS206_Operator
+MS207 = MS207_Hangup
+MS208 = MS208_MainMenu
+MS209 = MS209_DontHaveIt
+MS210 = MS210_BargeInNotAllowed
+MS300 = MS300_NewCustomer
+MS301 = MS301_WebLink
+MS302 = MS302_NewAddress
+MS303 = MS303_DifferentNumber
+MS304 = MS304_StartServiceSMSPg2
+MS305 = MS305_StartServiceSMSPg3
 MS400 = MS400_StopService
 MS401 = MS401_MoveTransfer
-MS105 = MS105_CheckChangeCancelService
-MS104 = MS104_NewConstructionService
-MS505 = MS505_Details
-MS504 = MS504_Restore
+MS402 = MS402_SameNumber
+MS403 = MS403_Continue
+MS404 = MS404_GetPhoneNumber
+MS405 = MS405_Reschedule
+MS406 = MS406_Cancel
+MS407 = MS407_SendSMS
+MS408 = MS408_CurrentAddress
+MS409 = MS409_ChangeAddress
+MS410 = MS410_PayMyBill
+MS411 = MS411_RemovePhoneNumber
+MS412 = MS412_GetStopServiceDate
+MS413 = MS413_CustomerType
+MS414 = MS414_StopServiceRoute
+MS426 = MS426_StopServEvalDate_Pg3
+MS415 = MS415_StopServDate
+MS416 = MS416_StopServPropOwner
+MS417 = MS417_StopServicePaperlessMail
+MS418 = MS418_StopServiceFinalBillAddress
+MS419 = MS419_StopServiceConfirmation
+MS420 = MS420_FullAddress
+MS422 = MS422_StopServiceNotEligible
+MS423 = MS423_GetWorkPhoneExtNumber
+MS424 = MS424_StopServiceNotEligiblePg1
+MS427 = MS427_MailingAddress
+MS500 = MS500_Fumigation
+MS501 = MS501_Reconnect
 MS502 = MS502_Forgiveness
-MS106 = MS106_OtherMatters
-BP101 = BP101_Balance
-BP201 = BP201_AMPMenu
-BP103 = BP103_PaymentExtension
-BP602 = BP602_AccountNumberRetrieval
-AS102 = AS102_CheckChangeCancelAppointment
-AS101 = AS101_Appointment
-BP704 = BP704_CheckEnrollment
-BP703 = BP703_MailApplication
-AS111 = AS110_AppointmentRouting
-BP106 = BP106_OtherMatters
-BP501 = BP501_Accessibility
-BP502 = BP502_LargePrint
-BP503 = BP503_Braille
-BP726 = BP726_PayLocationLookUp
-BP402 = BP402_DuplicateBillYN
-BP403 = BP403_SummaryBillYN
-BP106 = BP106_OtherMatters
-BP105 = BP105_Reconnect
-BP329 = BP329_WebLink
-BP117 = BP117_DonotKnow
-BP413 = BP413_lppSignUp
-BP120 = BP120_UpdateByMail
-BP412 = BP412_WinterBill
-BP414 = BP414_RequestApplication 
-AP301 = AP301_CheckEnrollment
-AP300 = AP300_MailApplication
-AP208 = AP208_BargeInNotAllowed
-AP106 = AP106_OtherMatters
-AP408 = AP408_FindAgency
-AS511 = AS511_CreateCso
-MI103 = MI103_EveryThingElse
-MI106 = MI106_MyAccountOnline
-MI104 = MI104_Password
-MI112 = MI112_OtherMatters
-MI108 = MI108_OptOut
-MI111 = MI111_Representative
-MI102 = MI102_AMMeter
-MI105 = MI105_Paperless
-MI109 = MI109_AMInformation
-MI103 = MI103_EveryThingElse
-MI110 = MI110_MailMeInformation
-MI400 = MI400_ConfirmAniAddress
-BP908 = BP908_BargeInNotAllowed
+MS503 = MS503_Payment
+MS504 = MS504_Restore
+MS505 = MS505_Details
+
+CP_ChangeServiceMenu = Change Service Menu
+CP_StopServiceMenu = Stop Service Menu
+CP_FumigationRestoreMenu = Fumigation Restore Menu
+
+#Peg_Path
+#-------
+PP_200000 = 200000
+PP_230000 = 230000
+PP_250000 = 250000
+
+
+PP_200005 = 200005
+PP_200010 = 200010
+
+PP_210000 = 210000
+PP_210005 = 210005
+PP_210010 = 210010
+PP_210015 = 210015
+PP_210105 = 210105
+PP_210110 = 210110
+PP_210115 = 210115
+PP_210120 = 210120
+PP_210125 = 210125
+PP_210130 = 210130
+PP_210135 = 210135
+PP_210140 = 210140
+PP_210145 = 210145
+PP_210150 = 210150
+PP_210155 = 210155
+PP_210160 = 210160
+PP_210165 = 210165
+PP_210205 = 210205
+PP_210210 = 210210
+PP_210215 = 210215
+PP_210220 = 210220
+PP_210225 = 210225
+
+PP_210505 = 210505
+PP_210510 = 210510
+PP_210515 = 210515
+PP_210520 = 210520
+PP_210525 = 210525
+PP_210530 = 210530
+PP_210535 = 210535
+PP_210540 = 210540
+PP_220000 = 220000
+PP_220005 = 220005
+PP_220010 = 220010
+PP_220015 = 220015
+PP_220020 = 220020
+PP_220105 = 220105
+PP_220110 = 220110
+PP_220115 = 220115
+PP_220120 = 220120
+PP_220125 = 220125
+PP_220130 = 220130
+PP_220135 = 220135
+PP_220140 = 220140
+PP_220145 = 220145
+PP_220150 = 220150
+PP_220205 = 220205
+PP_220210 = 220210
+PP_230005 = 230005
+PP_230105 = 230105
+PP_230205 = 230205
+PP_230210 = 230210
+PP_230215 = 230215
+PP_230305 = 230305
+PP_230310 = 230310
+PP_230405 = 230405
+PP_230505 = 230505
+PP_230510 = 230510
+PP_230515 = 230515
+PP_230605 = 230605
+PP_230610 = 230610
+PP_230615 = 230615
+PP_230705 = 230705
+PP_230710 = 230710
+PP_230720 = 230720
+PP_230710 = 230710
+PP_230715 = 230715
+PP_230815 = 230815
+PP_230820 = 230820
+PP_230825 = 230825
+PP_230905 = 230905
+PP_231005 = 231005
+PP_231105 = 231105
+PP_231110 = 231110
+PP_231205 = 231205
+PP_231210 = 231210
+PP_231305 = 231305
+PP_231310 = 231310
+PP_231315 = 231315
+PP_231320 = 231320
+PP_231405 = 231405
+PP_231410 = 231410
+PP_231415 = 231415
+PP_231420 = 231420
+PP_231425 = 231425
+PP_231430 = 231430
+PP_231505 = 231505
+PP_231510 = 231510
+PP_231515 = 231515
+PP_231520 = 231520
+PP_231605 = 231605
+PP_231610 = 231610
+PP_231615 = 231615
+PP_231620 = 231620
+PP_231705 = 231705
+PP_231710 = 231710
+PP_231715 = 231715
+PP_231805 = 231805
+PP_231810 = 231810
+PP_231815 = 231815
+PP_231905 = 231905
+PP_231910 = 231910
+PP_231915 = 231915
+PP_232005 = 232005
+PP_232010 = 232010
+PP_232105 = 232105
+PP_232110 = 232110
+PP_232115 = 232115
+PP_232120 = 232120
+PP_232125 = 232125
+PP_232205 = 232205
+PP_232210 = 232210
+PP_232305 = 232305
+PP_232306 = 232306
+PP_232307 = 232307
+PP_232308 = 232308
+PP_232405 = 232405
+PP_232410 = 232410
+PP_232415 = 232415
+PP_232505 = 232505
+PP_232510 = 232510
+PP_232515 = 232515
+PP_232520 = 232520
+PP_232525 = 232525
+PP_232530 = 232530
+PP_232535 = 232535
+PP_232540 = 232540
+PP_232545 = 232545
+PP_232550 = 232550
+PP_232555 = 232555
+PP_232560 = 232560
+PP_232565 = 232565
+PP_232570 = 232570
+PP_232605 = 232605
+PP_232610 = 232610
+PP_232615 = 232615
+PP_232620 = 232620
+PP_232625 = 232625
+PP_232630 = 232630
+PP_232635 = 232635
+PP_232640 = 232640
+PP_232645 = 232645
+PP_232650 = 232650
+PP_232705 = 232705
+PP_232710 = 232710
+PP_232715 = 232715
+PP_232720 = 232720
+PP_232725 = 232725
+PP_232730 = 232730
+PP_232735 = 232735
+PP_232740 = 232740
+PP_232745 = 232745
+PP_232805 = 232805
+PP_232800 = 232800
+PP_232810 = 232810
+PP_232905 = 232905
+PP_232910 = 232910
+PP_232915 = 232915
+PP_232920 = 232920
+PP_233005 = 233005
+PP_233010 = 233010
+PP_233105 = 233105
+PP_233110 = 233110
+PP_233305 = 233305
+PP_233310 = 233310
+PP_233405 = 233405
+PP_233410 = 233410
+PP_233500 = 233500
+PP_233505 = 233505
+PP_233510 = 233510
+PP_233515 = 233515
+PP_233600 = 233600
+PP_233601 = 233601
+PP_233602 = 233602
+PP_233605 = 233605
+PP_233680 = 233680
+PP_233610 = 233610
+PP_233615 = 233615
+PP_233620 = 233620
+PP_233625 = 233625
+PP_233630 = 233630
+PP_233635 = 233635
+PP_233685 = 233685
+PP_233690 = 233690
+PP_233695 = 233695
+PP_250005 = 250005
+PP_250105 = 250105
+PP_250100 = 250100
+PP_250110 = 250110
+PP_250115 = 250115
+PP_250120 = 250120
+PP_250205 = 250205
+PP_250210 = 250210
+PP_250215 = 250215
+PP_250220 = 250220
+PP_250225 = 250225
+PP_250230 = 250230
+PP_250235 = 250235
+PP_250240 = 250240
+PP_250245 = 250245
+PP_250305 = 250305
+
+PP_200001 = 200001
+PP_210100 = 210100
+PP_210101 = 210101
+PP_210102 = 210102
+PP_210103 = 210103
+PP_210104 = 210104
+PP_210500 = 210500
+PP_210501 = 210501
+PP_210502 = 210502
+PP_210503 = 210503
+PP_210504 = 210504
+PP_210506 = 210506
+PP_210507 = 210507
+PP_210508 = 210508
+PP_210509 = 210509
+PP_210511 = 210511
+PP_210512 = 210512
+PP_220100 = 220100
+PP_220101 = 220101
+PP_220102 = 220102
+PP_220103 = 220103
+PP_230100 = 230100
+PP_230200 = 230200
+PP_230400 = 230400
+PP_230500 = 230500
+PP_230600 = 230600
+PP_230601 = 230601
+PP_230800 = 230800
+PP_231100 = 231100
+PP_231200 = 231200
+PP_231400 = 231400
+PP_231500 = 231500
+PP_231501 = 231501
+PP_231502 = 231502
+PP_231600 = 231600
+PP_231601 = 231601
+PP_231700 = 231700
+PP_231800 = 231800
+PP_231801 = 231801
+PP_232100 = 232100
+PP_232200 = 232200
+PP_232201 = 232201
+PP_232300 = 232300
+PP_232400 = 232400
+PP_232500 = 232500
+PP_232501 = 232501
+PP_232502 = 232502
+PP_232503 = 232503
+PP_232504 = 232504
+PP_232506 = 232506
+PP_232507 = 232507
+PP_232508 = 232508
+PP_232509 = 232509
+PP_232511 = 232511
+PP_232512 = 232512
+PP_232513 = 232513
+PP_232600 = 232600
+PP_232601 = 232601
+PP_232602 = 232602
+PP_232603 = 232603
+PP_232604 = 232604
+PP_232700 = 232700
+PP_232900 = 232900
+PP_232901 = 232901
+PP_232902 = 232902
+PP_233400 = 233400
+PP_233501 = 233501
+PP_250000 = 250000
+PP_250010 = 250010
+PP_250115 = 250115
+PP_250250 = 250250
+PP_250300 = 250300
+PP_250310 = 250310
+PP_230805 = 230805
+PP_230810 = 230810
+
+
 #Common TimeOut Keys
 #-------------------
 STR_Audio_Start = x-amz-lex:audio:start-timeout-ms:
@@ -86,332 +381,755 @@ STR_Allow_Dtmf = x-amz-lex:allow-dtmf-input:
 STR_Audio_End = x-amz-lex:audio:end-timeout-ms:
 STR_DTMF_End = x-amz-lex:dtmf:end-timeout-ms:
 STR_Asterisk = *
-STR_Hash = #
 STR_Colon = :
 STR_Fulfilled = Fulfilled
 STR_Failed = Failed
-STR_InProgress = InProgress
 STR_Y = Y
+STR_true =true
 STR_N = N
-STR_T = T
-STR_F = F
 STR_True = true
 STR_False = false
 STR_conversationID = null
 STR_sessionId = null
-STR_participantID =  
+STR_participantID =
 STR_Underscore = _
 STR_NI = NI
 STR_NM = NM
-STR_PhoneNumber = phoneNumber
-STR_StreetNumber = streetNumber
-STR_AccountNumber = accountNumber
+#StopSErvicePaperlessMail
+STR_Email = email
+STR_S = S
+STR_MailAddress = mailAddress
+STR_IVA = IVA
+STR_StopServiceNotificationCode = 163
+STR_Spanish =  spanish
+STR_ServiceAddress =  serviceAddress
+STR_InProgress = InProgress
+STR_BC = BC
 STR_Addr = addr
 STR_Acct = acct
-STR_ANI = ANI
 STR_EC425 = 425
 STR_EC475 = 475
-STR_BC = BC
-STR_NR = NR
-STR_Commercial = commercial
-STR_IC = IC
-STR_Residential = residential
-STR_Marketing = marketing
+STR_PhoneNumber = phoneNumber
+STR_
+STR_
+STR_
+STR_04 = 04
+STR_Start = start
+STR_Stop = stop
 STR_Default = Default
-STR_1 = 1
-STR_2 = 2
 STR_ApiName = ApiName
 STR_ApiDuration = ApiDuration
 STR_Milliseconds = Milliseconds
-#Bots
-#---------------------
-Authentication_Bot = Authentication_Bot
-Billing_Bot = Billing_Bot
-MainServices_Bot = MainServices_Bot
-Appliance_Bot = Appliance_Bot
-Programs_Bot = Programs_Bot
-Miscellaneous_Bot = Miscellaneous_Bot
-Master_Bot = Master_Bot
+#Slot
+Slot_phoneNumber = phoneNumber
 #DialogAction Types
 #------------------
 DA_ElicitSlot = ElicitSlot
 DA_ElicitIntent = ElicitIntent
 DA_StartIntent = StartIntent
-DA_Delegate = Delegate
 DA_Close = Close
 DA_ElicitIntentActiveContext = ElicitIntentActiveContext
 DA_SwitchToIntentSlot = SwitchToIntentSlot
+DA_Delegate = Delegate
 #State Name
 #----------
-SN_PostIdentification = PostIdentification
-SN_NewCustomer = NewCustomer
-SN_MainMenu = MainMenu
-SN_CellPhoneCollection = CellPhoneCollection
+MS_MoveStopMenu = MoveStopMenu
+MS_Initial_Menu = InitialMenu
+MS_StartService = StartService
+MS_reconnectOrFumigation = reconnectOrFumigation
+MS_FNPMenu = FNPMenu
+#StopServicePaperlessMail
+SN_StopServicePaperlessMail = _StopServicePaperlessMail
+SN_StopServiceConfirmation = _StopServiceConfirmation
+SN_StopServiceFinalBillAddress = _StopServiceFinalBillAddress
+SN_CurrentAddress = _CurrentAddress
+SN_ChangeAddress = _ChangeAddress
+SN_MailingAddress = _MailingAddress
+SN_CollectFullAddress = _CollectFullAddress
+#StopService
+SN_StopServiceRoute = StopServiceRoute
+SN_StopServInitialNotEligible = StopServInitialNotEligible
+
+
+#Fumigation
+SN_FNPMenuAMP_SW_true = FNPMenuAMP_SW_true
+SN_FNPMenuAMP_SW_false = FNPMenuAMP_SW_false
+SN_Payment = Payment
+SN_CutomerType = CutomerType
 SN_Yes = Yes
 SN_No = No
-SN_Repeat = Repeat
-SN_Previous = Previous
-SN_DontHaveIt = DontHaveIt
-SN_AccountNumber = AccountNumber
-SN_PhoneNumber = PhoneNumber
-SN_StreetNumber = StreetNumber
-SN_Identification = Identification
-SN_Confirmation = Confirmation
-#Next State Name
-#----------
-NS_EmergencyConfirmation = Emergency_Confirmation
-NS_AIN_Identified = AIN_Identified
-NS_CellPhoneCollection = CellPhoneCollection
-NS_CellPhoneCollection_AddrFound = CellPhoneCollection_AddrFound
-NS_CellPhnColl_PhoneNumberConfirmation = CellPhnColl_PhoneNumberConfirmation
-NS_PhoneNumber_Confirmation = PhoneNumber_Confirmation
-NS_Different_PhoneNumber = Different_PhoneNumber
-NS_StreetNumber_Confirmation = StreetNumber_Confirmation
-NS_StreetNumber_DontHaveIt = StreetNumber_DontHaveIt
-NS_AccountNumber_Confirmation = AccountNumber_Confirmation
-NS_CellPhoneCollection = CellPhoneCollection
-NS_HomePh_Authenticated = HomePh_Authenticated
-NS_PhoneNumber = PhoneNumber
-NS_AlreadyOnCareMenu = AlreadyOnCareMenu
-NS_UnableToProcessPayment = UnableToProcessPayment 
+SN_CellPhoneNumber = CellPhoneNumber
+SN_WorkPhoneExtNumber = WorkPhoneExtNumber
+SN_NewCustomer = NewCustomer
+
+
+
+#NextStateName
+#---------------------------------
+#InitialMS
+NS_MainServices_Menu = MainServices_Menu
+NS_MoreOptions = MoreOptions
+NS_DiffNumberMenu = DiffNumberMenu
+NS_BusinessCustomerCellPhone_Confirmation = BusinessCustomerCellPhone_Confirmation
+NS_CustomerCellPhone_Confirmation = CustomerCellPhone_Confirmation
+NS_BusinessPhoneNumber_Confirmation = BusinessPhoneNumber_Confirmation
+NS_CellPhoneNumber_Confirmation = CellPhoneNumber_Confirmation
+NS_Business_ExtensionNo = Business_ExtensionNo
+NS_BusinessExtensionNo_Confirmation = BusinessExtensionNo_Confirmation
+NS_CellPhoneNumber_ConfirmationNo = CellPhoneNumber_ConfirmationNo
+NS_Initial_BusinessPhoneNumber = Initial_BusinessPhoneNumber
+NS_Initial_BusinessWorkExtNumber = Initial_BusinessWorkExtNumber
+NS_Initial_CellPhoneNumber = Initial_CellPhoneNumber
+
+#StartService
+NS_StartServiceAddressMenu = StartServiceAddressMenu
+NS_StartServiceProcess = StartServiceProcess
+NS_StartService_DifferentPhoneNumberConfirmation = StartService_DifferentPhoneNumberConfirmation
+NS_StartAnyThingElse = StartAnyThingElse
+NS_startServiceMaxAttempts = StartServiceMaxAttempts
+
+#FumigationReconnect
+NS_FumigationReconnect_Menu = FumigationReconnect_Menu
+NS_FNPMenuAMP_SW_true = FNPMenuAMP_SW_true
+NS_FNPMenuAMP_SW_false = FNPMenuAMP_SW_false
+NS_PostFNPMenu = PostFNPMenu
+NS_Fumigation_Restore_Menu = Fumigation_Restore_Menu
+
+
+#CheckChangeCancel
+NS_CheckChangeCancelAnythingElse = CheckChangeCancelAnythingElse
+
+#Move
+NS_Moving_SMS = Moving_SMS
+NS_Move_DifferentPhoneNumberConfirmation = Move_DifferentPhoneNumberConfirmation
+NS_MoveStopMenu = MoveStopMenu
+NS_Move_PhNumConfirmMenu = Move_PhNumConfirmMenu
+NS_Moving_SMSHrClose = Moving_SMSHrClose
+
+#StopServicePaperlessMail
+NS_BillSentMailConfirmation=BillSentMail_Confirmation
+NS_SentMailConfirmation = SentMailConfirmation
+NS_SentMail = SentMail
+NS_StopServiceChangeAddressSpanish = StopServiceChangeAddressSpanish
+NS_AnythingElseBill = AnythingElseBill
+NS_StopServiceFinalBillAddress = StopServiceFinalBillAddress
+NS_SmartPhoneConfirmation = SmartPhoneConfirmation
+NS_FullAddressStopService = FullAddressStopService
+NS_ApartmentNumberConfirmation = ApartmentNumberConfirmation
+NS_FullAddressConfirmation = FullAddress_Confirmation
+NS_FullAddressStartService = FullAddressStartService
+NS_WebLinkConfirmation = WebLinkConfirmation
+NS_SmartPhoneWebLinkConfimation = SmartPhoneWebLinkConfirmation
+NS_CollectPhoneNumberConfirmation = CollectPhoneNumber_Confirmation
+NS_SMSPhoneNumber = SMSPhoneNumber
+NS_SMSMaxRecognize = SMSMaxRecognize
+NS_StopServDate = StopServDate
+NS_StopServAcceptDate = StopServAcceptDate
+NS_StopServDateConfirmation = StopServDateConfirmation
+NS_StopServDateConfirmationLogic = StopServDateConfirmationLogic
+NS_StopServAcceptUserDate = StopServAcceptUserDate
+NS_StopServPropOwner = StopServPropOwner
+NS_SMSMultiModelConfirmation = SMSMultiModelConfirmation
+NS_StopServiceChangeAddressSpanishCloseDate = StopServiceChangeAddressSpanishCloseDate
+NS_FullAddressBargeIn = FullAddressBargeIn
+NS_CommonMainAnyThingElse = CommonMainAnyThingElse
+
+#StopServiceExistingCloseMenu
+NS_StopServiceExistingCloseMenu = StopServiceExistingCloseMenu
+NS_StopServiceExistingCloseCancel = StopServiceExistingCloseCancel
+NS_StopAnyThingElse = StopAnyThingElse
+NS_StopAnyThingElseMaxRetry = StopAnyThingElseMaxRetry
+NS_StopServiceExistingCloseAnythingElse = StopServiceExistingCloseAnythingElse
+NS_StopServiceExistingCloseAnythingElseMaxRetry = StopServiceExistingCloseAnythingElseMaxRetry
+
+#StopServConfNumberSMS
+NS_SendSMSDiffSamePhNo = SendSMS_DiffSamePhNo
+NS_SendSMS_DifferentPhoneNumberConfirmation = SendSMS_DifferentPhoneNumberConfirmation
+NS_AnythingElse = AnythingElse
+NS_StopServBilledBalaAnythingElse = StopServBilledBalaAnythingElse
+NS_StopServNotAnythingElse =  NStopServNotAnythingElse
+NS_StopServConfNumberSMS = StopServConfNumberSMS
+
+#StopService
+NS_AccountValidation_OP1 = AccountValidation_OP1
+NS_FirstDate = FirstDate
+NS_StopCancel = StopCancel
+NS_StopService_Pg2 = StopService_Pg2
+NS_StopServFumStop = StopServFumStop
+NS_StopServEvalDate_Pg3 = StopServEvalDate_Pg3
+NS_StopServOwnerName = StopServOwnerName
+NS_StopServOwnerInfo = StopServOwnerInfo
+NS_MoveStopMenu = MoveStopMenu
+NS_StopnotEligibleAnythingElse = StopnotEligibleAnythingElse
+NS_StopServiceFinalAnythingElse = StopServiceFinalAnythingElse
+NS_StopServiceMenu = StopServiceMenu
+NS_StopServiceMoveSms = NSStopServiceMoveSms
+NS_DifferentNumberCollect = DifferentNumberCollect
+NS_StopServBilledPendingMenu = StopServBilledPendingMenu
+NS_StopServBilledBalanceMenu = StopServBilledBalanceMenu
+NS_StopServNotEligible = StopServNotEligible
+
+#Language 
+LA_English = English
+LA_Spanish = Spanish
+
 #Context Keys
-#------------
+#-----------------------------
 Context_Yes = Yes
-Context_No = No 
+Context_No = No
+Context_MainApplication = MainApplication
+Context_Billing = Billing
+Context_MainServices = MainServices
+Context_OtherMatters = OtherMatters
+Context_MoreOptions = MoreOptions
+Context_StopServiceMenu = StopServiceMenu
+Context_Continue = Continue
+Context_PhoneExtNumber = PhoneExtNumber
+
+Context_Appliance = Appliance
+Context_Programs = Programs
+Context_Miscellaneous = Miscellaneous
+Context_Programs = Programs
+Context_Operator = Operator
+Context_fumigationMenu = FumigationMenu
+Context_Reconnect = Reconnect
+Context_Different = DifferentNumber
+
+Context_HearDetails = HearDetails
+Context_Previous = Previous
+Context_StopServDate = StopServDate
+Context_SMS = SMS
 Context_Repeat = Repeat
+Context_MainMenu = MainMenu
+Context_PayMyBill = PayMyBill
+Context_ChangeAddress = ChangeAddress
+Context_CurrentAddress = CurrentAddress
+Context_MailingAddress = MailingAddress
+Context_CollectFullAddress = CollectFullAddress
+Context_SameNumber = SameNumber
+Context_StopExistingServiceMenu = StopExistingServiceMenu
+Context_SecondaryFumigationMenu = SecondaryFumigationMenu
+Context_Payment = Payment
+Context_Forgiveness = Forgiveness
+Context_Details = Details
+Context_WebLink = WebLink
+Context_NewAddress = NewAddress
 Context_PhoneNumber = PhoneNumber
 Context_DontHaveIt = DontHaveIt
-Context_NewCustomer = NewCustomer
-Context_StreetNumber = StreetNumber
-Context_MainMenu = MainMenu
-Context_AccountNumber = AccountNumber
-Context_Operator = Operator
-Context_Emergency = Emergency
-Context_HoldOn = HoldOn
+Context_RemovePhoneNumber = RemovePhoneNumber
+Context_Hangup = Hangup
+
+
+
+
+
+#WebService
+#---------------------
+STR_Failure =Failure
+STR_Success =Success
+#BusinessPartner_GetSource = IVR
+#BusinessPartner_GetAction = 4
+#BusinessPartner_UpdateSource = IVR
+#BusinessPartner_UpdateAction = 2
+BusinessPartner_UpdateContactAdd = ADD
+BusinessPartner_UpdateContactRem = REM
+BusinessPartner_UpdatePhoneNumber = 0000000000
+#BusinessPartner_ContactType = PHONE
+#GetChargesPayments_ActionCode=4
+#Getpremise_ActionCode=5
+#ServiceOrder_GetActionCode = 4
+#MatCode_GetActionCode = 4
+WS_reqOperationCd = 10
+WS_ChannelID = IVR
+WS_MS_WS04_ProcessCode = 2565
+WS_MS_WS05_ProcessCode = 2542
+WS_ChannelType = IVR
+WS_DatabaseName = E60F200
+WS_CisVersion = 00000000
+WS_SCG_SchedulingOperation2_Code = 3
+WS_SCG_AccountValidationOperation1 = 01
+WS_SCG_ViewCancelOperation1 = 01
+WS_SCG_ViewCancelOrderNumber = 0
+WS_SCG_TailorTreatmentOperation_Code = 90
+WS_SCG_CreateCloseOrderOperation_Code = 04
+WS_SCG_CreateCloseOrder_AltPathId = 04
+WS_SCG_BillAccountInfo_ProcessCode = 2565
+WS_SCG_BillAccountInfo_CisVersion = 00000000
+WS_SCG_LinkedAccountInfo_ProcessCode = 2565
+WS_SCG_LinkedAccountInfo_CisVersion = 00000000
+WS_SCG_CreateCloseOrderOperation3_Code = 03
+WS_SCG_CreateCloseOrderOperation3_addrFlag = C
+WS_SCG_CreateCloseOrderOperation3_addrType = D
+WS_SCG_CreateCloseOrderOperation4_addrFlag = C
+WS_SCG_CreateCloseOrderOperation4_addrType = D
+WS_SCG_CreateCloseOrderOperation4_ForeignAddrType = F
+WS_SCG_CreateCloseOrderOperation4_gateFlag = Y
+WS_SCG_CreateCloseOrderOperation4_dogInfo = N
+WS_SCG_CustomerContactServiceSMS_templateId = 046
+WS_SCG_CustomerContactServiceSMSConfNum_templateId = 058
+WS_SCG_CustomerContactServiceSMSStopService_templateId = 043
+WS_SCG_CustomerContactServiceSMS_needTracking = false
+WS_SCG_CustomerContactServiceEmail_propertyKey1 = CUSTOMER_NAME
+WS_SCG_CustomerContactServiceEmail_propertyKey2 = MASKED_ACCOUNT_NUMBER
+WS_SCG_CustomerContactServiceEmail_propertyKey3 = CONFIRMATION_NUMBER
+WS_SCG_CustomerContactServiceEmail_propertyKey4 = SERVICE_ADDRESS
+WS_SCG_CustomerContactServiceEmail_propertyKey5 = SERVICE_DATE
+WS_StopServiceConfigEmailTemplateId = 163
+WS_StopServiceCancelConfigEmailTemplateId = 164
+WS_StopServiceConfigEmailPropertyKey1 = CUSTOMER_NAME
+WS_StopServiceConfigEmailPropertyKey2 = MASKED_ACCOUNT_NUMBER
+WS_StopServiceConfigEmailPropertyKey3 = CONFIRMATION_NUMBER
+WS_StopServiceConfigEmailPropertyKey4 = SERVICE_ADDRESS
+WS_StopServiceConfigEmailPropertyKey5 = SERVICE_DATE
+WS_SCG_CustomerContactServiceStartServiceSMS_templateId = 047
+WS_StopServiceMultiModelPropertyKey1 = AWS_URL_TokenId
+WS_StopServiceMultiModelPropertyKey2 = SOURCE_SYSTEM
+WS_EmailServiceName = CustomerContactService
+WS_EmailOperationName = sendEmailOnDemand
+WS_EmailSequenceNumber = 0
+WS_SCG_MovingSMS = 053
+
+#Startservice
+WS_propertyValuestart = https://pubsvc.socalgas.com/service/startService.html
+WS_sendSmsAWS_URL_TokenId = AWS_URL_TokenId
+WS_sendSmsSOURCE_SYSTEM = SOURCE_SYSTEM
+#MultiModel
+#----------------
+WS_SCG_CustomerContactServiceSMSStopServiceMult_templateId = 046
+MM_HoldCounter = 5
 #Timeout Value
-#------------- 
-Lex_Audio_Start_Timeout_Input = 6000
-Lex_Audio_Start_Timeout_Menu = 6000
-Lex_Audio_End_Timeout_Input = 2000
-Lex_Audio_End_Timeout_Menu = 1200
-Lex_DTMF_End_Timeout = 2000
+#-------------
+Lex_Audio_Start_Timeout_1 = 4000
+Lex_Audio_Start_Timeout_2 = 5000
+Lex_Default_TimeOut = 100
+Lex_Audio_End_Timeout = 600
+Lex_DTMF_End_Timeout = 600
+Lex_CatchTimeout = 1000
 Lex_IntentTimeout = 100
-#AppSession assigned kvps 
+Lex_TransferTimeout = 2000
+
+#AppSession assigned kvps
 #------------------------
-#CxiSession assigned kvps 
+
+#API Names or ID's
+#------------------------
+I_DG_02_006_Cancel= I_DG_02_006_Cancel
+I_DG_02_006_Cancel_name = Cancel Move Out
+SAP_DQM = SAP_DQM
+SAP_DQM_Name = SAP_DQM-AddressValidation
+SAP_DQM_Message = SAP DQM Address Validated successfully
+I_DG_02_001_Get=I_DG_02_001_Get
+I_DG_02_001_Get_name = BusinessPartnerGet
+I_DG_02_001_Update=I_DG_02_001_Update
+I_DG_02_001_Update_name=BusinessPartnerUpdate
+I_DG_03_003_GET=I_DG_03_003_GET
+I_DG_03_003_GET_APIName = GetChargesAndPayments
+I_DG_02_004_GET=I_DG_02_004_GET
+I_DG_02_004_GET_APIName = GetPremiseDetails and Eligibility_MoveService
+I_DG_02_005_Process=I_DG_02_005_Process
+I_DG_02_005_ProcessName = Process MoveOut
+I_DG_02_012_GET=I_DG_02_012_GET
+I_DG_02_012_GET_APIName = ServiceOrder_Get
+I_DG_02_012_GET_APIName_GetServiceOrderType = MO
+I_DG_02_015_GET=I_DG_02_015_GET
+I_DG_02_015_GET_APIName = MAT Code Determination and Moves Order appointments from IFS
+SAP_DQM=SAP_DQM
+
+
+
+#CxiSession assigned kvps
 #------------------------
 Cxi_Agent_Transfer = Agent Transfer
 Cxi_App_Hangup = App Hangup
 Cxi_Transfer_By_Design = Transfer By Design
 Cxi_Max_Attempts = Max Attempts
 Cxi_BE_Failure = BE Failure
-Cxi_Unknown = Unknown 
+Cxi_Unknown = Unknown
 Cxi_Hangup = Hangup
 Cxi_Caller_Type = NR
+
 #FallbackCounter
 #---------------
 Dynamic_FallbackCounter = 3
 Dynamic_RetryCounter = 3
-#CallerGoal
-#-----------
-CG_NewCustomer = new_customer
-CG_StartService = start_service
-CG_NewConstruction = new_construction
-CG_Fumigation = fumigation
-CG_ServiceCheck = service_check 
-CG_SeasonalPilotLight = seasonal_pilot_light
-CG_ObCallAhead = ob_call_ahead
-CG_WinterBill = winter_bill
-CG_LppApplication = lpp_application
-CG_CloseOrder = close_order
-CG_PayByPhoneFailure = pay_by_phone_failure
-CG_Moving = moving
-CGcorrespondence_address = correspondence_address
-CG_CloseCheck = close_check
-CG_48hrCallback = 48hr_callback
-CG_DirectDebitApplication = direct_debit_application
-CG_MBL = mbl
-CG_ArrearageMgmtPrgm = arrearage_mgmt_prgm
-CG_MblApplication = mbl_application
-CG_TailorTreatmentPrediction = tailortreatment_prediction
-CG_FnpTotAmtDue = fnp_tot_amt_due
-CG_Billing = billing
-CG_CSO = cso
-CG_CsoAppl = cso_appl
-CG_CARE = care
-CG_AutoPay = auto_pay
-CG_CAREApplication = care_application
-CG_PaymentExtension = payment_extension
-CG_PaymentArrangement = payment_arrangement
-CG_AssistancePrograms = assistance_programs
-CG_VerifyAutoPay = verify_auto_pay
-CG_PayLocation = pay_location
-CG_PayByPhone = pay_by_phone
-CG_Balance = balance
-CG_ChgBankInfo = chg_bank_info
-CG_PBPApplication = pbp_application
-CG_LetterOfCredit = letter_of_credit
-CG_ServiceVerification = service_verification
-CG_AMMailer = am_mailer
-CG_Paperless = paperless 
-CG_SomethingElse = something_else
-CG_InternetQuestions = internet_questions
-CG_PasswordReset = password_reset
-CG_WebOther = web_other
-CG_MeterOther = meter_other
-CG_AmOptout = am_optout
-CG_AmOther = am_other
-CG_AmMailerOther = am_mailer_other
-CG_AmInfoMailedOther = am_info_mailed_other
-CG_AdvancedMeter = advanced_meter
-CG_AccountNumber = account_number
-CG_Marketing = marketing
-CG_CARERecert = care_recert
-CG_FNPRestore = fnp_restore
-CG_ArrearageMgmtPrgmFnp = arrearage_mgmt_prgm_fnp
-CG_StartOther = start_other
-CG_MoveOther = move_other
-CG_ReconnectOther = reconnect_other
-CG_CellNumberCollection = cellnumber_collection
-CG_AdaCompliant = ada_compliant
-CG_LargePrint = large_print
-CG_Braille = braille
-CG_BillPrintOther = bill_print_other
-CG_BillCopy = bill_copy
-CG_AccountSummary = account_summary
-CG_BillingOther = billing_other
-CG_BillExplanation = bill_explanation
-CG_PbpOther = pbp_other
-CG_BillCopyOther = bill_copy_other
-CG_AcctSummaryOther = acct_summary_other
-CG_ServiceVerificationOther = service_verification_other
-CG_ManageBillOther = manage_bill_other
-CG_LppSignup = lpp_signup
-CG_LetterOfCreditOther = letter_of_credit_other
-CG_PayBillOther = pay_bill_other
-CG_WaysToPayOther = ways_to_pay_other
-CG_PayAddressOther = pay_address_other
-CG_GafFindAgency = gaf_find_agency
-CG_CareCheckEnroll = care_check_enroll
-CG_CareOther = care_other
-CG_RebateOther = rebate_other
-CG_MblOther = mbl_other
-CG_LiheapOther = liheap_other
-CG_GafOther = gaf_other
-CG_ProgramsOther = programs_other
-CG_ChgbankInfo = chgbank_Info
-CG_TailorTreatmentPrediction = tailortreatment_prediction
-CG_MailAddress = mail_address
-CG_Correspondence_address = correspondence_address
-CG_Emergency = emergency
-CG_OtherMatters = other_matters
-#ExitReason =
-#-----------------------
-ER_AuthenticationProcessFailure = Process failure – Authentication
-ER_AuthenticationStreetDidntMatchSAP = Authentication – Street did not match SAP
-ER_AuthenticationNoPhoneStreetProvided = Authentication – No phone/street provided
-ER_AuthenticationTooManyTries = Authentication – Too many tries
-ER_ProcessFailurePhoneNumberUpdate = Process failure – Phone number update
-ER_ProcessFailureCustomerData = Process failure – Customer Data
-ER_ProcessFailureCellPhoneVerificationToSAP = Process failure – Cell phone verification to SAP
-ER_MaxAttempts = maxAttempts
-#CallPath
-#--------------------
-CP_MultipleAccounts = Multiple accounts
-CP_AccountIsEnrolledInDirectDebit = Account is enrolled in Direct Debit
-CP_PhoneNumberTooManyAttempts = Phone number – Too many attempts
-CP_PhoneNumberTryAgain = Phone number – Try again
-CP_PhoneNumberDontKnow = Phone number – Don’t know
-CP_PhoneNumberDifferentFromANIMatch = Phone number – Different from ANI match
-CP_ConfirmCellPhoneVerification = Confirm cell phone verification
-CP_CellPhoneNumberUpdated = Cell phone number updated
-CP_CellPhoneNumberNotUpdated = Cell phone number not updated
-CP_ANIRecognized = ANI Recognized
-CP_Emergency = Emergency
-CP_AuthWithPhoneNumber = Auth with Phone Number
-CP_AuthWithStreetNumber = Auth with Street Number
-CP_StreetNumberNoMatch = Street number no match
-CP_AuthWithAccountNumber = Auth with Account Number
-CP_HoldOn = Hold on
-CP_HoldOnTimeout = Hold on timeout
-CP_AccountNumberNoMatch = Account number no match
-CP_AuthMethodANIMatch = Auth method – ANI Match
-CP_AuthMethodANIAddress = Auth method – ANI Address
-CP_AuthMethodAccountNum = Auth method – Account Num
-CP_NM = nm
-CP_NI = ni
-CP_NotCallingAboutEmergency = Not calling about emergency
-CP_Emergency = Emergency
-CP_CallingModeANI_AddressConfirmation = CallingMode ANI_AddressConfirmation
-CP_CallingModeAccountNumber = CallingMode AccountNumber
-CP_CallingModeStreetNumber = CallingMode StreetNumber
-#CallerHistory
-#------------------------
 DeleteRowForEvery = 15
-CallHistoryTableName = scg-gyyst-dev-wus2-dynamodb-callerhistory
-#WebService
-#----------------------
-WS_OperationCd = 90
-WS_AU_WS04_reqOperationCd = 65
-WS_AU_WS05_reqOperationCd = 30
-WS_ReqCareActionCd = V
-WS_ChannelType = IVR
-WS_AU_WS01_ProcessCode = 2565
-WS_AU_WS02_ProcessCode = 2542 
-WS_AU_WS03_OperationCd = 0060 
-WS_CisVersion = 00000000
-WS_LanguageCode = EN
-WS_AccountKeyType = 1 
-WS_PhoneKeyType = 2
-WS_LetterId = BIL10073
-WS_STND = STND
-WS_getBusinessPartnerObjAction = 4
-WS_updateBusinessPartnerObjAction = 2
-WS_uupdateBusinessPartnerObjAdd = ADD
-WS_customerDetailsObjAction = 4
-WS_careReqObjAction = 1
-#PegPath
-#--------------------------
-PP_700005 = 700005
-PP_700105 = 700105
-PP_700305 = 700305
-PP_700310 = 700310
-PP_700315 = 700315
-PP_700320 = 700320
-PP_700905 = 700905
-PP_101505 = 101505
-PP_101510 = 101510
-PP_101515 = 101515
-PP_101520 = 101520
-PP_101605 = 101605
-PP_101610 = 101610
-PP_101600 = 101600
-PP_101601 = 101601
-PP_700100 = 700100
-PP_700110 = 700110
-PP_700201 = 700201
-PP_700200 = 700200
-PP_700300 = 700300
-PP_700400 = 700400
-PP_700401 = 700401
-PP_700500 = 700500
-PP_700505 = 700505
-PP_700601 = 700601
-PP_700600 = 700600
-PP_700605 = 700605
-PP_700610 = 700610
-PP_700615 = 700615
-PP_700705 = 700705
-PP_700710 = 700710
-PP_700715 = 700715
-PP_101400 = 101400
-PP_101401 = 101401
-PP_101600 = 101600
-PP_101601 = 101601
-PP_101625 = 101625
-PP_101620 = 101620
-PP_100401 = 100401
-PP_100440 = 100440
-PP_100455 = 100455
-PP_100445 = 100445
-PP_100450 = 100450
+CallHistoryDBName = scg-gyyst-dev-wus2-dynamodb-callerhistory
+
+#callerGoal
+-----------------------------------------
+CG_MenuMaxAttempt = MenuMaxAttempt
+#StartService
+CG_start_service = start_service
+CG_new_customer = new_customer
+
+#fumigation
+CG_fumigation = fumigation
+CG_fnp = fnp
+CG_pay_my_bill = pay_my_bill
+CG_arrearage_mgmt_prgm_fnp = arrearage_mgmt_prgm_fnp
+CG_fnp_tot_amt_due = fnp_tot_amt_due
+CG_fnp_restore = fnp_restore
+callerGoal
+
+#check
+CG_close_check = close_check
+CG_new_construction = new_construction
+CG_ChangeService = change_service 
+CG_Billing = Billing
+CG_Appliance = Appliance
+state_careMenu = CareServiceMenu
+#StopServicePaperlessMail
+CG_CloseOrderIssuedBillSentMail = close_order_order_issued
+CG_CloseOrderIssued=close_order_order_issued_need_ma
+CG_CloseOrderDeclined = close_order_need_ma
+CG_CloseOrderNeedMA = close_order_need_ma
+CG_StartService = start_service
+CG_NewCustomer = new_customer
+CG_MovingNeedMa = moving_need_ma
+#StopService
+CG_moving = moving
+CG_close_order = close_order
+CG_close_order_need_owner_info = close_order_need_owner_info
+CG_close_order_need_date = close_order_need_date
+CG_fumigation = fumigation
+CG_moving_need_owner_info = moving_need_owner_info
+CG_moving_need_date = moving_need_date
+CG_close_order_need_ph_and_ma = close_order_need_ph_and_ma
+CG_close_order_need_ma = close_order_need_ma
+CG_moving_need_ma = moving_need_ma
+CG_moving_need_phone = moving_need_phone
+CG_closeordernoteligible = close_order
+CG_MoveOther = move_other
+CG_MovingCloseComplete = moving_close_complete
+CG_ResStartMove = resstartmove
+
+#StopServiceNotEligible
+CG_close_notactive  = close_order
+CG_close_ci         = close_ci
+CG_close_rm         = close_rm
+CG_close_csr4       = close_csr4
+CG_close_billed     = close_order
+CG_CloseOrderNotEligible = close_order_not_eligible
+CG_CloseOrderDeclinedFinalAcceptance = close_order_declined_final_acceptance
+CG_CloseBilled = close_billed
+CG_CloseNotactive = close_notactive
+#StopServiceDate
+
+CG_close_order_need_owner_and_ma=close_order_need_owner_and_ma
+CG_moving_need_owner_and_ma=moving_need_owner_and_ma
+
+
+#ModuleName
+
+MN_MAIN_2306_StopServDate = MAIN_2306_StopServDate
+MN_MAIN_2307_StopServAcceptUserDate = MAIN_2307_StopServAcceptUserDate
+
+
+#ExitReason
+StopServicePaperlessMail
+ER_TailorTreatmentWebServiceFailure = Close Order Process failure – Customer data
+ER_CloseOrderOperation4WebServiceFailureStopServiceComplete = Close Order Process failure – Create order
+ER_CloseOrderOperation4WebServiceFailure = Close Order Process failure – Order Create
+ER_BillSentMailNo = Close Order - Declined Final Acceptance
+ER_BillSentMailConfirmation = OrderAcceptMenu-Max Attempt Reached
+ER_StopServiceFinalBillAddressMaxAttempt = BillMailAddrMenu-Max Attempt Reached
+ER_ChangeAddressSpanish = AccptMenu-Max Attempt Reached
+ER_CloseOrderOperation3 = Move Out Process - Address Validation Failure
+ER_StartServiceFullAddressCollection = Start service new address
+ER_StartServiceFullAddressCollection_MaxAttempts = Start service new address is not verified
+ER_ConfigEmailUnknownRequest = Conf Email Creation – Unknown Request
+#StopService
+ER_CloseOrderNotEligible = Close Order – Not eligible
+ER_MovingProcessFailureAcctValidation = Moving Process failure Acct Validation
+ER_CloseOrderProcessFailureAcctValidation = Close Order Process failure-Acct Validation
+ER_MovingOther = Moving – Other
+ER_ProcessFailureExistingOrder = Process failure – Existing Order
+ER_ExistingOrder = Existing Order
+ER_CloseOrderProcessFailureCustomerData = Close Order Process failure Customer data
+ER_MovingProcessFailureCustomerData = Moving Process failure- Customer data
+ER_MovingOtherConditions = Moving  Other Conditions
+ER_CloseOrderOtherConditions = Close Order  Other Conditions
+ER_CloseOrderDifferentAddress = Close Order – Different address
+ER_FumigationSelected = fumigation selected
+ER_MAIN2200MoveStopMenuMaxattempt = MAIN_2200_MoveStopMenu-Max attempt
+ER_ProcessfailureProvideFNPamount = Process failure – Provide FNP amount
+ER_FNPamountpaid = FNP amount paid
+ER_FNPexception = FNP exception
+ER_RescheduleRequested = Close Order – Reschedule requested
+ER_CancelExistingCloseOrder = Process failure – Cancel existing Close Order.
+ER_StopServDateMaxAttemptReached = StopServDate-Max Attempt Reached
+ER_CloseorderDate=close Order Date.
+ER_MovingCloseOrderDate=moving - close Order Date.  
+ER_ProcessFailureCustomerData = Process failure – Customer Data
+ER_ProcessFailureUpdatePhoneNumber = Process failure – Update phone number
+ER_ProcessFailureUpdatePhoneNumberVerificationToSAP = Process failure – Update cell phone number
+ER_StopServDateNextdateNull  = Close Order - No next date
+ER_SchedulingOperation2_WS_Failure_moving = Moving  Process failure – No Appointment Date.
+ER_SchedulingOperation2_WS_Failure_close = close order process Failure – No Appointment Date.
+ER_MovingNoOCSSchedule = Moving - No OCS schedule.
+ER_CloseNoOCSSchedule = Close Order - No OCS schedule
+ER_StopServOtherConditionsclose = close Order - Other Conditions (Prior Date T/N)
+ER_StopServOtherConditionsmoving = moving - Other Conditions (Prior Date T/N)
+ER_CloseOrderConfirmSMS = Process failure – Could not send Close Order confirmation number via SMS
+
+ER_OtherInEligible = Other In Eligible
+ERbusinessHoursClosed = businessHoursClosed
+
+ERneedToPayMyBill = Need to payMBbill
+ER_checkEligibilityForArrearageManagementPlan = check eligibility for Arrearage Management Plan
+
+ER_failureNewServiceAddress = Process failure – Could not send SMS link to enter new service address.
+ER_allConnectOpen = allConnectOpen
+ER_allConnectClosed = allConnectClosed
+
+//stopService not eligible
+ER_ExistingClose1001 = Non-Res Facility
+ER_ExistingClose1002 = Multifamily
+ER_ExistingClose1007 = No Meter
+ER_ExistingClose1008 = Pending Order
+ER_ExistingClose1015 = Security incident
+ER_ExistingClose1021 = Collective Billing
+ER_ExistingClose1024 = Account Closed
+ER_ExistingClose1025 = CSA
+ER_ExistingClose1042 = Pending Order
+ER_ExistingClose1044 = CSA
+ER_ExistingClose1026 = Non-Core facility
+ER_ExistingClose1030 = No Meter 
+ER_ExistingClose1033 = Pending Order
+ER_ExistingClose1036 = Pending Order
+ER_ExistingClose1037 = Pending Order
+ER_ExistingClose1038 = Pending Order
+ER_ExistingClose1024 = closed Billed – Pending.
+ER_ExistingClose1024Y = Account Closed
+ER_ExistingCloseEmpty = No pending move-in and ineligible to create close order
+
+ER_needToPayMyBill = Need to payMyBill
+#CallingMod
+CM_StopServiceConfirmation = MAIN_2322
+CM_MAIN_2306 = MAIN_2306
+CM_MAIN_2302_StopService_Pg2 = MAIN_2302_StopService_Pg2
+CM_MAIN_2000 = MAIN_2000
+CM_MAIN_2500 = MAIN_2500
+CM_StopServiceCancelConfirmation = MAIN_2329
+
+
+#CallPath
+CP_SelfServiceEnd=Self-Service end
+#start serviceweblink
+CP_AddAddressRecordSubmissionFailed = Add Address Record submission failed
+CP_NewServiceAddressRecieved = New Service Address Received
+CP_exceedMaxWaitTime = Exceed max wait time
+CP_retrieveAddressRecordFailed =  Retrieve Address Record failed
+CP_CellPhoneAlreadyVerifiedOnSameCall = Cell Phone already verified on same call
+CP_SendCellPhoneVerfiedToSAP = Send Cell Phone Verfied to SAP
+CP_StartServiceSMSTypeSocalgascomprocess = Start_Service SMS Type Socalgas.com process
+CP_SocalgascomWebLinkAddressProcessFailed = SMS Type AddressOnly WebLink Process Failed
+CP_FNPPayment = FNP Payment Required
+CP_FNPDetails = FNP Details Provided
+CP_FNPRestore = FNP Restore
+CP_FNPDetails = FNP Details
+CP_FNP        = FNP
+
+
+CP_StartServiceDDWeblinkSent = Start Service DD Weblink Sent
+CP_HearPendingCloseInfo = Hear Pending Close Information
+
+
+
+
+
+#CallPath
+#StopServicePaperlessMail
+
+CP_Common_AnyThingElse_Maxt = MAIN_2335_Common_AnyThingElse-Max attempt
+CP_CommonAnythingElse = Common Anything Else
+CP_CloseAddressEmail = Final bill - My Account and Paperless
+CP_CloseAddressMail = Final bill - Existing Mailing Address
+CP_EmailNotification = Email Notification Enabled
+CP_EmailNotificationNotEnabled = Email Notification Not Enabled
+CP_CloseOrderScheduled = Close order scheduled
+CP_CloseOrderNeedMA = Close order scheduled; need MA
+CP_CloseDeclined = Close - Declined
+CP_CurrentAddress = Final bill - Service Address
+CP_SMSTurnOn = SMSTurnOn is Enabled
+CP_SMSTurnOnFalse = Group 1 Validation - Status = M
+CP_CloseOrderOperation3 = Address does not match
+CP_FullAddressConfirmationMaxAttempts = Unable to capture the mailing address for final bill
+CP_BillSentMailConfirmationMaxAttempts = MAIN_2321_OrderAcceptMenu-Max attempt
+CP_AnyThingElseOperator = Anything Else – Agent requested
+CP_StopServiceFinalBillAddress = MAIN_2323_BillMailAddrMenu-Max attempt
+CP_StopServiceChangeAddressSpanish = MAIN_2324_AccptMenu-Max attempt
+CP_FullAddressConfirmationYes = Group 1 Validation - Status = M
+CP_SmartPhoneConfirmationMaxAttempts = MAIN_2326_SmartPhnConfirmMenu-Max attempt
+CP_WebLinkConfirmationMaxAttempts = MAIN_2326_WebLinkConfirmMenu-Max attempt
+CP_SmartPhoneWebLinkConfimationMaxAttempts = MAIN_2326_SmartPhWebLinkConfimMenu-Max attempt
+CP_SMSPhoneNumber = MAIN_2326_PhNumCollectInput-Max attempt
+CP_CollectPhoneNumberConfirmation = MAIN_2326_ConfirmMenu-Max attempt
+CP_ConfirmSMS = Confirmed to receive SMS
+CP_SendSmsWsFailure =  Failed to send SMS
+CP_MultiModelCloseOrderOperation3Failure = Failed to send SMS
+CP_AddressDoesNotMatch = Address does not match
+CP_MultiModelCloseOrderOperation3Success = Sucessfully updated the address
+CP_MultiModelConfirmationNo = Rejected the multimodal address
+CP_MultiModelConfirmationMaxAttempts = Max recognition in multimodal confirmation menu
+CP_SmsConfirmationProcessIssue = Issue Entering smartphone to receive SMS
+CP_CallingFromSmartPhoneNoToSMS= Calling from smart phone, no to SMS
+CP_NotCallingFromSmartPhoneNoToSMS =Not calling from smart phone, no to SMS
+CP_MultiModelSuccess = Retrieved caller address from multimodal tbl
+CP_MultiModelFailure = Failed to retrieve address from multimodal tbl
+CP_MultiModelMaxRetry = Exceeded multimodal timeout
+CP_MultiModelCreateApiFailure = Failed to insert initial multimodal tbl record
+CP_SmsSmartPhoneNumber = Enter Smart phone number to receive SMS
+CP_ConfigEmailSuccess = Confirmation Email Creation
+CP_SCGBillAcctInfoFailure = SCGBillAcctInfo Failure
+CP_SCGLinkedAccountFailure= SCGLinkedAccount Failure
+CP_ConfirmationEmailFailure=Confirmation Email Failure
+#StopService
+CP_NewCustomer = New Customer
+CP_CreditPhrasing = Credit Phrasing
+CP_SafeAccessPhrasing = Safe Access Phrasing
+CP_CAREPhrasing = CARE Phrasing
+
+CP_MoveStopMenu = Move Stop Menu
+CP_StopService = Stop Service
+CP_MoveService = Move Service
+CP_MoveServiceAfterHours = Move Service After Hours
+
+CP_CloseDateUpdatetoDate = Close date update to TO date
+CP_StreetAddressConfirmationDenied = Street address confirmation denied
+CP_UserCloseDateConfirmed = User Close date confirmed
+CP_MatchToNewTenantDate = Match to new tenant date
+CP_CloseDateonfirmed = Close date confirmed
+CP_MAIN2302ConfirmMenuMaxAttempt = MAIN_2302_ConfirmMenu-Max attempt
+CP_MAIN2304StopServFumMenuMaxAttempt = MAIN_2304_StopServFumMenu-Max attempt
+CP_MAIN2311PropertyOwnerConfirmMenuMaxAttempt = MAIN_2311_PropertyOwnerConfirmMenu-Max attempt
+CP_KnowPropertyOwnerName = Know property owner name
+CP_MAIN2312OwnerConfirmMenuMaxAttempt = MAIN_2312_OwnerConfirmMenu-Max attempt
+CP_KnowPropertyOwnerAddress = Know property owner address
+CP_MAIN2101StartServiceProcessMenuMaxattempt = MAIN_2101_StartServiceProcessMenu-Max attempt
+CP_MAIN2101StartServiceAddrMenuMaxattempt = MAIN_2101_StartServiceAddrMenu-Max attempt
+CP_MAIN2101DiffNumbMenuMaxattempt = MAIN_2101_DiffNumbMenu-Max attempt
+CP_NotIntrestedonOnlineProcesstostartservice = Not Intrested on Online Process to start service
+CP_DoNotReceiveTextMessageWithWeblink = Do not receive text message with weblink
+CP_MAIN2501FNPMenuMaxAttemptReached = MAIN_2501_FNPMenu-Max Attempt Reached
+CP_MAIN2501FNPMenuMaxAttemptReached = MAIN_2501_FNPMenu-Max Attempt Reached
+CP_MAIN2500FumigationReconnectMenuMaxattempt = MAIN_2500_FumigationReconnectMenu-Max attempt
+CP_MAIN2000ChangeServiceMenuMoreOptionsMenuMaxattempt = MAIN_2000_ChangeServiceMenuMoreOptionsMenu-Max attempt
+CP_MAIN2000ChangeServiceMenuMaxattempt = MAIN_2000_ChangeServiceMenu-Max attempt
+CP_MAIN2328StopServExistMenuMaxattempt = MAIN_2328_StopServExistMenu-Max attempt
+CP_MAIN2329ConfrimMenuMaxattempt = MAIN_2329_ConfrimMenu-Max attempt
+CP_MAIN2336PhNumConfirmMenuMaxattempt = MAIN_2336_PhNumConfirmMenu-Max attempt
+CP_MAIN2336DiffPhNumInputMaxattempt = MAIN_2336_DiffPhNumInput-Max attempt
+CP_MAIN2336ConfirmMenuMaxattempt = MAIN_2336_ConfirmMenu-Max attempt
+CP_MAIN2317ConfirmMenuMaxattempt = MAIN_2317_ConfirmMenu-Max attempt
+CP_MAIN2318ConfirMenuMaxattempt = MAIN_2318_ConfirMenu-Max attempt
+CP_MAIN2201MoveProcessConfirmMenuMaxattempt = MAIN_2201_MoveProcessConfirmMenu-Max attempt
+CP_MAIN2201PhNumConfirmMenuMaxattempt = MAIN_2201_PhNumConfirmMenu-Max attempt
+CP_NotinterestedinMoveServiceDD = Not interested in Move Service DD
+CP_Tostopserviceprocess = To stop service process
+CP_DifferentPhoneNumber = different phone number 
+CP_SentSMSViaSameSmartPhoneNumber = Sent SMS Via Same Smart Phone Number
+CP_SentSMSViadifferentSmartPhoneNumber = Sent SMS Via different Smart Phone Number
+CP_TryAgainLater = Try again later or call back.
+
+
+
+
+#fulladdress
+CP_StartServiceStreetNumberMaxAttempts = MAIN_2105_StrNumCollectInput-Max attempt
+CP_StartServiceStreetNameMaxAttempts = MAIN_2105_StrNameCollectInput-Max attempt
+CP_StartServiceAptNumConfirmationMaxAttempts = MAIN_2105_AptNumOrUnitConf-Max attempt
+CP_StartServiceAptNumMaxAttempts = MAIN_2105_AptNumOrUnitCollectInput-Max attempt
+CP_StartServiceCityMaxAttempts = MAIN_2105_CityNameCollectInput-Max attempt
+CP_StartServiceZipCodeMaxAttempts = MAIN_2105_ZipCodeCollectInput-Max attempt
+CP_StartServiceFullAddressMaxAttempts = MAIN_2105_FullAddrConfirmMenu-Max attempt
+CP_StartServiceDirectFullAddressMaxAttempts = MAIN_2105_AddrConfirmMenu-Max attempt
+
+CP_StopServiceStreetNumberMaxAttempts = MAIN_2325_StrNumCollectInputt-Max attempt
+CP_StopServiceStreetNameMaxAttempts = MAIN_2325_StrNameCollectInputt-Max attempt
+CP_StopServiceAptNumConfirmationMaxAttempts = MAIN_2325_ConfApartNumCollectInput-Max attempt
+CP_StopServiceAptNumMaxAttempts = MAIN_2325_ApartNumCollectInput-Max attempt
+CP_StopServiceCityMaxAttempts = MAIN_2325_CityNameCollectInput-Max attempt
+CP_StopServiceStateMaxAttempts = MAIN_2325_StateNameCollectInput-Max attempt
+CP_StopServiceZipCodeMaxAttempts = MAIN_2325_ZipCodeCollectInput-Max attempt
+CP_StopServiceFullAddressMaxAttempts = MAIN_2325_FullAddrConfirmMenu-Max attempt
+CP_StopServiceDirectFullAddressMaxAttempts = MAIN_2325_AddrConfirmMenu-Max attempt
+CP_StopServiceFullAddressUnableCapture = Unable to capture the mailing address for final bill
+
+CP_FNPAmountFailure = FNP Amount Failure
+CP_FNPpaymentnotrequired = FNP payment not required
+CP_FNPpartialpaymentmade = FNP partial payment made
+CP_FNPnopayment = FNP no payment
+CP_FNPtotalamounttorestore = FNP total amount to restore
+CP_FNPpastduebalance = FNP past-due balance
+CP_FNPdepositeamountprovided = FNP deposite amount provided
+CP_FNPreconnectionfeeprovided = FNP reconnection fee provided
+CP_FNPexception = FNP exception
+
+CP_CloseOrderCancelledSuccess = Close Order Cancelled
+CP_CloseOrderNotEligible = Close order not eligible reason
+CP_SmsConfirmationNumberSent = SMS confirmation number  Sent
+CP_SmsConfirmationNumberFail = SMS confirmation number Failed
+CP_SendSmsSameNumber = Send SMS via same Phone Number
+CP_SendSmsDifferentNumber = Send SMS via different phone number
+CP_CloseOrderPhoneNumber = Close Order Phone number
+CP_SocalgascomWebLinkProcessFailed = Socalgas.com WebLink Process Failed
+CP_BusinessCustomer = Business customer
+CP_OrganizationCustomer = Organization customer
+CP_BusinessPhoneConfirmed = Business phone confirmed
+CP_NoBusinessPhone = No business phone
+CP_PhoneWorkNumberPresent = Phone Work Number Present
+CP_ResidentialCustomer = Residential customer
+CP_CloseOrderPhoneNumberVerified = Close Order Phone number verified
+CP_CellPhoneNotPresent = Cell Phone not present
+CP_CellPhonePresent = Cell Phone present
+CP_NoBusinessPhoneExtension = No business phone extension
+CP_BusinessPhoneExtension = Business phone extension
+CP_MAIN2201PhNumWebTxtInputMaxattempt = MAIN_2201_PhNumWebTxtInput-Max attempt
+CP_CloseOrderPhoneNumberAdded = Close Order Phone number added
+CP_SocalgascomWebLinkProcessFailed = Socalgas.com WebLink Process Failed
+CP_MAIN_2316_ConfirmMenuMaxAttempt = MAIN_2316_ConfirmMenu-No intenet Max Attempt Reached
+CP_StopServAcceptDateYes = Close date confirmed
+CP_StopServAcceptDateMaxRetry = MAIN_2305_AcceptDateMenu-Max attempt
+CP_StopServDateMaxRetry = Main_2306_PreviousMenu-Max attempt
+CP_StopServDateConfirmMaxRetry = Main_2306_ConfirmMenu-Max attempt
+CP_StopServAcceptUserDateMaxRetry = MAIN_2307_AcceptDtMenu-Max attempt
+CP_StopServDateConfirmYes = User Close date accepted
+CP_StopServAcceptUserDateYes = Close date update valid
+CP_InvalidCloseDate = Invalid Close Date
+CP_StopServPropOwnerScheduleClosed = Schedule closed
+CP_CloseDateConfirmed =  Close date confirmed
+CP_DifferentCloseDate = Different Close Date
+CP_ReceiveTextMessageWithWebLink = Receive text message with weblink
+CP_StopServPropOwnerMaxRetry = MAIN_2308_OwnerConfirm Menu-Max attempt.
+CP_PropertyOwner = Property owner
+CP_NotPropertyOwner = Not property owner
+CP_ClosedateUpdateToTODate= Close date update to TO Date
+CP_tryAgainLaterOrCallBack =  Try again later or call back
+CP_CloseOrderNotEligCloseBillPending = Close Order Not Eligible - Close Billed Pending
+CP_CloseOrderNotEligCloseBillOrPaidBalProvided = Close Order Not Eligible - Close Billed or Close Paid; balance provided
+CP_MoveServiceDDWeblinkSent = Move Service DD Weblink Sent
+
+
+#PromptName
+Prompt_scg_ccc_prmt_2303_main_01_BillingStopDate=scg_ccc_prmt_2303_main_01_BillingStopDate
+Prompt_scg_ccc_prmt_2303_main_02_Date=scg_ccc_prmt_2303_main_02_Date
+
+#Secrets Manager
+#----------------
+SM_PublicKey =
+
+
+#NextIntentM
+NI_MA100_InitialMenu = MA100_InitialMenu
+
+#SendSMSPropertyValues
+WS_StopServiceDate_PropertyValue = Your service is scheduled to be stopped on
+WS_StopServiceCancelDate_PropertyValue = Your stop service request has been cancelled.
+WS_ConfirmationNumber_PropertyValue = The confirmation number is
+
+
+#DD-Temp
+WS_SCG_DD_SMS = 058
+webLinkDD = please use this link to create and manage your service request online:
+WebLinkURLDD = https://www.socalgas.com/services

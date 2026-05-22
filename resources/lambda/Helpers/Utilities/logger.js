@@ -6,18 +6,18 @@ const sensitiveFields = [
     "$.transcriptions..transcription", //all elements with "transcription" under transcriptions
     "$..appSession",
     "$..publicKey",
-    "$..apiKey",
-    "$..apiValue",
     "$..keyStorePw",
     "$..rootCert",
     "$..trustStorePw",
     "$.transcriptions..rawTranscription",
-    "$..screenPopData",
+    "$..agentDesktopData",
+    "$..apiKey",
+    "$..apiValue",
     "$..ctiData",
-    "$..streetNumber",
-    "$..phoneNumber",
-    "$..accountNumber",
     "$..value",
+    "$..getWorkPhoneExtNumber",
+    "$..date",
+    "$..phoneNumber",
     "$..links",
     "$..content",
     "$..contentType",
@@ -26,7 +26,7 @@ const sensitiveFields = [
     "$..getSensitefields",
     "$..DQM_client_id",
     "$..DQM_client_secret",
-    //"$..accessTokenGeneratedTimestamp",
+    // "$..accessTokenGeneratedTimestamp",
     "$..vXAPIKey",
     "$..xApiKey",
     "$.rawInputTranscript",
@@ -38,6 +38,7 @@ const sensitiveFields = [
 
 function getInstance() {
     if (this.logger == null)
+    //console.log("STR_conversationID",process.const.STR_conversationID);
         this.logger = new PointelLogger(process.env.publicKey, process.const.STR_conversationID, process.const.STR_sessionId,
             process.env.logLevel, sensitiveFields);
     return this.logger;

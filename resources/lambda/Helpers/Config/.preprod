@@ -3,10 +3,35 @@ environment = preprod
 logLevel = debug
 #API
 #------------
-I_DG_06_006 = https://api.cis.aws.socalgas.com/digital/ivr/getaccountinfo?action_type=retrievecustomerdetails
-I_DG_02_001 = https://api.cis.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Get
+MS_WS09 = https://soagwqx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/CustomerContactServiceV1
+#------------
+I_DG_02_001_Get    = https://api.cis.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Get
 I_DG_02_001_Update = https://api.cis.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Update
-I_DG_05_004 = https://api.cis.aws.socalgas.com/digital/ivr/common_correspondence
+I_DG_02_004_GET    = https://api.cis.aws.socalgas.com/digital/common/getpremisedetailsandeligibility
+#I_DG_02_012_GET    = https://api.cisqua.aws.socalgas.com/digital/common/serviceordergetcreateupdate?action_type=Create
+I_DG_02_012_GET    =https://api.cis.aws.socalgas.com/digital/common/serviceordergetcreateupdate?action_type=LookupGetCancel
+I_DG_02_015_GET    = https://api.cis.aws.socalgas.com/digital/common/matcodedetermination
+I_DG_03_003_GET    = https://api.cis.aws.socalgas.com/digital/common/getchargesandpayments?action_type=Getbalance
+I_DG_02_006_Cancel = https://api.cis.aws.socalgas.com/digital/common/cancelmoveinout
+I_DG_02_005_Process= https://api.cis.aws.socalgas.com/digital/common/processmoveinmoveout
+MS_WS07 = https://soagwqx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/OnDemandTextServiceV1
+
+SAP_DQM  = https://api.dqmmicro.cfapps.us10.hana.ondemand.com/dq/addressCleanse
+DQM_TOKEN = https://vista-vps-build-app2.authentication.us10.hana.ondemand.com/oauth/token
+#WebService
+#---------------------
+
+WS_DatabaseName = Q60R500
+WS_StopServiceMultiModel = https://civammq.socalgas.com/services/stop/
+WS_StartServiceMultiModel = https://civammq.socalgas.com/services/start/
+
+#WS_DatabaseName = E60F200
+#WS_StopServiceMultiModel = https://civammvd.socalgas.com/services/stop/
+#WS_StartServiceMultiModel = https://civammvd.socalgas.com/services/start/
+
+CallHistoryDBName = scg-gyyst-qa-wus2-dydb-iva-master-callerHistory
+
+
 #API Logging
 #-----------------
 DashboardNamespace = scg-gyyst-qa-wus2-iva-api-duration-mns

@@ -1,9 +1,166 @@
 {
-  "I_DG_02_001": {
+  "I_DG_02_006_Cancel": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "3",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "RelatedBusinessPartner": "",
+      "ContractAccount": "",
+      "ZGCancelMIMOItm": [
+        {
+          "Contract": "",
+          "Type": "",
+          "ZGMessage": {}
+        }
+      ],
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_004_GET": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "5",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "ContractAccount": "",
+      "ZipCode": "",
+      "Premise": "",
+      "ZGPremSrvAddr": {},
+      "ZGCalendar": [
+        {}
+      ],
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_012": {
     "method": "POST",
     "body": {
       "Source": "IVR",
       "Action": "",
+      "RequestedBy": "",
+      "RequestedTimeStamp": "",
+      "RelatedBusinessPartner": "",
+      "ContractAccount": "",
+      "CommercialFlag": false,
+      "IssueDescription": "",
+      "AppointmentDate": "",
+      "AppointmentStart": "",
+      "AppointmentEnd": "",
+      "OrderPriority": "",
+      "ZGSrvOrdAppl": [
+        {
+          "Appliance": "",
+          "EquipmentText": "",
+          "ApplianceStatus": ""
+        }
+      ],
+      "ZGSrvOrdEntry": {
+        "AccessArrangement": "",
+        "AddtInstructions": "",
+        "DogFlag": false,
+        "GateFlag": false,
+        "GateAccessDetails": "",
+        "GateAddtInstructions": ""
+      },
+      "ZGSrvOrdCont": [
+        {
+          "Name": "",
+          "Phone": "",
+          "EmailAddress": "",
+          "PhoneExt": ""
+        }
+      ],
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_012_GET": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "4",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "RelatedBusinessPartner": "",
+      "ContractAccount": "",
+      "ConfNumber": "",
+      "ServiceOrderNo": "",
+      "EmailAddress": "",
+      "ZGSrvOrdContrt": [
+        {
+          "Contract": ""
+        }
+      ],
+      "ZGSrvOrdDtls": [
+        {
+          "ZGSrvOrdContr": [
+            {
+              "ZGSrvOrdPrem": [
+                {}
+              ],
+              "ZGSrvOrdItem": [
+                {
+                  "ZGSrvOrdAppl": [
+                    {}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ZGExtension": [],
+      "ZGMessage": []
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_015_GET": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "4",
+      "RequestedBy": "",
+      "RequestedTimestamp": "",
+      "ProcessCode": "MO",
+      "BusinessPartner": "",
+      "ContractAccount": "",
+      "Premise": "",
+      "IsFoodIndustry": false,
+      "WantedDate": "",
+      "ZGMatApptAppl": [
+        {
+          "Installation": "",
+          "Appliance": "",
+          "ApplianceStatus": "",
+          "EquipmentText": ""
+        }
+      ],
+      "ZGExtension": [],
+      "ZGMessage": [],
+      "ZGMatApptInstln": [
+        {
+          "ZGMatApptList": [],
+          "ZGMatAptPendOrd": [],
+          "ZGMatAptCanclOrd": [],
+          "ZGMatApptChgOrd": []
+        }
+      ]
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_001_Get": {
+    "method": "POST",
+    "body": {
+      "Source": "IVR",
+      "Action": "4",
       "RequestedBy": "",
       "RequestedTimestamp": "",
       "RelatedBusinessPartner": "",
@@ -21,7 +178,7 @@
     "timeout": 20000
   },
   "I_DG_02_001_Update": {
-   "method": "POST",
+    "method": "POST",
     "body": {
       "Source": "IVR",
       "Action": "2",
@@ -37,7 +194,7 @@
           "IsMyAccountEmail": false,
           "IsPrimaryEmail": false,
           "PhoneType": "M",
-          "IsPrimaryPhone": true,
+          "IsPrimaryPhone": false,
           "AddressNumber": "",
           "SequenceNumber": ""
         }
@@ -47,49 +204,171 @@
     },
     "timeout": 20000
   },
-  "I_DG_06_006": {
+  "I_DG_03_003_GET": {
     "method": "POST",
     "body": {
       "Source": "IVR",
-      "Action": "",
+      "Action": "4",
       "RequestedBy": "",
-      "RequestedTimeStamp": "",
-      "ContractAccount": "",
-      "PhoneNumber": "",
-      "CheckDigit": "",
-      "ZGGetAccInfoAddr": [
-        {}
+      "RequestedTimestamp": "",
+      "RelatedBusinessPartner": "",
+      "RetrieveAmounts": false,
+      "ZGGetBalAcc": [
+        {
+          "ContractAccount": ""
+        }
       ],
-      "ZGGetAccInfoMail": {},
-      "ZGGetAccInfoServ": {},
       "ZGExtension": [],
       "ZGMessage": []
     },
     "timeout": 20000
   },
-  "I_DG_05_004": {
+  "SAP_DQM": {
+    "method": "POST",
+    "maxBodyLength": "Infinity",
+    "body": {
+      "addressInput": {
+        "mixed": "",
+        "locality": "",
+        "region": "",
+        "postcode": "",
+        "country": "US"
+      },
+      "outputFields": [
+        "std_addr_address_delivery",
+        "std_addr_locality_full",
+        "std_addr_region_full",
+        "std_addr_postcode_full",
+        "std_addr_country_2char",
+        "addr_latitude",
+        "addr_longitude",
+        "addr_asmt_level",
+        "addr_info_code",
+        "geo_asmt_level",
+        "geo_info_code",
+        "addr_asmt_info"
+      ],
+      "addressSettings": {
+        "processingMode": "both",
+        "casing": "mixed",
+        "diacritics": "include",
+        "streetFormat": "countryCommonStyle",
+        "postalFormat": "countryCommonStyle",
+        "regionFormat": "countryCommonStyle",
+        "returnPostalCountry": false,
+        "scriptConversion": "none",
+        "minAssignmentLevel": "none",
+        "geoAssign": "best",
+        "suggestionSuppressLevel": "none"
+      }
+    },
+    "timeout": 20000
+  },
+  "I_DG_02_005_Process": {
     "method": "POST",
     "body": {
       "Source": "IVR",
-      "Action": "",
+      "Action": "5",
       "RequestedBy": "",
       "RequestedTimestamp": "",
+      "BusinessPartner": "",
       "ContractAccount": "",
-      "RelatedBusinessPartner": "",
-      "Channel": "",
-      "LetterId": "",
       "Premise": "",
-      "Language": "",
-      "ZGExtension": [
+      "Contract": "",
+      "CreateBpem": "",
+      "RelatedBusinessPartner": "",
+      "ZGMovesItem": [
         {
-          "RefObject": "",
-          "RefFieldName": "",
-          "RefFieldValue": ""
+          "MatCode": "",
+          "OrderType": "",
+          "MeterType": "",
+          "Installation": "",
+          "MeterNumber": "",
+          "MoveInDate": "",
+          "MoveOutDate": "",
+          "OrderPriority": "",
+          "AppointmentDate": "",
+          "AppointmentStart": "",
+          "AppointmentEnd": "",
+          "IsSoNeeded": false,
+          "Contract": "",
+          "Remark": "",
+          "Reason": "",
+          "FirstName": "",
+          "LastName": "",
+          "ZGMovesFwdAddr": {
+            "IsServiceAddress": false,
+            "AddressType": "",
+            "HouseNumber": "",
+            "StreetPrefix": "",
+            "Street": "",
+            "StreetType": "",
+            "StreetPostfix": "",
+            "PoBox": "",
+            "Supplement": "",
+            "ZipCode": "",
+            "City": "",
+            "State": "",
+            "Country": "",
+            "AddressLine1": "",
+            "AddressLine2": "",
+            "AddressLine3": ""
+          },
+          "ZGMovesOwner": {
+            "OwnerName": "",
+            "CareOfName": "",
+            "Street": "",
+            "Supplement": "",
+            "City": "",
+            "State": "",
+            "ZipCode": ""
+          },
+          "ZGMovesInstr": {
+            "AccessArrangement": "",
+            "AddtInstructions": "",
+            "DogFlag": false,
+            "GateFlag": false,
+            "GateAccessDetails": "",
+            "GateAddtInstructions": ""
+          },
+          "ZGMovesCont": [
+            {
+              "ContactValue": "",
+              "ContactType": ""
+            }
+          ],
+          "ZGMovesSrvChrg": [
+            {
+              "SecurityDeposit": ""
+            }
+          ],
+          "ZGMovesPndOrd": [
+            {
+              "OrderNumber": ""
+            }
+          ],
+          "ZGMovesCncOrd": [
+            {
+              "OrderNumber": ""
+            }
+          ]
         }
       ],
-      "ZGMessage": []
+      "ZGMessage": [],
+      "ZGExtension": []
     },
     "timeout": 20000
+  },
+  "DQM_TOKEN": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "form": {
+      "grant_type": "client_credentials",
+      "client_id": "",
+      "client_secret": ""
+    }
   },
   "httpsAgent": {
     "keepAlive": true,

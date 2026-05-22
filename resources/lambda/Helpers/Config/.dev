@@ -3,13 +3,32 @@ environment = dev
 logLevel = debug
 #API
 #------------
-I_DG_06_006 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGAniAuthCustDetailsSet
-I_DG_02_001 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGBPGetInfoSet
-I_DG_02_001_Update = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGBPUpdateSet
-I_DG_05_004 = https://sxbxeiby4b.execute-api.us-west-2.amazonaws.com/dev/ZGGetCareStatus
+MS_WS09 = https://soagwqx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/CustomerContactServiceV1
+#------------
+I_DG_02_001_Get    = https://api.cisqua.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Get
+I_DG_02_001_Update = https://api.cisqua.aws.socalgas.com/digital/common/businesspartner?action_type=Business_Partner_Update
+I_DG_02_004_GET    = https://api.cisqua.aws.socalgas.com/digital/common/getpremisedetailsandeligibility
+I_DG_02_012_GET    = https://api.cisqua.aws.socalgas.com/digital/common/serviceordergetcreateupdate?action_type=LookupGetCancel
+I_DG_02_015_GET    = https://api.cisqua.aws.socalgas.com/digital/common/matcodedetermination
+I_DG_03_003_GET    = https://api.cisqua.aws.socalgas.com/digital/common/getchargesandpayments?action_type=Getbalance
+I_DG_02_006_Cancel = https://api.cisqua.aws.socalgas.com/digital/common/cancelmoveinout
+I_DG_02_005_Process= https://api.cisqua.aws.socalgas.com/digital/common/processmoveinmoveout
+MS_WS07 = https://soagwqx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/OnDemandTextServiceV1
+SAP_DQM  = https://api.dqmmicro.cfapps.us10.hana.ondemand.com/dq/addressCleanse
+#WebService
+#---------------------
+#WS_DatabaseName = E60A200
+
+WS_DatabaseName = Q60R500
+#WS_StopServiceMultiModel = https://civammvq.socalgas.com/services/stop/
+#WS_StartServiceMultiModel = https://civammvq.socalgas.com/services/start/
+#WS_DatabaseName = E60F200
+WS_StopServiceMultiModel = https://civammvd.socalgas.com/services/stop/
+WS_StartServiceMultiModel = https://civammvd.socalgas.com/services/start/
+
+CallHistoryDBName = scg-gyyst-int-wus2-dydb-iva-master-callerHistory
 #API Logging
 #-----------------
 DashboardNamespace = scg-gyyst-dev-wus2-iva-api-duration-mns
 TokenDynamoDBName = scg-gyyst-dev-wus2-dydb-iva-master-tokentable
-
 

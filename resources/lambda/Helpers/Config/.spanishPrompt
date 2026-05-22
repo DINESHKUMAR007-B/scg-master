@@ -1,84 +1,317 @@
-scg_ccc_prmt_1000_init_07_CommonBEFailure = Lo sentimos, se produjo un error inesperado.
-scg_ccc_prmt_7000_auth_02_CommonRetry1 = no entendí eso <break time = "0.2s"/>
-scg_ccc_prmt_7000_auth_03_CommonRetry2 = Todavia no entendi eso <break time = "0.2s"/>
-scg_ccc_menu_1014_init_01_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con <break time = "0.2s"/>
-scg_ccc_menu_1014_init_01_AddressConfirmationYN = <break time = "0.2s"/> Si ese es el domicilio a cerca del cuál usted está llamando, diga "Sí"<break time="0.1s"/>  De lo contrario, diga "no".
-scg_ccc_prmt_1014_init_04_AddrFound = Nuestros registros indican que el número de teléfono celular, asociado con esta cuenta, es <break time = "0.2s"/>
-scg_ccc_menu_1014_init_06_CellPhnConfirmation = <break time = "0.2s"/> Para confirmar el número de teléfono celular, diga "Sí"<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, diga "No".
-scg_ccc_menu_ninm1_1014_init_07_CellPhnConfirmation = Para confirmar el número de teléfono celular, presione 1 o diga "Sí"<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, presione 2 o diga "No".
-scg_ccc_menu_ninm2_1014_init_08_CellPhnConfirmation = Para confirmar el número de teléfono celular, presione 1<break time="0.1s"/> De lo contrario, para proporcionar un número de teléfono celular diferente, presione 2.
-scg_ccc_prmt_1014_init_05_AddrNotFound = Desafortunadamente, no podemos hacer coincidir la dirección<break time="0.1s"/>  Un momento mientras te transfiero al menú principal.
-scg_ccc_menu_ninm1_1014_init_02_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con
-scg_ccc_menu_ninm1_1014_init_02_AddressConfirmationYN = Si ese es el domicilio a cerca del cuál usted está llamando, diga "Sí" o presione 1<break time="0.1s"/>  De lo contrario, diga "no" o presione 2.
-scg_ccc_menu_ninm2_1014_init_03_AddressConfirmation = Según su número de teléfono, parece que la dirección comienza con
-scg_ccc_menu_ninm2_1014_init_03_AddressConfirmationYN = Si ese es el domicilio a cerca del cuál usted está llamando, presione 1<break time="0.1s"/>  De lo contrario, presione 2.
-scg_ccc_collect_1016_init_01_CellPhnCollection = Por favor, diga el número de teléfono celular asociado con la cuenta, comenzando con el código de área o diga "No tengo uno".
-scg_ccc_collect_ninm1_1016_init_02_CellPhnCollection = Diga o ingrese el número de teléfono celular asociado con la cuenta, comenzando con el código de área<break time="0.1s"/> De lo contrario, diga "No lo tengo" o presione 1.
-scg_ccc_collect_ninm2_1016_init_03_CellPhnCollection = Por favor presione el número de teléfono celular asociado con la cuenta, comenzando con el código de área, o presione 1 si no tiene uno.
-scg_ccc_prmt_1016_init_04_CellPhoneConfirmation = Para confirmarlo, ese número es <break time = "0.2s"/>
-scg_ccc_menu_1016_init_05_CellPhoneConfirmation = <break time = "0.2s"/> ¿Es esto correcto?, diga "sí"<break time="0.1s"/> De lo contrario, diga "no"<break time="0.1s"/> Para volver a escucharlo, diga "repetir".
-scg_ccc_menu_ninm1_1016_init_06_CellPhoneConfirmation = Si es correcto, diga "Si" o presione 1, de lo contrario diga "No" o presione 2<break time="0.1s"/> Para volver a escucharlo, diga "repita eso" o presione 3.
-scg_ccc_menu_ninm2_1016_init_07_CellPhoneConfirmation = Si es correcto, presione 1 para "sí", o 2 para "no"<break time="0.1s"/> Para volver a escucharlo, presione 3.
-scg_ccc_prmt_1016_init_08_CellNumberUpdated = Se ha actualizado el número de teléfono móvil.
-scg_ccc_prmt_1015_init_02_AuthVerToSAPPhoneConfirmation = Gracias por confirmar el número de teléfono celular. 
-scg_ccc_prmt_1015_init_01_AuthVerToSAPCellPhnNotUpdate = Desafortunadamente, no podemos actualizar el número de teléfono celular.
-scg_ccc_prmt_1016_init_09_CellNumberNotUpdated = Desafortunadamente, no podemos actualizar el número de teléfono celular.
-scg_ccc_prmt_7000_auth_04_CommonHoldOn = Un momento por favor en lo que obtenemos informacion de la cuenta.
-scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = Para confirmar, no está seguro del número de la calle<break time="0.1s"/> ¿Es eso correcto?
-scg_ccc_menu_ninm1_7004_auth_05_StreetNumberDontKnow = Si no está seguro del número de la calle, diga "sí" o presione 1<break time="0.1s"/> De lo contrario, diga "no" o presione 2.
-scg_ccc_menu_ninm2_7004_auth_06_StreetNumberDontKnow = Si no está seguro del número de la calle, presione 1<break time="0.1s"/> De lo contrario, presione 2.
-scg_ccc_menu_7005_auth_01_StreetNumberConfirmation = Para confirmar, el número es <break time = "0.4s"/>
-scg_ccc_menu_7005_auth_01_StreetNumberConfirmationYN = ¿Es correcto?
-scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmation = Usted dijo: <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmationYN = Si es correcto, diga "sí" o presione 1<break time="0.1s"/> De lo contrario diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7.
-scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmation = Usted dijo: <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmationYN = Si es correcto, presione 1<break time="0.1s"/> De lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
-scg_ccc_prmt_7005_auth_05_StreetNumberNotMatch = El número de la calle no corresponde a una cuenta existente<break time="0.1s"/> <break time = "0.2s"/>
-scg_ccc_collect_7006_auth_01_AccountNumberMS = Si actualmente no tiene servicio con nosotros, diga "nuevo cliente"<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo"<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere".
-scg_ccc_collect_7006_auth_02_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo"<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere".
-scg_ccc_collect_ninm1_7006_auth_03_AccountNumberMS = Si actualmente no tiene servicio con nosotros, diga "nuevo cliente" o presione 1<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo" o presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
-scg_ccc_collect_ninm2_7006_auth_04_AccountNumberMS = Si actualmente no tiene servicio con nosotros, presione 1<break time="0.1s"/> De lo contrario, por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
-scg_ccc_collect_ninm1_7006_auth_05_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, diga "no lo tengo" o presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
-scg_ccc_collect_ninm2_7006_auth_06_AccountNumber = Por favor diga el número de cuenta completo de 10 u 11 dígitos<break time="0.1s"/> Si no tiene el número de cuenta, presione 2<break time="0.1s"/> Si necesita un momento para encontrarlo, diga "espere" 
-scg_ccc_prmt_7006_auth_14_AccountNumberNotMatch = El numero no esta asociado con una cuenta existente<break time="0.1s"/>  Por favor intente otra vez. <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmation =  Usted dijo <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmationYN = Si es correcto, diga "sí" o presione 1, de lo contrario diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7
-scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmation = Usted dijo <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmationYN = Si es correcto, presione 1, de lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
-scg_ccc_prmt_7000_auth_01_PhoneNumberRecognize = Su número de teléfono fue reconocido. <break time = "0.2s"/>
-scg_ccc_collect_7002_auth_01_PhoneNumberMS = Por favor diga el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, diga "cliente nuevo". <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé".
-scg_ccc_collect_ninm1_7002_auth_05_PhoneNumber = Por favor diga o ingrese el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé" o presione 1.
-scg_ccc_collect_ninm2_7002_auth_06_PhoneNumber = Por favor ingrese el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, presione 1.
-scg_ccc_collect_ninm1_7002_auth_03_PhoneNumberMS =  Por favor diga o ingrese el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, diga "cliente nuevo" o presione 1. <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé" o presione 2.
-scg_ccc_collect_ninm2_7002_auth_04_PhoneNumberMS = Por favor ingrese el número de teléfono asociado con la cuenta, comenzando con el código de área. <break time="3s"/> Si es un cliente nuevo y aún no tiene una cuenta, presione 1. <break time="2s"/> Si no sabe el número de teléfono asociado con la cuenta, presione 2. 
-scg_ccc_collect_7002_auth_02_PhoneNumber = Por favor diga el número de teléfono asociado con la cuenta. <break time="3s"/> Si no sabe el número de teléfono asociado con la cuenta, diga "no lo sé"
-scg_ccc_collect_7004_auth_01_StreetNumber = Ahora, por favor diga solo el número con el que comienza su dirección<break time="0.1s"/> Si no está seguro, diga "no lo sé".
-scg_ccc_collect_ninm1_7004_auth_02_StreetNumber = Por favor diga o ingrese el número con el que comienza su dirección<break time="0.1s"/> Si no está seguro, diga "no lo sé".
-scg_ccc_collect_ninm2_7004_auth_03_StreetNumber =  Por favor ingrese el número con el que comienza su dirección.
-scg_ccc_menu_7002_auth_07_PhoneNumberConfirmation = Bueno, usted dijo  <break time = "0.2s"/>
-scg_ccc_menu_7002_auth_07_PhoneNumberConfirmationYN = <break time = "0.5s"/> Es esto correcto?
-scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmation = Usted dijo: <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmationYN = Si es correcto, diga "sÍ" o presione 1<break time="0.1s"/> De lo contrario, diga "no" o presione 2<break time="0.1s"/> Para repetir estas opciones, diga 'repetir' o presione 7. 
-scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmation = Usted dijo: <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmationYN = Si es correcto, presione 1<break time="0.1s"/> De lo contrario presione 2<break time="0.1s"/> Para repetir estas opciones, presione 7.
-scg_ccc_prmt_7003_auth_01_PhoneNumberNotMatch = El número de teléfono no está asociado con una cuenta existente.
-scg_ccc_menu_7003_auth_02_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, diga "sí"<break time="0.1s"/> Si no sabe el número de teléfono asociado con esta cuenta, diga "no lo sé".
-scg_ccc_menu_ninm1_7003_auth_03_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, diga "sí" o presione 1<break time="0.1s"/> De lo contrario, diga "no lo sé" o presione 2.
-scg_ccc_menu_ninm2_7003_auth_04_DifferentPhoneNumber = Para intentar con un número de teléfono diferente, presione 1<break time="0.1s"/> De lo contrario presione 2.
-scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = Para confirmar, no esta seguro del número de la calle<break time="0.1s"/> Es correcto?
-scg_ccc_menu_7006_auth_11_AccountNumberConfirmation = Bueno, usted dijo <break time = "0.2s"/> 
-scg_ccc_menu_7006_auth_11_AccountNumberConfirmationYN = <break time = "0.5s"/> Es esto correcto?
-scg_ccc_prmt_7000_auth_05_CommonTryDiffWay = Intentemos de otra forma. <break time = "0.2s"/>
-scg_ccc_menu_7001_auth_01_AddressConfirmation = En base a su número de teléfono, parece que el domicilio comienza con…<break time = "0.2s"/> 
-scg_ccc_menu_7001_auth_01_AddressConfirmationYN = ¿Es correcto?
-scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmation = Si está llamando sobre el domicilio que comienza con 
-scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmationYN = <break time = "0.2s"/>  diga "sí" o presione 1, de lo contrario diga "no" o presione 2.
-scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmation = Si está llamando sobre el domicilio que comienza con 
-scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmationYN = <break time = "0.2s"/> presione 1, de lo contrario presione 2.
-scg_ccc_prmt_7006_auth_09_WaitAndContinueDisconnect = Esta llamada se desconectará ahora<break time="0.1s"/> Por favor, vuelva a llamar cuando tenga la información de su contrato<break time="0.1s"/> Si no la encuentra, aún puede hablar con nuestro representante<break time="0.1s"/> Adiós.
-scg_ccc_prmt_7006_auth_10_WaitAndContinueSuccess = De acuerdo<break time="0.1s"/> ¿Cuál es el número de cuenta?
-scg_ccc_prmt_7006_auth_07_WaitAndContinue = No hay problema<break time="0.1s"/> El número de cuenta se encuentra en la parte superior de su factura de gas. <break time = "0.2s"/> Cuando esté listo para continuar, por favor presione cualquier tecla.
-scg_ccc_prmt_7009_auth_01_CommercialTransfer =  Nuestros técnicos traen consigo una variedad de piezas para reparaciones de equipo de gas a precios razonables<break time="0.1s"/> Se le facturarán por los cargos.
-scg_ccc_prmt_1016_init_10_CellNumberNotUpdated = Está bien, el número de teléfono celular no ha sido actualizado<break time="0.1s"/> Continuemos.
-scg_ccc_menu_1004_init_01_EmergencyConfirmMenu = Solo para confirmar, ¿Está llamando por una emergencia de gas? Diga 'sí' o presione 1<break time="0.1s"/> De lo contrario, diga 'no' o presione 2.
-scg_ccc_menu_ninm1_1004_Init_02_EmergencyConfirmMenu =  Si está llamando por una emergencia de gas diga 'sí' o presione 1<break time="0.1s"/> De lo contrario, diga 'no' o presione 2.
+scg_ccc_menu_2335_main_04_AnythingElse   = ¿Hay algo más en lo que pueda ayudarte hoy?
+scg_ccc_prmt_1000_init_07_CommonBEFailure = Lo sentimos, se produjo un error inesperado. <break time = "0.2s"/>
+scg_ccc_prmt_2000_main_13_CommonRetry1 = No entendi eso <break time = "0.2s"/>
+scg_ccc_prmt_2000_main_14_CommonRetry2 = Todavia no entendi eso <break time = "0.2s"/>
+
+#Stop Service Not Eligible spanish prompts
+scg_ccc_menu_2335_main_01_AnythingElse          =Si tiene todo lo que necesita, puede colgar en cualquier momento. <break time = "0.1s"/>  ¿Habrá algo más en lo que pueda ayudarle hoy? <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2335_main_02_AnythingElse    =Si tiene todo lo que necesita, puede colgar en cualquier momento. <break time = "0.1s"/>  ¿Habrá algo más en lo que pueda ayudarle hoy? <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2335_main_03_AnythingElse    =Si tiene todo lo que necesita, puede colgar en cualquier momento. <break time = "0.1s"/>  ¿Habrá algo más en lo que pueda ayudarle hoy? <break time = "0.2s"/>
+scg_ccc_menu_2335_main_04_AnythingElse          =¿Hay algo más en lo que pueda ayudarte hoy?
+scg_ccc_prmt_2335_main_05_AnythingElse          =Si tiene alguna otra pregunta, le invitamos a llamar de nuevo o visitar nuestro sitio web, So Cal Gas punto com. Gracias y adiós. <break time = "0.2s"/>
+
+scg_ccc_prmt_2330_main_01_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio. 
+scg_ccc_prmt_2330_main_02_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_03_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_04_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_05_CloseOrder = Notamos que hay una orden existente en esta cuenta. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_06_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_07_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_08_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_09_CloseOrder = Notamos que esta cuenta ya está cerrada. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_10_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_11_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_12_CloseOrder = Notamos que hay un acuerdo de servicio continuo en esta cuenta. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_13_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio. 
+scg_ccc_prmt_2330_main_14_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_15_CloseOrder = Notamos que hay una orden existente en esta cuenta. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_16_CloseOrder = Notamos que hay una orden existente en esta cuenta. <break time = "0.1s"/>  Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_17_CloseOrder = Notamos que hay una orden existente en esta cuenta. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_18_CloseOrder = Notamos que hay una orden existente en esta cuenta. <break time = "0.1s"/> Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_19_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+scg_ccc_prmt_2330_main_20_CloseOrder = Necesitará hablar con un representante para programar una orden para cerrar el servicio.
+
+scg_ccc_prmt_2331_main_01_CloseOrd              =Necesitará hablar con un representante para programar una orden para cerrar el servicio. <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_02_AcctClose             =Su cuenta se cerró… <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_03_AcctCloseDt           =Su cuenta se cerró el... <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_04_StartServAddr         =... porque hemos recibido una solicitud para iniciar un nuevo servicio en esta dirección.  La última factura estará lista en una o 2 semanas después de que la cuenta se haya cerrado a su nombre. <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_05_AcctCloseDt           =Su cuenta se cerro el. <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_06_AcctClose             =Su cuenta se cerro <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_07_CloseBillProcessTime  = La última factura estará lista en una o 2 semanas después de que la cuenta se haya cerrado a su nombre. <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_01_AccClosStartNewServ   = Su cuenta fue cerrada porque recibimos una solicitud para iniciar un servicio nuevo en este domicilio. Su saldo final ya fue pagado o transferido a una cuenta nueva. <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_02_AccClosNewServ        = Su cuenta fue cerrada porque recibimos una solicitud para iniciar un servicio nuevo en este domicilio. <break time = "0.2s"/> 
+scg_ccc_prmt_2333_main_03_AccClosCurBal         = Su cuenta fue cerrada porque recibimos una solicitud para iniciar un servicio nuevo en este domicilio. Su saldo final es de, <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_04_BillDueDt             =  <break time = "0.2s"/> se vence el... <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_05_AccClosNowBal         = Su cuenta ya está cerrada. Su saldo final es de.... <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_06_BilldueDt             =<break time = "0.2s"/> se vence el <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_07_AccNowClos            =Su cuenta ya está cerrada. <break time = "0.2s"/>
+scg_ccc_prmt_2333_main_08_AccClose              =Su cuenta ya está cerrada y el saldo fue pagado o transferido a una cuenta nueva. <break time = "0.2s"/>
+scg_ccc_menu_2334_main_01_StopServBill          =Si tiene todo lo que necesita puede colgar en cualquier momento.  <break time = "0.1s"/> Para realizar un pago, diga "Pagar mi factura". Para hablar con un representante, diga "Representante". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2334_main_02_StopServBill    =Si tiene todo lo que necesita, puede colgar en cualquier momento. <break time = "0.1s"/> Para hacer un pago, diga "Pagar mi factura"o presione 1.<break time = "0.1s"/> Para hablar con un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme>, diga <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> o presione 2.<break time = "0.1s"/> Para repetir estas opciones, diga "Repetir" o presione 7.<break time = "0.1s"/> Para volver al menú anterior, diga "Anterior" o presione 8.<break time = "0.1s"/> Para regresar al menú principal, diga "Menú principal" o presione 9. 
+scg_ccc_menu_ninm2_2334_main_03_StopServBill    =Si tiene todo lo que necesita, puede colgar en cualquier momento. <break time = "0.1s"/> Para hacer un pago, presione 1.<break time = "0.1s"/>Para hablar con un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme>, presione 2.<break time = "0.1s"/> Para repetir estas opciones, presione 7.<break time = "0.1s"/> Para volver al menú anterior, presione 8.<break time = "0.1s"/> Para regresar al menú principal, presione 9. 
+
+
+#StopServiceDate Confirmation and Property owner Confirmation
+scg_ccc_prmt_2305_main_01_OrderSchlnumber    = Tenga en cuenta que cuando la orden este confirmada, le daremos un número de confirmación. <break time = "0.2s"/>
+scg_ccc_prmt_2305_main_02_StopServHoliday    = Requerimos un aviso de dos días hábiles a partir de hoy para cerrar el servicio, excluyendo fines de semana y días festivos. <break time = "0.2s"/>
+scg_ccc_prmt_2305_main_03_BillingName        = Lo más pronto que podemos suspender la facturación a su nombre es… . <break time = "0.2s"/>
+scg_ccc_menu_2305_main_04_AcceptDate         =  ¿Acepta esta fecha? Diga "Sí", <break time = "0.1s"/> de lo contrario diga "No". <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles" <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2305_main_05_AcceptDate   = ¿Acepta esta fecha? Diga "Sí" o presione 1. <break time = "0.1s"/> De lo contrario, diga "No" o presione 2. <break time = "0.1s"/> Para escucharlode nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2305_main_06_AcceptDate   = ¿Acepta esta fecha? Para aceptar, presione 1.<break time = "0.1s"/> De lo contrario, presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_collect_2306_main_01_StopBillName    = Por favor diga o ingrese la fecha dentro de los próximos 28 días — excepto fines de semana y días festivos — en la que le gustaría suspender la facturación a su nombre. Por ejemplo, puede decir el primero de junio o ingresar 0-6-0-1. <break time = "0.2s"/>
+scg_ccc_menu_2306_main_02_Previous           = Para escuchar esta información de nuevo, diga "escucharlo de nuevo". Si desea ir al menú anterior para seleccionar la fecha más cercana, diga "anterior". <break time = "0.2s"/>
+scg_ccc_prmt_2306_main_03_StopBillName       = Para confirmar, la fecha en la que le gustaría suspender la facturación a su nombre es… . <break time = "0.2s"/>
+scg_ccc_menu_2306_main_04_Confirm            = Si es correcto, diga "sí". De lo contrario, diga "no". Para escuchar esa información nuevamente, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2306_main_05_Confirm      = Si es correcto, diga "sí" o presione 1. De lo contrario, diga "no" o presione 2. Para escucharlo nuevamente, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2306_main_06_Confirm      = Si es correcto, presione 1. De lo contrario, presione 2. para escucharlo nuevamente, presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2306_main_07_Previous     = Para escuchar esta información de nuevo, diga 'escuchar detalles' o presione 1. Si desea ir al menú anterior para seleccionar la fecha más cercana, diga "anterior" o presione 8. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2306_main_08_Previous     = Para escuchar esta información de nuevo, presione 1. Si desea ir al menú anterior para seleccionar la fecha más cercana, presione 8. <break time = "0.2s"/>
+scg_ccc_prmt_2306_main_07_CheckDate          = Verificando esa fecha.
+scg_ccc_prmt_2307_main_01_StopBillingNextDt  = Desafortunadamente, no podemos suspender la facturación a su nombre en esa fecha, ya que es un fin de semana. La próxima fecha disponible que podemos suspender la facturación a su nombre es <break time = "0.2s"/>
+scg_ccc_menu_2307_main_02_AcceptDt           = ¿Acepta esta fecha? Diga "sí". De lo contrario diga "no". Para escuchar esta información de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2307_main_03_AcceptDt     = Si es correcto, diga "Sí" o presione 1. <break time = "0.1s"/> De lo contrario, diga "No" o presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2307_main_04_AcceptDt     = Si es correcto, presione 1. <break time = "0.1s"/> De lo contrario, presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_menu_2308_main_01_OwnerConfirm       = ¿Es usted el dueño de la propiedad? Si es correcto, diga "Sí". De lo contrario, diga "No". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2308_main_02_OwnerConfirm = ¿Es usted el dueño de la propiedad?  Si es correcto, diga "Sí" o presione 1. De lo contrario, diga "No" o presione 2. <break time = "0.1s"/>
+scg_ccc_menu_ninm2_2308_main_03_OwnerConfirm = ¿Es usted el dueño de la propiedad?  Si es correcto, presione 1. De lo contrario, presione 2. <break time = "0.2s"/>
+
+
+//---------------------------------------Stop&Service-----------------------------------------//
+scg_ccc_prmt_2300_main_01_CloseAccount         = Se ha comunicado con el proceso de autoservicio para cerrar la cuenta. <break time = "0.2s"/>
+scg_ccc_prmt_2300_main_02_CompleteOrder        = Necesitamos colectar información antes de transferir la llamada a un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> para completar la orden. <break time = "0.2s"/>
+scg_ccc_menu_2301_main_01_NotStopService       = Actualmente, no hay ninguna solicitud para suspender el servicio para esta dirección. Si desea suspender el servicio en su dirección actual, diga "Sí". De lo contrario, diga "No". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2301_main_02_NotStopService = Actualmente, no hay ninguna solicitud para suspender el servicio para esta dirección. Si desea suspender el servicio en su dirección actual, diga "Sí" o presione 1. De lo contrario, diga "No" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2301_main_03_NotStopService = Actualmente, no hay ninguna solicitud para suspender el servicio para esta dirección. Si desea suspender el servicio en su dirección actual, presione 1. De lo contrario, presione 2. <break time = "0.2s"/>
+scg_ccc_prmt_2302_main_01_AddrCloseService     = Para verificar, la dirección física  donde quiere cerrar el servicio es <break time = "0.2s"/>
+scg_ccc_menu_2302_main_02_Confirm              = Si es correcto,  diga "sí". De lo contrario, diga "no".Para volver a escuchar esa información, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2302_main_03_Confirm        =  Si es correcto,  diga "sí" o presione 1. De lo contrario, diga "no" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2302_main_04_Confirm = Si es correcto,  presione 1. De lo contrario, presione 2.  <break time = "0.2s"/>
+scg_ccc_menu_2311_main_01_PropertyOwnerConfirm =  ¿Sabe el nombre del dueño de la propiedad?  Diga "Sí". De lo contrario, diga "No". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2311_main_02_PropertyOwnerConfirm = ¿Sabe el nombre del dueño de la propiedad?  Diga "Sí" o presione 1. De lo contrario, diga "No" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2311_main_03_PropertyOwnerConfirm = ¿Es usted el dueño de la propiedad? Si es correcto, presione 1. De lo contrario, presione 2. <break time = "0.2s"/>
+scg_ccc_menu_2312_main_01_OwnerConfirm         = Sabe usted la dirección *COMPLETA* y el código postal del dueño de esta propiedad?   Diga "Sí" o de lo contrario diga "No". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2312_main_02_OwnerConfirm   =  Sabe usted la dirección *COMPLETA* y el código postal del dueño de esta propiedad?   Diga "Sí" o presione 1, de lo contrario diga "No" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2312_main_03_OwnerConfirm   = Sabe usted la dirección *COMPLETA* y el código postal del dueño de esta propiedad?  Si es correcto, presione 1, de lo contrario presione 2. <break time = "0.2s"/>
+scg_ccc_prmt_2330_main_21_BillingStopDate      = Nuestros archivos muestran que el nuevo inquilino ya solicitó transferir el servicio a su nombre. Por lo tanto, el servicio y la facturación a su nombre serán suspendidos el. <break time = "0.2s"/>
+scg_ccc_prmt_2303_main_02_Date                 = Esa fecha va a funcionar.
+scg_ccc_menu_2304_main_01_StopServFum          = Necesita cerrar su servicio para fumigación? diga "sí". De lo contrario, diga "no". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2304_main_02_StopServFum   = Necesita cerrar su servicio para fumigación? Si es correcto, diga "sí" o presione 1. De lo contrario, diga "no" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2304_main_03_StopServFum    = Necesita cerrar su servicio para fumigación? Si es correcto, presione 1. De lo contrario, presione 2. <break time = "0.2s"/>
+
+#Stop Service Existing Close, COnfirmation Via Text, Anything Else Spanish Prompts.
+scg_ccc_prmt_2328_main_01_StopDt = Su servicio está programado para suspenderse el…  <break time = "0.2s"/>
+scg_ccc_menu_2328_main_02_StopServExist = Para reprogramar, diga "Reprogramar". Para cancelar la solicitud de suspensión del servicio, diga "Cancelar". Para escuchar esta información de nuevo, diga "escuchar detalles". Si tiene todo lo que necesita puede colgar en cualquier momento. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2328_main_03_StopServExist = Para reprogramar, diga "Reprogramar" o presione 1. <break time = "0.1s"/> Para cancelar la solicitud para suspender el servicio, diga "Cancelar" o presione 2. <break time = "0.1s"/> Si tiene todo lo que necesita puede colgar en cualquier momento. <break time = "0.1s"/> Para escuchar esta información de nuevo, diga “escuchar detalles” o presione 3. <break time = "0.1s"/> Para volver al menú anterior, diga "Anterior" o presione 4. <break time = "0.1s"/> Para regresar al Menú principal, diga "Menú principal" o presione  9.
+scg_ccc_menu_ninm2_2328_main_04_StopServExist = Para reprogramar, presione 1. <break time = "0.1s"/> Para cancelar la solicitud para suspender el servicio, presione 2. <break time = "0.1s"/> Si tiene todo lo que necesita puede colgar en cualquier momento. <break time = "0.1s"/> Para escuchar esta información de nuevo, presione 3. <break time = "0.1s"/> Para volver al menú anterior, presione 4. <break time = "0.1s"/> Para regresar al Menú principal, presione 9. <break time = "0.2s"/>
+scg_ccc_prmt_2329_main_01_CancelStopDt = Para confirmar, le gustaría cancelar su solicitud para cerrar el servicio el <break time = "0.2s"/> 
+scg_ccc_menu_2329_main_02_Confrim = Si es correcto, diga "sí". Para mantener su cita, diga "no". <break time = "0.2s"/>
+scg_ccc_menu_nimm1_2329_main_03_Confrim = Si esta correcto, diga "sí" o presione 1.  Para mantener su cita, diga "no" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_nimm2_2329_main_04_Confrim = Si esta correcto, presione 1.  Para mantener su cita, presione 2. <break time = "0.2s"/>
+scg_ccc_prmt_2329_main_05_SchStopDt = Su servicio está programado para suspenderse el… <break time = "0.2s"/>
+scg_ccc_prmt_2329_main_06_StopServCancelNum = Su cita para cerrar el servicio ha sido cancelada y su servicio permanecerá encendido.  Su número de confirmación es …  <break time = "0.2s"/>
+scg_ccc_prmt_2329_main_07_StopServCancelConfirmNum = <break time = "0.2s"/> De nuevo, su número de confirmación es…  <break time = "0.2s"/>
+scg_ccc_menu_2329_main_08_AnthingElseStopServ = Para escuchar el número de confirmación de nuevo, diga "escuchar detalles". Si tiene todo lo que necesita puede colgar en cualquier momento.
+scg_ccc_menu_ninm1_2329_main_09_AnthingElseStopServ = Para escuchar el número de confirmación de nuevo, diga "escuchar detalles"o presione 1. Si tiene todo lo que necesita puede colgar en cualquier momento. Para regresar al Menú principal, diga "Menú principal" o presione 9.
+scg_ccc_menu_ninm2_2329_main_10_AnthingElseStopServ = Para escuchar el número de confirmación de nuevo, presione 1. Si tiene todo lo que necesita puede colgar en cualquier momento. Para regresar al Menú principal, presione 9.
+scg_ccc_menu_2329_main_11_AnythingsElse = Si tiene todo lo que necesita, puede colgar en cualquier momento. ¿Hay algo más en lo que pueda ayudarle hoy? <break time = "0.2s"/>
+scg_ccc_prmt_2329_main_12_SelfServiceEnd = Si tiene alguna otra pregunta, le invitamos a llamar de nuevo o visitar nuestro sitio web, So Cal Gas punto com. Gracias y adiós. <break time = "0.2s"/>
+scg_ccc_menu_2336_main_01_PhNumConfirm = Para recibir el mensaje de texto en el mismo número, diga "Mismo número", de lo contrario, para marcar un número de teléfono diferente, diga "Número diferente". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2336_main_02_PhNumConfirm = Para recibir el mensaje de texto en el mismo número, diga "Mismo número" o presione 1, de lo contrario, para marcar un número de teléfono diferente, diga "Número diferente" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2336_main_03_PhNumConfirm = Para recibir el mensaje de texto en el mismo número, presione 1, de lo contrario, para marcar un número de teléfono diferente, presione 2. <break time = "0.2s"/>
+scg_ccc_collect_2336_main_04_DiffPhNum = Marque o diga el número de teléfono celular de 10 dígitos en el que desea recibir el número de confirmación por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2336_main_05_DiffPhNum = Marque o diga el número de teléfono celular de 10 dígitos en el que desea recibir el número de confirmación por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2336_main_06_DiffPhNum = Marque número de teléfono celular de 10 dígitos en el que desea recibir el número de confirmación por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_prmt_2336_main_07_ConfirmPhnumMsg = Para confirmar, ese numero de telefono es. <break time = "0.2s"/>
+scg_ccc_menu_2336_main_08_Confirm = Si es correcto, diga 'Si', de lo contrario diga 'No'. Para escuchar esa información nuevamente, diga ""escuchar detalles"". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2336_main_09_Confirm = Si es correcto, diga 'Si' o presione 1; de lo contrario, diga 'No' o presione 2. Para escucharlo nuevamente, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_nimm2_2336_main_10_Confirm = Si es correcto, presione 1; de lo contrario, presione 2. Para escucharlo nuevamente presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2336_main_11_ConfNum = El número de confirmación fue enviado y debería llegar a su teléfono celular en breve. <break time = "0.2s"/>
+scg_ccc_prmt_2336_main_12_TextIssue = Parece haber un problema con el procesamiento de mensajes de texto. <break time = "0.2s"/>
+scg_ccc_prmt_2336_main_01_ConfEmailAddr = Se enviará un correo electrónico de confirmación a la dirección de correo electrónico de MyAccount. <break time = "0.2s"/>
+
+
+scg_ccc_prmt_2317_main_01_PhNumAreaNum = Nuestros archivos indican que su número de teléfono celular, asociado con esta cuenta, es <break time = "0.2s"/>
+scg_ccc_menu_2317_main_02_Confirm =  Si es correcto, diga "Si", <break time = "0.1s"/> de lo contrario, diga "no".  <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2317_main_03_Confirm = ¿Hay una extensión? diga "Si" o presione 1. De lo contrario, diga "no" o presione 2. Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2317_main_04_Confirm = ¿Hay una extensión? Si es correcto, presione 1. De lo contrario, presione 2. Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2317_main_05_NotCellNumRecords = Nuestros registros indican que no tenemos un número de teléfono celular asociado con esta cuenta. <break time = "0.3s"/>
+scg_ccc_collect_2318_main_01_PhNum = Por favor diga el número de teléfono celular asociado con la cuenta, comenzando con el código de área. O diga "no lo tengo". <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2318_main_02_PhNum = Por favor diga o ingrese el número de teléfono celular asociado con la cuenta, comenzando con el código de área. De lo contrario diga "no lo tengo" o presione 1. <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2318_main_03_PhNum = Por favor ingrese el número de teléfono celular asociado con la cuenta, comenzando con el código de área. De lo contrario, diga "no lo tengo" o presione 1. <break time = "0.2s"/>
+scg_ccc_prmt_2318_main_04_PhNumConfirm = Para confirmar, ese número es
+scg_ccc_menu_2318_main_05_Confirm = Si es correcto diga "Sí". De lo contrario, diga "no".  Para escuchar esta información de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2318_main_06_Confirm = ¿Hay una extensión? Diga 'Si' o presione 1, <break time = "0.1s"/> de lo contrario, diga 'No' o presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, diga 'escuchar detalles' o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2318_main_07_Confirm = ¿Hay una extensión? Si es correcto, presione 1, <break time = "0.1s"/> de lo contrario, presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2314_main_01_PhNumAccount = Nuestros archivos indican que el número de teléfono del negocio asociado con esta cuenta, es <break time = "0.2s"/>
+scg_ccc_prmt_2314_main_02_Extension = extensión
+scg_ccc_menu_2314_main_03_Confirm = Si es correcto, diga "Sí" <break time = "0.1s"/> de lo contrario diga "No". <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2314_main_04_Confirm = Si es correcto, diga "Sí" o presione 1. <break time = "0.1s"/> De lo contrario, diga "No" o presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2314_main_05_Confirm = Si es correcto, presione 1. <break time = "0.1s"/> De lo contrario, presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2314_main_06_RecordPhNotAcct = Nuestros archivos indican que no tenemos un número de teléfono del negocio asociado con esta cuenta. <break time = "0.2s"/>
+scg_ccc_collect_2315_main_01_PhnumAcctInput = Por favor diga el número de teléfono comercial asociado con esta cuenta, comenzando con el código de área o, si no lo tiene, diga "No tengo uno". <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2315_main_02_PhNum = Por favor diga el número de teléfono comercial asociado con esta cuenta, comenzando con el código de área o, si no lo tiene, diga "No tengo uno" o presione 2.  <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2315_main_03_PhNum = Por favor diga el número de teléfono comercial asociado con esta cuenta, comenzando con el código de área o, si no lo tiene, presione 2. <break time = "0.2s"/>
+scg_ccc_prmt_2315_main_04_Phnumconf = Para confirmar, ese número es
+scg_ccc_menu_2315_main_05_Confirmation = Si es correcto, diga "Sí". <break time = "0.1s"/> De lo contrario diga "No".  <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2315_main_06_Confirm = Si es correcto, diga "Sí" o presione 1. <break time = "0.1s"/> De lo contrario diga "No" o presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2315_main_07_Confirm = Si es correcto, presione 1. <break time = "0.1s"/> De lo contrario, presione 2. <break time = "0.1s"/> Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+scg_ccc_menu_2315_main_08_ExtensionConfirm = ¿Hay una extensión para el número de teléfono del negocio? diga "Si" de lo contrario, diga "no". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2315_main_09_ExtensionConfirm = ¿Hay una extensión para el número de teléfono del negocio? diga "Si" o presione 1, de lo contrario diga "no" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2315_main_10_ExtensionConfirm = ¿Hay una extensión para el número de teléfono del negocio? Si es correcto, presione 1, de lo contrario presione 2. <break time = "0.2s"/>
+scg_ccc_collect_2316_main_01_ExtensionNum = Por favor diga o ingrese la extensión para el número de teléfono del negocio, de lo contrario, diga  "no lo tengo". <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2316_main_02_ExtensionNum = Por favor diga o ingrese la extensión del número de teléfono  del negocio, o diga "No tengo" o presione 1. <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2316_main_03_ExtensionNum = Por favor ingrese la extensión del número de teléfono  del negocio,  presione 1. <break time = "0.2s"/>
+scg_ccc_prmt_2316_main_04_PhNumExt = Para confirmar, ese número es
+scg_ccc_menu_2316_main_05_Confirm = Si es correcto diga "Sí". De lo contrario diga "no".  Para escuchar esta información de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2316_main_06_Confirm = Si es correcto, diga "sí" o presione 1. De lo contrario, diga "no" o presione 2. Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2316_main_07_Confirm = Si es correcto, presione 1. De lo contrario, presione 2.  Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+
+#<phone_number>
+scg_ccc_prmt_2320_main_01_billsentEmail          = Ya que actualmente recibe sus facturas electrónicamente, su última factura se le enviará por correo electrónico. <break time = "0.2s"/>
+scg_ccc_prmt_2320_main_02_mailaddrs              = Nuestros archivos indican que usted tiene una dirección postal, Su última factura se le enviará a esa dirección <break time = "0.1s"/>
+
+#<Close_Date>
+scg_ccc_prmt_2321_main_01_CloseDt                = Para confirmar, estamos programando suspender el servicio de gas a su nombre el <break time = "0.2s"/>
+scg_ccc_prmt_2321_main_02_TagDoNotRemove         = sin embargo el servicio de gas continuará para el nuevo inquilino, Se dejará un aviso en la puerta para el próximo inquilino, Por favor, no lo remueva. <break time = "0.2s"/>
+scg_ccc_menu_2321_main_03_OrderAccept            = ¿Acepta programar esta orden?  Si es correcto, diga "sí". De lo contrario, diga "no". Para escuchar esta información de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2321_main_04_OrderAccept      = Acepta usted programar esta orden?  Si es correcto, diga "sí" o presione 1, De lo contrario, diga "no" o presione 2, Para escucharlo nuevamente, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2321_main_05_OrderAccept      = Acepta usted programar esta orden?  Si es correcto, presione 1, De lo contrario, presione 2, Para escucharlo nuevamente presione 3. <break time = "0.2s"/>
+#<Close_Date>
+scg_ccc_prmt_2321_main_06_Great                  = Excelente <break time = "0.3s"/>
+scg_ccc_prmt_2321_main_07_BillStopDt             = La facturación será suspendida el <break time = "0.3s"/>
+scg_ccc_prmt_2321_main_08_Beware                 = Por favor asegúrese de que todas las puertas de acceso, <break time = "0.3s"/> así como las rejas, no tengan candado, y que los perros estén confinados. <break time = "0.3s"/>
+scg_ccc_prmt_2321_main_09_BillProgress           = Su última factura estará lista, <break time = "0.3s"/> en una a dos semanas después de que la facturación haya sido cancelada a su nombre. <break time = "0.3s"/>
+scg_ccc_prmt_2321_main_10_EmailBillProgress      = Le recordamos que recibirá su última factura por correo electrónico,<break time = "0.3s"/> en una a dos semanas después de que la facturación haya sido cancelada a su nombre. <break time = "0.3s"/>
+#<confirmation_number>
+scg_ccc_prmt_2322_main_01_ConfirmNum             = Su orden ha sido programada y su número de confirmación es <break time = "0.3s"/>
+scg_ccc_prmt_2322_main_02_AgainConfirmNum        = Nuevamente, su número de confirmación es el <break time = "0.3s"/>
+scg_ccc_menu_2322_main_03_AnthingElseBill        = Para escuchar el número de confirmación de nuevo, diga "Escuchar detalles". Para realizar un pago, diga "pagar mi factura". Si tiene todo lo que necesita puede colgar en cualquier momento.
+scg_ccc_menu_ninm1_2322_main_04_AnthingElseBill  = Para escuchar el número de confirmación de nuevo, diga "Escuchar detalles" o presione 1. Para realizar un pago, diga "pagar mi factura" o presione 2. Si tiene todo lo que necesita puede colgar en cualquier momento. Para regresar al menú principal, diga "Menú principal" o presione 9.
+scg_ccc_menu_ninm2_2322_main_05_AnthingElseBill  = Para escuchar el número de confirmación de nuevo, presione 1. Para realizar un pago, presione 2. Si tiene todo lo que necesita puede colgar en cualquier momento. Para regresar al menú principal, presione 9.
+scg_ccc_prmt_2322_main_06_FinalBillNotCalculated = Por favor tenga en cuenta, el monto final no  ha sido calculado. <break time = "0.2s"/>
+scg_ccc_menu_2322_main_07_AnthingElseBill        = ¿Habrá algo más en lo que pueda ayudarle hoy? <break time = "0.2s"/>
+scg_ccc_prmt_2322_main_08_SelfServiceEnd         = Si tiene alguna otra pregunta, le invitamos a volver a llamar o visitar nuestra pagina web, socalgas punto com. Gracias y adios. <break time = "0.2s"/>
+scg_ccc_menu_2323_main_01_BillMailAddr           = ¿A dónde le gustaría que le envíen su factura final? Para enviar la factura final a la dirección postal actual, diga "Dirección actual", Para enviar la factura final a una dirección diferente, diga "Cambiar dirección". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2323_main_02_BillMailAddr     = ¿A dónde le gustaría que le envíen su factura final? Para enviar la factura final a la dirección postal actual, diga "Dirección actual" o presione 1, Para enviar la factura final a una dirección diferente, diga "Cambiar dirección" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2323_main_03_BillMailAddr     = ¿A dónde le gustaría que le envíen su factura final? Para enviar la factura final a la dirección postal actual, presione 1, Para enviar la factura final a una dirección diferente, presione 2. <break time = "0.2s"/>
+scg_ccc_menu_2323_main_01_BillMailAddr_New       = ¿A dónde le gustaría que le envíen su factura final? Para enviar la factura final a la dirección del servicio actual, diga "Dirección actual", <break time = "0.1s"/> Para enviar la factura final a la dirección postal registrada, diga "Dirección Postal",  <break time = "0.1s"/> Para enviar la factura final a una dirección diferente, diga "Cambiar dirección".
+scg_ccc_menu_ninm1_2323_main_02_BillMailAddr_New = Para enviar la factura final a la dirección del servicio actual, diga "Dirección actual" o presione 1, <break time = "0.1s"/> Para enviar la factura final a la dirección postal registrada, diga "Dirección Postal" o presione 2, <break time = "0.1s"/> Para enviar la factura final a una dirección diferente, diga "Cambiar dirección" o presione 3.
+scg_ccc_menu_ninm2_2323_main_03_BillMailAddr_New = Para enviar la factura final a la dirección del servicio actual, presione 1, <break time = "0.1s"/> Para enviar la factura final a la dirección postal registrada, presione 2, <break time = "0.1s"/> Para enviar la factura final a una dirección diferente, presione 3. 
+#<close_date>
+scg_ccc_prmt_2324_main_01_OrdrConfNumClsDt       = Para cambiar la dirección postal para su última factura, por favor permanezca en la línea para hablar con un representante y obtener su número de confirmación. Para verificar, estamos programando clausurar el servicio de gas a su nombre el… <break time = "0.2s"/>
+scg_ccc_menu_2324_main_02_AccptSchedule          = Para aceptar la programación de esta orden, diga "sí". De lo contrario, diga "no". Para escuchar esta información de nuevo, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2324_main_03_AccptSchedule    = Para aceptar la programación de esta orden, diga "sí" o presione 1. De lo contrario, diga "no" o presione 2. Para escucharlo de nuevo, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2324_main_04_AccptSchedule    = Para aceptar la programación de esta orden, presione 1. De lo contrario, presione 2. Para escucharlo de nuevo, presione 3. <break time = "0.2s"/>
+#<close_date>
+scg_ccc_prmt_2324_main_05_CloseDt                = Perfecto, La facturación a su nombre será suspendida el
+scg_ccc_prmt_2324_main_06_Beware                 =  ...y la facturación se ha cancelado. Sin embargo, el servicio de gas puede permanecer abierto para el nuevo inquilino. Se dejará una etiqueta en la puerta para el próximo ocupante. Por favor no la remueva. Asegúrese de que todas las puertas y entradas de acceso no estén bloqueadas, y que los perros estén confinados. Un momento mientras lo transfiero a un representante, para que anote la dirección a donde enviarle su factura final. Tome en cuenta que si cuelga la llamada, la orden para cancelar el servicio seguirá programada. Si está llamando fuera de nuestro horario de servicio y desea cambiar la dirección de su última factura, le invitamos a que vuelva a llamar durante nuestras horas hábiles. <break time = "0.2s"/>
+scg_ccc_collect_2325_main_01_FullAddr            = Por favor diga la dirección completa, incluido el número de apartamento o unidad, si tiene uno. <break time = "0.2s"/>
+
+scg_ccc_menu_2000_main_01_ChangeService            = Para iniciar un servicio nuevo, diga "iniciar". <break time="0.1s"/> Para mudar o cerrar un servicio existente, diga "mudar". <break time="0.1s"/> Para restaurar el servicio, o para fumigación, diga "Restaurar" o "Fumigación". <break time="0.1s"/> Para escuchar más opciones, diga "Más Opciones".
+scg_ccc_menu_ninm1_2000_main_02_ChangeService      = Para iniciar un servicio nuevo, diga "iniciar" o presione 1. <break time="0.1s"/> Para mudar o cerrar un servicio existente, diga "mudar" o presione 2. <break time="0.1s"/> Para restaurar el servicio, o para fumigación, diga "Restaurar" o "Fumigación" o presione 3. <break time="0.1s"/> Para escuchar más opciones, diga "Más Opciones" o presione 4.
+scg_ccc_menu_ninm2_2000_main_03_ChangeService      = Para iniciar servicio, presione 1. <break time="0.1s"/> Para mover o cerrar servicio, presione 2. <break time="0.1s"/> Para restaurar su servicio o fumigación, presione 3. <break time="0.1s"/> Para escuchar más opciones, presione 4.
+scg_ccc_prmt_2000_main_04_StartServiceConf         = Por supuesto. <break time="0.1s"/> Le puedo ayudar a iniciar el servicio <break time = "0.2s"/>
+scg_ccc_prmt_2000_main_10_NewConstConf             = Por supuesto. <break time="0.1s"/> Le puedo ayudar con una construcción nueva. <break time="0.2s"/>
+scg_ccc_prmt_2000_main_11_CloseCheckConf           = Por supuesto. <break time="0.1s"/> Le puedo ayudar a verificar, cambiar, o cancelar una orden para cerrar servicio. <break time="0.2s"/>
+scg_ccc_menu_2000_main_07_ChangeServiceMoreOptions = Para una construcción nueva, <break time = "0.2s"/> diga “construcción nueva”. <break time = "0.2s"/> Para verificar, cambiar, o cancelar una orden para cerrar servicio, diga "verificar, cambiar o cancelar". <break time = "0.2s"/> Para cualquier otro asunto, diga "otros asuntos". <break time = "0.2s"/> 
+scg_ccc_menu_ninm1_2000_main_08_ChangeServiceMoreOptions =Para una construcción nueva, diga “construcción nueva” o presione 1. <break time = "0.2s"/> Para verificar, cambiar, o cancelar una orden para cerrar servicio, diga "verificar cambiar o cancelar" o presione 2. <break time = "0.2s"/> Para cualquier otro asunto, diga "otros asuntos" o presione 3. Para repetir estas opciones, diga "repetir" o presione 7. <break time = "0.2s"/> Para regresar al menú principal, diga "menú principal" o presione 9. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2000_main_09_ChangeServiceMoreOptions = Para una construcción nueva, presione 1. <break time = "0.2s"/> Para verificar, cambiar, o cancelar una orden para cerrar servicio, presione 2. <break time = "0.2s"/> Para cualquier otro asunto, presione 3. <break time = "0.2s"/> Para repetir estas opciones, presione 7. <break time = "0.2s"/> Para regresar al menú principal, presione 9 <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_06_DigitalDeflectionService = En este momento estamos cerrados para servicios que no son de emergencia.<break time = "0.2s"/>
+scg_ccc_prmt_2100_main_01_NewConst = Usted sera transferido a un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> para continuar su orden, pero antes tenemos que informarle lo siguiente <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_02_NewConst = Podemos solicitar su número de Seguro Social para confirmar su identidad, y obtener un reporte de crédito de Experian... una agencia nacional de información del consumidor. Usted también puede obtener una copia gratuita de su reporte de crédito llamando a Experian, al 1, 8, 8, 8, 3, 9, 7, 3, 7, 4 2. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_03_MoveClose = Usted sera transferido a un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> para continuar su orden, pero antes tenemos que informarle lo siguiente <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_04_BewareOf = Por favor, asegúrese de que todas las puertas de acceso, así como las rejas, no tengan candado y los perros estén confinados. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_05_Rebate = So Cal Gas ofrece asistencia a los clientes de bajos ingresos, participantes de ciertos programas de asistencia pública, o con ciertas condiciones médicas. Para más información acerca del descuento del 20% con el programa CARE, o mejoras para el hogar gratuitas, a través del programa de asistencia directa, o el programa de asignación médica básica que ofrece gas natural adicional pagando la tarifa más baja visite So Cal Gas punto com diagonal español y busque "programas de asistencia" o pregúntele a nuestro representante. <break time = "0.2s"/>
+scg_ccc_prmt_2101_main_01_WebLink = Puede completar el proceso de iniciar servicio en nuestra pagina de web socalgas.com. Podemos enviar un mensaje de texto con el enlace de web. Es posible que se apliquen tarifas de mensajes y datos.<break time = "0.1s"/>
+scg_ccc_menu_2101_main_02_StartServiceProcess = Para completar el proceso de iniciar servicio en línea, diga "Sí", de lo contrario, diga "No". Para volver a escuchar esa información, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2101_main_03_StartServiceProcess = Para completar el proceso de iniciar servicio en línea, diga "Sí" o presione 1, de lo contrario, diga "No" o presione 2. Para volver a escuchar esa información, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2101_main_04_StartServiceProcess = Para completar el proceso de iniciar servicio en línea, presione 1, de lo contrario, presione 2. Para volver a escuchar esa información, presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2101_main_05_PTStartService = Antes de transferirlo a un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme>, debemos colectar la nueva dirección donde desea iniciar servicio.<break time = "0.4s"/>
+scg_ccc_menu_2101_main_06_StartServiceAddr = Para decir su dirección, diga "Nueva dirección". Para recibir un mensaje de texto con un enlace de web para ingresar la nueva dirección, diga "Enlace". Para repetir estas opciones, diga "Repetir". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2101_main_07_StartServiceAddr = Para decir su dirección, diga "Nueva dirección" o presione 1. Para recibir un mensaje de texto con un enlace de web para ingresar la nueva dirección, diga "Enlace" o presione 2. Para repetir estas opciones, diga "Repetir" o presione 7. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2101_main_08_StartServiceAddr = Para decir su dirección, presione 1. Para recibir un mensaje de texto con un enlace de web para ingresar la nueva dirección, presione 2. Para repetir estas opciones, presione 7. <break time = "0.2s"/>
+scg_ccc_menu_2101_main_09_DiffNumb = Si esta llamando desde un teléfono celular, diga "Sí". Para recibir el mensaje de texto en un teléfono celular diferente, diga "Número diferente". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2101_main_10_DiffNumb = Si esta llamando desde un teléfono celular, diga "Sí" o presione 1. Para recibir el mensaje de texto en un teléfono celular diferente, diga "Número diferente" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2101_main_11_DiffNumb = Si esta llamando desde un teléfono celular, presione 1. Para recibir el mensaje de texto en un teléfono celular diferente, presione 2. <break time = "0.2s"/>
+scg_ccc_menu_2101_main_12_PhNum = Por favor diga los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto, o si no tiene uno, diga "No tengo uno". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2101_main_13_PhNum = Por favor diga los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto, o si no tiene uno, diga "No tengo uno" o presione 1. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2101_main_14_PhNum = Por favor diga los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto, o si no tiene uno, presione 1. <break time = "0.2s"/>
+scg_ccc_prmt_2101_main_15_PhConf = Para confirmar, ese número de teléfono es <break time = "0.2s"/>
+scg_ccc_menu_2101_main_16_PhConf = Si esta correcto, diga "Sí". De lo contrario, diga "No". Para volver a escuchar esa información, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2101_main_17_PhConf = Si esta correcto, diga "Sí" o presione 1. De lo contrario, diga "No" o presione 2. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2101_main_18_PhConf = Si esta correcto, presione 1. De lo contrario, presione 2. para escucharlo nuevamente, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_prmt_2101_main_19_SMSProgress = Por favor continúe de esperar mientras se le envía el enlace de web a <break time = "0.2s"/>
+scg_ccc_prmt_2101_main_20_PhConfNo = Hubo un problema al procesar su solicitud. <break time = "0.2s"/>
+scg_ccc_prmt_2102_main_02_WebLinkText = El enlace de web se envió y debería llegar a su teléfono celular en breve.<break time = "0.1s"/>
+scg_ccc_prmt_2102_main_01_TextIssue = Parece haber un problema con el procesamiento de mensajes de texto. <break time = "0.2s"/>
+scg_ccc_prmt_2103_main_01_Hold = Por favor de esperar para continuar con la orden de servicio después de que se haya enviado la dirección. <break time = "0.2s"/>
+scg_ccc_prmt_2103_main_02_AddVer = La nueva dirección de servicio fue recibida y será verificada por un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme>. <break time = "0.2s"/>
+scg_ccc_prmt_2104_main_01_NoCostServXfer = Si usted se está mudando le podemos ayudar a ordenar otros servicios para su casa, como el cable de televisión, teléfono, e internet a través de una compañía llamada "All Connect". Cuando nuestro <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> le pregunte si usted quiere ser transferido a All Connect, simplemente diga "sí" para tomar ventaja de este servicio sin costo. <break time = "0.2s"/>
+scg_ccc_prmt_2104_main_02_NoCostServXfer = Si usted se está mudando, podemos ayudarle a configurar o transferir otros servicios para su casa, como el cable de televisión, teléfono, e internet a través de una compañía llamada "All Connect". <break time = "0.2s"/>
+#MoveStop
+scg_ccc_menu_2200_main_01_MoveStop = Para cerrar el servicio sólamente en su dirección actual, diga "cerrar". Para cambiar su servicio de su dirección actual, a su dirección nueva diga “transferir”. Para cualquier otro asunto, diga “otros asuntos”. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2200_main_02_MoveStop = Para cerrar el servicio sólamente en su dirección actual, diga "cerrar" o presione 1. Para cambiar su servicio de su dirección actual, a su dirección nueva diga “transferir” o presione 2. Para cualquier otro asunto, diga “otros asuntos” o presione 3. Para repetir estas opciones, diga “repetir” o presione 7. Para regresar al menú anterior, diga “anterior” o presione 8.  Para regresar al menú principal, diga “menú principal” o presione 9. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2200_main_03_MoveStop = Para cerrar el servicio sólamente en su dirección actual, presione 1. Para cambiar su servicio de su dirección actual, a su dirección nueva presione 2. Para cualquier otro asunto, presione 3. Para repetir estas opciones, presione 7. Para regresar al menú anterior, presione 8.  Para regresar al menú principal, presione 9. <break time = "0.2s"/>
+scg_ccc_prmt_2200_main_04_ConfirmStopServ = Por supuesto,<break time="0.1s"/> puedo ayudarle a cerrar el servicio. <break time="0.1s"/>
+scg_ccc_prmt_2200_main_05_ConfirmMoveServ = Por supuesto,<break time="0.1s"/> puedo ayudarle a mover su servicio . <break time="0.1s"/>
+scg_ccc_prmt_2200_main_07_DigitalDeflectionService = En este momento estamos cerrados para servicios que no son de emergencia.<break time = "0.1s"/> Sin embargo, todavía estamos disponibles para ayudarle digitalmente.<break time = "0.1s"/> Con la desviación digital,<break time = "0.1s"/> aún puede obtener información o asistencia. <break time = "0.2s"/>
+scg_ccc_prmt_2201_main_01_IntialMoveSMS = También se puede completar el proceso de mover su servicio de gas en nuestra pagina web socalgas.com. Podemos enviarle un mensaje de texto con el enlace web. Es posible que se apliquen tarifas de mensajes y datos.<break time="0.2s"/>
+scg_ccc_menu_2201_main_02_MoveProcessConfirm = <break time = "0.4s"/> Para completar el proceso de mover su servicio de gas en nuestra pagina web,<break time = "0.4s"/>  diga "Sí", de lo contrario,<break time = "0.4s"/>  diga "No". Para volver a escuchar esta información,<break time = "0.4s"/>  diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2201_main_03_MoveProcessConfirm = Para completar el proceso de mover su servicio de gas en nuestra pagina web, diga "Sí" o presione 1, de lo contrario, diga "No" o presione 2. Para volver a escuchar esta información, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2201_main_04_MoveProcessConfirm = Para completar el proceso de mover su servicio de gas en nuestra pagina web, presione 1, de lo contrario, presione 2. Para volver a escuchar esta información, presione 3. <break time = "0.2s"/>
+scg_ccc_menu_2201_main_05_PhNumConfirm  = Si esta llamando desde un teléfono celular, diga "Mismo número". Para recibir un mensaje de texto a un telefono celular diferente, diga "Número diferente". Para continuar a través de este ssistema telefónico, diga "Continuar". Para repetir estas opciones, diga "Repetir". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2201_main_06_PhNumConfirm = Si esta llamando desde un teléfono celular, diga "Mismo número" o presione 1. Para recibir un mensaje de texto a un telefono celular diferente, diga "Número diferente" o presione 2. Para continuar a través de este ssistema telefónico, diga "Continuar" o presione 3. Para repetir estas opciones, diga "Repetir" o presione 7. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2201_main_07_PhNumConfirm = Si esta llamando desde un teléfono celular, presione 1. Para recibir un mensaje de texto a un telefono celular diferente, presione 2. Para continuar a través de este ssistema telefónico, presione 3. Para repetir estas opciones, presione 7. <break time = "0.2s"/>
+scg_ccc_collect_2201_main_08_PhNum = Por favor diga los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2201_main_09_PhNum = Por favor diga o ingrese los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2201_main_10_PhNum = Por favor diga o ingrese los 10 dígitos del teléfono celular donde desea recibir el enlace por mensaje de texto. <break time = "0.2s"/>
+scg_ccc_prmt_2201_main_11_ConfirmPhnumMsg = Para confirmar, ese número es <break time = "0.2s"/>
+scg_ccc_menu_2201_main_12_Confirm = Si es correcto, diga "Si", de lo contrario, diga "No". para escuchar esa información nuevamente, diga "escuchar detalles". <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2201_main_13_Confirm = Si es correcto, diga "Si" o presione 1, de lo contrario, diga "No" o presione 2. para escucharlo nuevamente, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2201_main_14_Confirm = Si es correcto, diga "Si" o presione 1, de lo contrario, diga "No" o presione 2. para escucharlo nuevamente, presione 3. <break time = "0.2s"/>
+scg_ccc_prmt_2201_main_15_PbmProce = Hubo un problema al procesar su solicitud.
+scg_ccc_prmt_2201_main_16_WeblinkPhNm = Continúe de esperar en la línea mientras se le envía el enlace web al <break time = "0.2s"/>
+scg_ccc_prmt_2202_main_01_WebLinkConfirm = El enlace web se envió y debería llegar a su teléfono celular en breve. <break time = "0.2s"/>
+scg_ccc_prmt_2202_main_02_Issue = Parece haber un problema con el procesamiento de mensajes de texto. <break time = "0.2s"/>
+#FumigationReconnectMenu
+scg_ccc_menu_2500_main_01_FumigationReconnect = Para obtener ayuda relacionada con la fumigación, diga "Fumigación". <break time="0.1s"/> Para restaurar el servicio que ha sido desconectado por falta de pago, diga "Restaurar". <break time="0.1s"/> Para cualquier otra pregunta sobre la restauración del servicio, diga "Otros asuntos. 
+scg_ccc_menu_ninm1_2500_main_02_FumigationReconnect = Para fumigación, diga "Fumigación" o presione 1. <break time="0.1s"/> Para restaurar el servicio que ha sido desconectado por falta de pago, diga "Restaurar" o presione 2. <break time="0.1s"/> Para cualquier otra pregunta sobre la restauración del servicio, diga "Otros asuntos" o presione 3. <break time="0.1s"/> Para repetir estas opciones, diga "Repetir" o presione 7. <break time="0.1s"/> Para volver al menú anterior, diga "Anterior" o presione 8. <break time="0.1s"/> Para volver al menú principal, diga "Menú principal" o presione 9.
+scg_ccc_menu_ninm2_2500_main_03_FumigationReconnect = Para fumigación, presione 1. <break time="0.1s"/> Para restaurar el servicio que ha sido desconectado por falta de pago, presione 2. <break time="0.1s"/> Para cualquier otra pregunta sobre la restauración del servicio, presione 3. <break time="0.1s"/> Para repetir estas opciones, presione 7. <break time="0.1s"/> Para volver al menú anterior, presione 8. <break time="0.1s"/> Para volver al menú principal, presione 9.
+scg_ccc_menu_2501_main_01_FNP = Si no ha pagado el monto total que aparece en la notificación, no podemos restablecer su servicio. Para realizar un pago, diga “pago”. Si ha realizado el pago y está llamando para restaurar el servicio, diga “restaurar”. Si necesita el monto total debido para reconectar el servicio, diga "detalles". <break time = "0.2s"/>
+scg_ccc_menu_2501_main_02_FNPMenu_ampSw = Si el servicio ha sido desconectado por falta de pago, puede calificar para el Perdón de facturas vencidas residenciales a través del Plan de Administración de Pagos Atrasados. Este es un plan de perdón de deudas para los clientes de CARE con facturas vencidas. Para ver si esta cuenta califica, diga "Facturas vencidas". <break time="0.1s"/> Para restaurar el servicio, diga “Restaurar”. 
+scg_ccc_menu_ninm1_2501_main_05_FNP     = Si el servicio ha sido desconectado por falta de pago, puede calificar para el Perdón de facturas vencidas residenciales a través del Plan de Administración de Pagos Atrasados. Este es un plan de perdón de deudas para los clientes de CARE con facturas vencidas. Para ver si esta cuenta califica, diga "Facturas vencidas" o presione 1. <break time="0.1s"/> Para restaurar el servicio, diga “Restaurar” o presione 2. <break time="0.1s"/> Para repetir estas opciones, diga “repetir” o presione 7. <break time="0.1s"/> Para regresar al menú anterior, diga “anterior” o presione 8. <break time="0.1s"/> Para volver al menú principal, diga “menú principal” o presione 9.
+scg_ccc_menu_ninm2_2501_main_06_FNP     = Si el servicio ha sido desconectado por falta de pago, puede calificar para el Perdón de facturas vencidas residenciales a través del Plan de Administración de Pagos Atrasados. Este es un plan de perdón de deudas para los clientes de CARE con facturas vencidas. Para ver si esta cuenta califica, presione 1. <break time="0.1s"/> Para regresar el servicio, presione 2. <break time="0.1s"/> Para repetir estas opciones, presione 7. <break time="0.1s"/> Para regresar al menú anterior, presione 8. <break time="0.1s"/> Para volver al menú principal, presione 9.
+scg_ccc_menu_ninm1_2501_main_03_FNP = El monto total como aparece en la notificación debe pagarse antes de que el  servicio pueda ser restaurado. Si todavía no ha hecho el pago por esa cantidad, el <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> no podrá ayudarle. Para hacer un pago, diga “pago” o presione 1. Si usted ha hecho el pago y está llamando para restaurar el servicio, diga “restaurar” o presione 2.   Si usted necesita la cantidad total debida para reconectar el servicio, diga "detalles" o presione 3.  Para repetir estas opciones, diga “repetir” o presione 7. Para regresar  al menú anterior, diga “anterior” o presione 8. Para volver al menú principal, diga “menú principal” o presione 9 <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2501_main_04_FNP = El monto total como aparece en la notificación debe pagarse antes de que el  servicio pueda ser restaurado. Si todavía no ha hecho el pago por esa cantidad, el <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme> no podrá ayudarle. Para hacer un pago, presione 1. Si usted ha hecho el pago y está llamando para restaurar el servicio, presione 2.   Si usted necesita la cantidad total debida para reconectar el servicio, presione 3.  Para repetir estas opciones, presione 7. Para regresar  al menú anterior, presione 8. Para volver al menú principal, presione 9 <break time = "0.2s"/>
+scg_ccc_prmt_2502_main_01_Restore = El restablecimiento del servicio debe ocurrir dentro de un día hábil para las reconexiones en campo, excepto en situaciones relacionadas con la seguridad o condiciones climáticas extremas. Si SoCalGas no cumple con este requisito, puede presentar una queja ante la Comisión de Servicios Públicos de California. Encontrará información sobre cómo presentar una queja en la última página de su factura, en la sección de “Políticas y Avisos”.
+scg_ccc_prmt_2502_main_01_PayDueAmount = Según la información de su cuenta, se debe pagar el monto total antes de que se pueda restablecer el servicio.<break time=".5s"/>
+scg_ccc_prmt_2502_main_02_DueBillAmount = El monto total para reconectar el servicio es <break time=".5s"/>
+scg_ccc_prmt_2502_main_03_AddFNPAmount = Esto incluye el saldo atrasado de <break time=".5s"/>
+scg_ccc_prmt_2502_main_04_DepositAmount = …un deposito de <break time=".5s"/>
+scg_ccc_prmt_2502_main_05_AdditionalFees = Sin embargo, cargos adicionales pueden ser necesarios.<break time=".5s"/>
+scg_ccc_prmt_2502_main_06_DueAmountPaid = El monto total toma en cuenta los <break time=".5s"/>
+scg_ccc_prmt_2502_main_07_PaymentsDay = …en pago realizados hasta hoy. <break time=".5s"/>
+scg_ccc_menu_2503_main_01_PostFNP       = Para escuchar esta información de nuevo, diga "escuchar detalles". <break time="0.1s"/> Para cualquier otro asunto, diga "otros asuntos".
+scg_ccc_menu_ninm1_2503_main_02_PostFNP = Para escuchar esta información de nuevo, diga “escuchar detalles” o presione 1. <break time="0.1s"/> Para cualquier otro asunto, diga "otros asuntos" o presione 2. <break time="0.1s"/> Para repetir estas opciones, diga “repetir” o presione 7.  <break time="0.1s"/> Para volver al menú principal, diga “menú principal” o presione 9.
+scg_ccc_menu_ninm2_2503_main_03_PostFNP = Para escuchar esta información de nuevo, presione 1. <break time="0.1s"/> Para cualquier otro asunto, presione 2. <break time="0.1s"/> Para repetir estas opciones, presione 7. <break time="0.1s"/> Para volver al menú principal, presione 9.
+
+#nospanishprompt
+scg_ccc_prmt_2101_main_21_PhConfNo =  Hubo un problema al procesar su solicitud. Vuelva a intentarlo más tarde o vuelva a llamar durante nuestro horario comercial, de lunes a viernes, de 7 a.m. a 8 p.m. y los sábados de 7 a.m. a 6 p.m., para hablar con un <phoneme alphabet="ipa" ph="rɛprɛzɛntante">representante</phoneme>. <break time = "0.2s"/>
+scg_ccc_prmt_main_configEmail = Si hay una dirección de correo electrónico registrada, se enviará la confirmación a esa dirección. <break time = "0.2s"/>
+
+scg_ccc_prmt_2307_main_01_StopBillingNextDt = Desafortunadamente, no podemos suspender la facturación a su nombre en esa fecha, ya que es un fin de semana.<break time="0.1s"/>  La proxima fecha disponible que podemos suspender la facturación a su nombre es… <break time = "0.2s"/>
+
+scg_ccc_menu_ninm1_2306_main_07_Confirm = Si desea ir al menú anterior para seleccionar la fecha más antigua, diga "Anterior" o presione 8. Para escucharlo nuevamente, diga "escuchar detalles" o presione 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2306_main_08_Confirm =  Si desea ir al menú anterior para seleccionar la fecha más antigua, presione 8, para escucharla nuevamente, presione 3. <break time = "0.2s"/>
+
+scg_ccc_menu_2325_main_02_AddrConfirm       = Usted dijo <break time = "0.2s"/>
+scg_ccc_menu_2105_main_02_AddrConfirmCrt    = Si eso es correcto, diga "Sí", o presione 1. De lo contrario, diga "No" o presione 2. <break time = "0.2s"/>
+scg_ccc_prmt_2325_main_05_NotGetAddr        = Desafortunadamente no logramos capturar la dirección de correo para su última factura. <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2325_main_07_StrNum   = Por favor diga o ingrese el número de la calle <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2325_main_08_StrNum   = Por favor ingrese el número de la calle <break time = "0.2s"/>
+scg_ccc_collect_2325_main_09_StrName        = Está bien ¿Puede decirme el nombre de la calle? <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2325_main_10_StrName  = ¿Puede decirme el nombre de la calle? <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2325_main_11_StrName  = ¿Puede decirme el nombre de la calle? <break time = "0.2s"/>
+scg_ccc_collect_2325_main_12_CityName       = Bien, ¿Podría decirme solamente el nombre de la ciudad? <break time = "0.2s"/>
+scg_ccc_collect_ninm1_2325_main_13_CityName = ¿Puede decirme el nombre de la ciudad? <break time = "0.2s"/>
+scg_ccc_collect_ninm2_2325_main_14_CityName = ¿Puede decirme el nombre de la ciudad? <break time = "0.2s"/>

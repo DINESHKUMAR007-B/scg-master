@@ -4,13 +4,7 @@ const querystring = require('querystring');
 const logger = require("../Utilities/logger");
 const callPath = require("./callPathHelper");
 const sessionHelper = require("./sessionHelper");
-// function isTokenExpired(accessTokenGeneratedTimestamp) {
-//   const tokenTime = new Date(accessTokenGeneratedTimestamp).getTime(); // when token was generated
-//   const now = Date.now(); // current UTC time in ms
-//   const elapsedMinutes = (now - tokenTime) / (1000 * 60); // convert ms to minutes
-//   logger.info("elapsedMinutes : " + elapsedMinutes);
-//   return elapsedMinutes > 55;
-// }
+
 const generateToken = async function (secret) {
   let appSession = sessionHelper.AppSession;
   const postData = querystring.stringify({
@@ -40,11 +34,15 @@ const generateToken = async function (secret) {
         try {
           const tokenResponse = JSON.parse(data);
           console.log('tokenResponse:', tokenResponse);
+          if (tokenResponse.error) {
+            console.error("Token error:", tokenResponse);
+            return reject(tokenResponse);
+          }
           console.log('[INFO] Token generation success');
           appSession.appSessionObj.apiResponseEndTimeInAPIHelper = new Date();
           appSession.appSessionObj.apiDuration = Math.abs(appSession.appSessionObj.apiResponseEndTimeInAPIHelper - appSession.appSessionObj.apiRequestStartTime);
           //console.log('[DEBUG] Access Token:', tokenResponse.access_token);
-          let apiResTemplate = callPath.apiResTemplate(tokenResponse, appSession);
+          let apiResTemplate = callPath.apiResTemplate(response, appSession);
           resolve(tokenResponse);
         } catch (e) {
           console.error('[ERROR] Failed to parse token response:', data);
@@ -64,8 +62,10 @@ const generateToken = async function (secret) {
 }
 
 async function isTokenExpired(accessTokenGeneratedTimestamp, accessTokenExpirationTimestamp) {
+  // console.log("accessTokenGeneratedTimestamp : ", accessTokenGeneratedTimestamp);
+  // console.log("accessTokenExpirationTimestamp : ", accessTokenExpirationTimestamp);
   // If either value is missing, regenerate token
-  if (!accessTokenGeneratedTimestamp || !accessTokenExpirationTimestamp || accessTokenGeneratedTimestamp === "null" || accessTokenExpirationTimestamp === "null") {
+  if (!accessTokenGeneratedTimestamp || !accessTokenExpirationTimestamp || accessTokenGeneratedTimestamp === "null" || accessTokenExpirationTimestamp.trim() === "null") {
     logger.info("Token timestamp or expiry missing.");
     return "generate";
   }
@@ -99,7 +99,7 @@ async function isTokenExpired(accessTokenGeneratedTimestamp, accessTokenExpirati
 
   // If elapsed time is greater than or equal to allowed expiry time
   if (elapsedMinutes >= tokenExpiryDurationInMinutes - 10) {
-    return "generate"; // Token expired → generate
+    return "generate"; // Token expired → reload
   }
 
   // Otherwise token is still valid

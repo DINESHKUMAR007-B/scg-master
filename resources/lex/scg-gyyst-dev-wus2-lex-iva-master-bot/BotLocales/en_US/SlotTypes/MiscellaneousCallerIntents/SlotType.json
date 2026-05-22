@@ -1,0 +1,1 @@
+{"name":"MiscellaneousCallerIntents","identifier":"YCMN9FTIKV","description":null,"slotTypeValues":[{"synonyms":[{"value":"paperless billing"}],"sampleValue":{"value":"Paperless"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"resolutionStrategy":"TOP_RESOLUTION","advancedRecognitionSetting":null,"regexFilter":null}}

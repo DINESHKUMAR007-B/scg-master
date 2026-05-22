@@ -32,7 +32,7 @@ const getSecretValue = async function (secretName, intentRequest, callback) {
   const intentName = intentRequest?.sessionState?.intent?.name;
   //Override secretName if env is int or tst
   if (appSession.appSessionObj.env === "tst" || appSession.appSessionObj.env === "qa" || appSession.appSessionObj.env === "uat"|| appSession.appSessionObj.env === "preprod") {
-    secretName = appSession.appSessionObj.env ==="uat" ?
+    secretName = appSession.appSessionObj.env ==="uat"  ?
       "scg-gyyst-uat-wus2-secretmanager-iva-mastersecrets" : "scg-gyyst-qa-wus2-secretmanager-iva-mastersecrets";
   }
   try {
@@ -43,9 +43,7 @@ const getSecretValue = async function (secretName, intentRequest, callback) {
     } else {
       console.info("Secret not found or missing SecretString");
     }
-    console.log("secretCache: ", secretCache);
     return secretCache;
-
   } catch (error) {
     catchHelper.CatchUpdate(error, intentRequest, intentName, callback);
   }
@@ -55,7 +53,7 @@ const getSecretValue = async function (secretName, intentRequest, callback) {
 const updateSecret = async function (access_token, expires_in, secretName, currentSecret) {
 
   if (appSession.appSessionObj.env === "tst" || appSession.appSessionObj.env === "qa" || appSession.appSessionObj.env === "uat"|| appSession.appSessionObj.env === "preprod") {
-    secretName = appSession.appSessionObj.env ==="uat"?
+    secretName = appSession.appSessionObj.env ==="uat" ?
       "scg-gyyst-uat-wus2-secretmanager-iva-mastersecrets" : "scg-gyyst-qa-wus2-secretmanager-iva-mastersecrets";
   }
 

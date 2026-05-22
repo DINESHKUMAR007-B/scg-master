@@ -9,8 +9,10 @@ const GetSlots = function (slotName, intentRequest, callback) {
         if (slots != null && slotName in slots && slots[slotName] != null) {
             logger.debug(slots);
             return slots[slotName]["value"]["interpretedValue"];
+            
         }
         else {
+            logger.info("value slotHelper : returned null");
             return null;
         }
     }
@@ -18,23 +20,7 @@ const GetSlots = function (slotName, intentRequest, callback) {
         catchHelper.CatchUpdate(error, intentRequest, intentName, callback);
     }
 };
-const GetSlotsOriginalValue = function (slotName, intentRequest, callback) {
-    const intentName = intentRequest.sessionState.intent.name;
-    const outputSessionAttributes = intentRequest.sessionState.sessionAttributes || {};
-    try {
-        let slots = intentRequest["sessionState"]["intent"]["slots"];
-        if (slots != null && slotName in slots && slots[slotName] != null) {
-            logger.debug(slots);
-            return slots[slotName]["value"]["originalValue"];
-        }
-        else {
-            return null;
-        }
-    }
-    catch (error) {
-        catchHelper.CatchUpdate(error, intentRequest, intentName, callback);
-    }
-};
+
 function IsWaitIntent(intentRequest) {
     let intentName = "";
     let transcriptions = intentRequest["transcriptions"];
@@ -45,11 +31,6 @@ function IsWaitIntent(intentRequest) {
         }
     }
     return false;
-}
-
-function UpdateSlotForWaitAndContinue(slotName,intentRequest,slotValue = null) {
-    intentRequest["sessionState"]["intent"]["slots"][slotName] = slotValue;
-    return intentRequest;
 }
 
 function UpdateSlot(slotValue) {
@@ -66,7 +47,6 @@ function UpdateSlot(slotValue) {
 
 module.exports = {
     GetSlots,
-    GetSlotsOriginalValue,
     UpdateSlot,
-    IsWaitIntent,UpdateSlotForWaitAndContinue
+    IsWaitIntent
 };

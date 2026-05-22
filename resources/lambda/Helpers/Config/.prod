@@ -3,11 +3,24 @@ environment = prod
 logLevel = debug
 #API
 #------------
-AU_WS01 = https://soagwx.sempra.com/OpEx/CC/eServices/getBillAcctInfo/1.0
-AU_WS02 = https://soagwx.sempra.com/OpEx/CC/eServices/updateCustomerProfile/1.0
-AU_WS03 = https://soagwx.sempra.com/OpEx/CC/eServices/ScreenPop/E92660CC/1.0
-AU_WS04 = https://soagwx.sempra.com/OpEx/CC/eServices/AuthenticateAni/E92661CC/1.0
-AU_WS05 = https://soagwx.sempra.com/OpEx/CC/eServices/CareFunctions/E92640CC/1.0
+MS_WS01 = https://soagwx.sempra.com/OpEx/CC/eServices/CloseOrder/1.0
+MS_WS02 = https://soagwx.sempra.com/OpEx/CC/eServices/ViewCancelOrder/1.0
+MS_WS03 = https://soagwx.sempra.com/OpEx/CC/Eservices/TailoredTreatments/E92665CC/1.0
+MS_WS04 = https://soagwx.sempra.com/OpEx/CC/eServices/getBillAcctInfo/1.0
+MS_WS05 = https://soagwx.sempra.com/OpEx/CC/eServices/updateCustomerProfile/1.0
+MS_WS06 = https://soagwx.sempra.com/OpEx/CC/eServices/ReconnectAmount/E92663CC/1.0
+MS_WS07 = https://soagwx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/OnDemandTextServiceV1
+MS_WS08 = https://soagwx.sempra.com/OpEx/CC/eServices/getLinkedAccount/1.0
+MS_WS09 = https://soagwx.sempra.com/ws/BusinessTechnology/Common/CustomerContact/CustomerContactServiceV1
+#WebService
+#---------------------
+
+WS_DatabaseName = E60P000
+WS_StopServiceMultiModel =  https://civamm.socalgas.com/services/stop/
+WS_StartServiceMultiModel = https://civamm.socalgas.com/services/start/
+WS_StubS3Bucket = scg-gyyst-qa-wus2-s3-stubbing
+CallHistoryDBName = scg-gyyst-prd-wus2-dydb-master-callerHistory
 #API Logging
 #-----------------
 DashboardNamespace = scg-gyyst-prd-wus2-iva-api-duration-mns
+

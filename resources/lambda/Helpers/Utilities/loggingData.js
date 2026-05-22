@@ -59,7 +59,7 @@ function GetJSONTemplate() {
             "transfer": ""
         },
         "attributesCTIData": {
-            "policyType": "",
+          
             "ANI": ""
         }
     };
@@ -82,6 +82,7 @@ const UpdateLogData = function(intentRequest,DialogActionType, messages) {
     let cxiSession = sessionHelper.CxiSession;
     let ctiData = sessionHelper.CtiData; 
     let cxiarrayObj = sessionHelper.cxidetailArr;
+    
     
     appSession.appSessionObj.attr_IVAFlowExitReason = appSession.appSessionObj.cxiAgentReq == "true"? "Agent Request":appSession.appSessionObj.recogFail == process.const.STR_True?"Max Attempts":cxiSession.cxiSessionObj.exitType == process.const.Cxi_BE_Failure?"App Error":appSession.appSessionObj.dbFail == process.const.STR_True?"DB Failure_"+appSession.appSessionObj.webServiceId:appSession.transfer == process.const.STR_True?"Transfer By Design":"UNKNOWN";
     cxiSession.cxiSessionObj.attr_LexBotExitReason = appSession.appSessionObj.cxiAgentReq == "true"? "Agent Request":appSession.appSessionObj.recogFail == process.const.STR_True?"Max Attempts":cxiSession.cxiSessionObj.exitType == process.const.Cxi_BE_Failure?"App Error":appSession.appSessionObj.dbFail == process.const.STR_True?"DB Failure_"+appSession.appSessionObj.webServiceId:appSession.transfer == process.const.STR_True?"Transfer By Design":"UNKNOWN";
@@ -141,7 +142,6 @@ const UpdateAttributesData = function (appSession,cxiSession,intentRequest) {
     attributesDataObj.attr_CHCallerGoal = appSession.appSessionObj.callerHistoryCallerGoal == undefined ? "UNKNOWN" : appSession.appSessionObj.callerHistoryCallerGoal;
     attributesDataObj.attr_TailoredTreatment = appSession.appSessionObj.ttOffered == process.const.STR_True ? "Y" : "N";
     attributesDataObj.attr_TailoredTreatmentFlow = appSession.appSessionObj.ttOfferedPrompt == undefined ? "UNKNOWN" : appSession.appSessionObj.ttOfferedPrompt;
-    
     return attributesDataObj;
 };   
 
@@ -166,7 +166,7 @@ const UpdateIntentData = function(loggerInfo,intentRequest, appSession, cxiSessi
 
     intentDataObj.invocationSource = intentRequest.invocationSource;
     intentDataObj.nluConfidence = this.GetConfidenceScore(intentRequest);
-    intentDataObj.turnCount = appSession.fallBackCounter!= undefined||appSession.fallBackCounter!=null ?parseInt(appSession.fallBackCounter,10):'';
+    intentDataObj.turnCount = !appSession.fallBackCounter ? 0 :parseInt(appSession.fallBackCounter,10);
     intentDataObj.state = intentRequest.sessionState.intent.state;
     intentDataObj.routeMapping = cxiSession.cxiSessionObj.routeMapping != undefined ? cxiSession.cxiSessionObj.routeMapping : '';
     intentDataObj.nextStateName = appSession.nextStateName != undefined ? appSession.nextStateName : '';
@@ -203,8 +203,8 @@ const UpdatestateDataObj = function(intentRequest,stateDetailsDataArray,appSessi
          let stateObject = {};  
          stateObject.apiDetails =[];
          stateObject.slots = [];//this.UpdateSlotsData(intentRequest, stateDetailsDataArray,appSession);
-    //   console.info(cxiSession.cxiSessionObj.cxiAPIDetails.length);
-    //   logger.info(cxiSession.cxiSessionObj.cxiAPIDetails.length);
+     
+      //logger.info("---enter cxi api details---",cxiSession.cxiSessionObj.cxiAPIDetails.length);
       
       for (let i = 0; i < cxiSession.cxiSessionObj.cxiAPIDetails.length; i++)
       {
@@ -213,7 +213,7 @@ const UpdatestateDataObj = function(intentRequest,stateDetailsDataArray,appSessi
       stateObject.type = "api lookup";
       stateObject.result = cxiSession.cxiSessionObj.result != undefined ? cxiSession.cxiSessionObj.result :'';
       stateObject.dialogAction = "";//DialogActionType = DialogActionType == "ElicitIntentActiveContext" ? "ElicitIntent" : DialogActionType;
-      stateObject.content = " ";//messages[0].content;
+      stateObject.content = "";//messages[0].content;
       stateObject.nextStateName = appSession.nextStateName;
       
       stateObject.apiDetails.push(this.UpdateAPIDetailsData(cxiSession.cxiSessionObj.cxiAPIDetails[i]));
@@ -238,11 +238,12 @@ const UpdatestateDataObj = function(intentRequest,stateDetailsDataArray,appSessi
        stateObject.type = "menu";
        stateObject.result = cxiSession.cxiSessionObj.result != undefined ? cxiSession.cxiSessionObj.result :'';
        stateObject.dialogAction ="";// DialogActionType = DialogActionType == "ElicitIntentActiveContext" ? "ElicitIntent" : DialogActionType;
-       stateObject.content = " ";//messages[0].content;
+       stateObject.content = "";//messages[0].content;
        stateObject.nextStateName = appSession.nextStateName;  
         stateObject.slots.push(this.UpdateSlotsData(intentRequest,appSession,cxiSession.cxiSessionObj.cxiSlotDetails[j]));
         stateObject.attributes = this.UpdateAttributesData(appSession,cxiSession,intentRequest);
         
+         
         }
         stateDetailsDataArray.push(stateObject);
         }
@@ -319,5 +320,5 @@ module.exports = {
     UpdateLogData,
     GetConfidenceScore,
     UpdateSlotsData,
-    UpdateAPIDetailsData,
+    UpdateAPIDetailsData
 };

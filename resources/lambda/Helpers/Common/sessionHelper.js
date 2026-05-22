@@ -12,6 +12,7 @@
 //     }
 //     return sessionObj;
 // };
+
 const SetSession = function (sessionAttributesStr) {
     let sessionObj = {};
 
@@ -35,6 +36,9 @@ const SetSession = function (sessionAttributesStr) {
 
     return sessionObj;
 };
+
+
+
 const GetSession = function (sessionObj) {
     let tempObjArr = [];
 
@@ -182,11 +186,11 @@ exports.AppSession = {
     get audioStartTimeOut() {
         return this.appSessionObj.audioStartTimeOut;
     },
-    set dtmfEndTimeOut(value) {
-        this.appSessionObj.dtmfEndTimeOut = value;
+    set dtmfTimeOut(value) {
+        this.appSessionObj.dtmfTimeOut = value;
     },
-    get dtmfEndTimeOut() {
-        return this.appSessionObj.dtmfEndTimeOut;
+    get dtmfTimeOut() {
+        return this.appSessionObj.dtmfTimeOut;
     },
     set audioEndTimeOut(value) {
         this.appSessionObj.audioEndTimeOut = value;
@@ -194,11 +198,29 @@ exports.AppSession = {
     get audioEndTimeOut() {
         return this.appSessionObj.audioEndTimeOut;
     },
+    set fallBackState(value) {
+        this.appSessionObj.fallBackState = value;
+    },
+    get fallBackState() {
+        return this.appSessionObj.fallBackState;
+    },
+    set dialogActionType(value) {
+        this.appSessionObj.dialogActionType = value;
+    },
+    get dialogActionType() {
+        return this.appSessionObj.dialogActionType;
+    },
     set bargeIn(value) {
         this.appSessionObj.bargeIn = value;
     },
     get bargeIn() {
         return this.appSessionObj.bargeIn;
+    },
+    set callingMod(value) {
+        this.appSessionObj.callingMod = value;
+    },
+    get callingMod() {
+        return this.appSessionObj.callingMod;
     },
     set logLevel(value) {
         this.appSessionObj.logLevel = value;
@@ -265,11 +287,11 @@ exports.CxiSession = {
     set callPath(value) {
         this.cxiSessionObj.callPath = value;
     },
-    set pegPath(value) {
-        this.cxiSessionObj.pegPath = value;
-    },
     get pegPath() {
         return this.cxiSessionObj.pegPath;
+    },
+    set pegPath(value) {
+        this.cxiSessionObj.pegPath = value;
     }
 };
 
@@ -309,4 +331,10 @@ exports.cxidetailArr = {
     set slotDetails(obj) {
         this.slotDetailarr.push(obj);
     },
+
 };
+
+
+
+
+

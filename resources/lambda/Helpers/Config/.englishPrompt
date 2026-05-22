@@ -1,84 +1,358 @@
+scg_ccc_menu_2335_main_04_AnythingElse = Is there anything else I can help you with today?
 scg_ccc_prmt_1000_init_07_CommonBEFailure = Sorry, an unexpected error occurred.
-scg_ccc_prmt_7000_auth_02_CommonRetry1 = I didn’t get that <break time = "0.2s"/>
-scg_ccc_prmt_7000_auth_03_CommonRetry2 = I Still didn’t get that <break time = "0.2s"/>
-scg_ccc_menu_1014_init_01_AddressConfirmation = Based on your phone number, it looks like the address starts with <break time = "0.2s"/>  
-scg_ccc_menu_1014_init_01_AddressConfirmationYN =  <break time = "0.2s"/> If that's the address you're calling about, say "yes"<break time="0.1s"/> Otherwise, say "no".
-scg_ccc_prmt_1014_init_04_AddrFound = Our records indicate the cell phone number, associated with this account, is <break time = "0.2s"/>
-scg_ccc_menu_1014_init_06_CellPhnConfirmation = <break time = "0.2s"/> To confirm the cell phone number,  say “Yes”<break time="0.1s"/> Otherwise, to provide a different cell phone number  say “No”.
-scg_ccc_menu_ninm1_1014_init_07_CellPhnConfirmation = To confirm the cell phone number, say “Yes” or press 1<break time="0.1s"/> Otherwise, to provide a different cell phone number say “No” or press 2.
-scg_ccc_menu_ninm2_1014_init_08_CellPhnConfirmation = To confirm the cell phone number, press 1”<break time="0.1s"/> Otherwise, to provide a different cell phone number, press 2. 
-scg_ccc_prmt_1014_init_05_AddrNotFound = Unfortunately, we're unable to match the address<break time="0.1s"/> One moment while I transfer you to the main menu.
-scg_ccc_menu_ninm1_1014_init_02_AddressConfirmation = Based on your phone number, it looks like the address starts with
-scg_ccc_menu_ninm1_1014_init_02_AddressConfirmationYN = If that's the address you're calling about, say “Yes” or press 1<break time="0.1s"/> Otherwise, say “No” or press 2.
-scg_ccc_menu_ninm2_1014_init_03_AddressConfirmation = Based on your phone number, it looks like the address starts with 
-scg_ccc_menu_ninm2_1014_init_03_AddressConfirmationYN =  If that's the address you're calling about, press 1, Otherwise, press 2<break time="0.1s"/>
-scg_ccc_collect_1016_init_01_CellPhnCollection = Please say the cell phone number associated with the account, starting with the area code or say “I don’t have one”.
-scg_ccc_collect_ninm1_1016_init_02_CellPhnCollection = Please say or enter the cell phone number associated with the account, starting with the area code otherwise say “I don’t have one” or press 1.
-scg_ccc_collect_ninm2_1016_init_03_CellPhnCollection = Please enter  the cell phone number associated with the account, starting with the area code or press 1 if you don’t have one.
-scg_ccc_prmt_1016_init_04_CellPhoneConfirmation = To confirm, that number is <break time = "0.2s"/>
-scg_ccc_menu_1016_init_05_CellPhoneConfirmation = <break time = "0.2s"/> Is that correct? say "yes", otherwise say "no"<break time="0.1s"/> To hear it again, say ‘repeat.’
-scg_ccc_menu_ninm1_1016_init_06_CellPhoneConfirmation = If that's correct, say Yes or press 1 otherwise say No or press 2<break time="0.1s"/> To hear it again, say Repeat that or press 3.
-scg_ccc_menu_ninm2_1016_init_07_CellPhoneConfirmation = If that's correct, press 1 for “Yes” or press 2 for "No"<break time="0.1s"/> To hear it again, press 3 to "repeat that".
-scg_ccc_prmt_1016_init_08_CellNumberUpdated = The Cell Phone number has been updated.
-scg_ccc_prmt_1015_init_02_AuthVerToSAPPhoneConfirmation = Thank you for confirming the cell phone number.
-scg_ccc_prmt_1015_init_01_AuthVerToSAPCellPhnNotUpdate = Unfortunately, we're unable to update the Cell Phone number.
-scg_ccc_prmt_1016_init_09_CellNumberNotUpdated = Unfortunately, we're unable to update the Cell Phone number.
-scg_ccc_prmt_7000_auth_04_CommonHoldOn = Please hold while we retrieve that account information.
-scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = To confirm, you’re not sure about the street number<break time="0.1s"/> Is that correct?
-scg_ccc_menu_ninm1_7004_auth_05_StreetNumberDontKnow = If you're not sure about the street number, say 'yes' or press 1, otherwise say 'no' or press 2.
-scg_ccc_menu_ninm2_7004_auth_06_StreetNumberDontKnow = If you're not sure about the street number, press 1, otherwise press 2.
-scg_ccc_menu_7005_auth_01_StreetNumberConfirmation = To confirm, that number is <break time = "0.2s"/>
-scg_ccc_menu_7005_auth_01_StreetNumberConfirmationYN = Is that correct?
-scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmation =  You said <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7005_auth_03_StreetNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
-scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmation = You said <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7005_auth_04_StreetNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
-scg_ccc_prmt_7005_auth_05_StreetNumberNotMatch = The street number does not match an existing account<break time="0.1s"/> <break time = "0.2s"/>
-scg_ccc_collect_7006_auth_01_AccountNumberMS = If you don't currently have service with us, say 'new customer'<break time="0.1s"/> Otherwise, please say the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it'<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
-scg_ccc_collect_7006_auth_02_AccountNumber = Please say the full 10- or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it'<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
-scg_ccc_collect_ninm1_7006_auth_03_AccountNumberMS = If you don't currently have service with us, say 'new customer' or press 1<break time="0.1s"/> Otherwise, please say or enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it' or press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
-scg_ccc_collect_ninm2_7006_auth_04_AccountNumberMS = If you don't currently have service with us, press 1<break time="0.1s"/> Otherwise, please enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
-scg_ccc_collect_ninm1_7006_auth_05_AccountNumber = Please say or enter the full 10, or 11-digit account number<break time="0.1s"/> If you don't have the account number, say 'I don't have it' or press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'.
-scg_ccc_collect_ninm2_7006_auth_06_AccountNumber =  Please enter the full 10- or 11-digit account number<break time="0.1s"/> If you don't have the account number, press 2<break time="0.1s"/> If you need a moment to find it, say 'hold on'
-scg_ccc_prmt_7006_auth_14_AccountNumberNotMatch = The number does not match an existing account<break time="0.1s"/> Please try again <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmation =  You said <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7006_auth_12_AccountNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
-scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmation = You said <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7006_auth_13_AccountNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
-scg_ccc_prmt_7000_auth_01_PhoneNumberRecognize = Your phone number was recognized <break time = "0.2s"/>
-scg_ccc_collect_7002_auth_01_PhoneNumberMS = Please say the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, say 'new customer'. <break time="2s"/> If you don't know the phone number listed on the account, say 'I don't know it'.
-scg_ccc_collect_ninm1_7002_auth_05_PhoneNumber =  Please say or enter the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, say 'I don't know it' or press 1.
-scg_ccc_collect_ninm2_7002_auth_06_PhoneNumber =  Please enter the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, press 1.
-scg_ccc_collect_ninm1_7002_auth_03_PhoneNumberMS = Please say or enter the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, say 'new customer' or press 1. <break time="2s"/> If you don't know the phone number listed on the account, say 'I don't know it' or press 2.
-scg_ccc_collect_ninm2_7002_auth_04_PhoneNumberMS = Please enter the phone number associated with this account starting with the area code. <break time="3s"/> If you're a new customer and don't have an account yet, press 1. <break time="2s"/> If you don't know the phone number listed on the account, press 2.
-scg_ccc_collect_7002_auth_02_PhoneNumber = Please say the phone number associated with this account starting with the area code. <break time="3s"/> If you don't know the phone number listed on the account, say 'I don't know it'.
-scg_ccc_collect_7004_auth_01_StreetNumber = Now, please say just the street number of the address you're calling about<break time="0.1s"/> If you're not sure, say 'I don't know it'.
-scg_ccc_collect_ninm1_7004_auth_02_StreetNumber = Please say or enter the street number of the address you're calling about<break time="0.1s"/> If you're not sure, say 'I don't know it'.
-scg_ccc_collect_ninm2_7004_auth_03_StreetNumber = Please enter the street number of the address you're calling about.
-scg_ccc_menu_7002_auth_07_PhoneNumberConfirmation = Ok. You said <break time = "0.2s"/>
-scg_ccc_menu_7002_auth_07_PhoneNumberConfirmationYN = Is that correct?
-scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmation = You said <break time = "0.2s"/>
-scg_ccc_menu_ninm1_7002_auth_08_PhoneNumberConfirmationYN = If that's correct, say 'yes' or press 1, otherwise say 'no' or press 2<break time="0.1s"/> To repeat these options, say 'repeat' or press 7.
-scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmation = You said <break time = "0.2s"/>
-scg_ccc_menu_ninm2_7002_auth_09_PhoneNumberConfirmationYN = If that's correct, press 1, otherwise press 2<break time="0.1s"/> To repeat these options, press 7.
-scg_ccc_prmt_7003_auth_01_PhoneNumberNotMatch = The phone number does not match an existing account. 
-scg_ccc_menu_7003_auth_02_DifferentPhoneNumber = To try a different phone number, say 'yes'<break time="0.1s"/> If you don't know the phone number associated with this account, say 'I don't know it'.
-scg_ccc_menu_ninm1_7003_auth_03_DifferentPhoneNumber = To try a different phone number, say 'yes' or press 1, otherwise say 'I don't know it' or press 2.
-scg_ccc_menu_ninm2_7003_auth_04_DifferentPhoneNumber = To try a different phone number, press 1, otherwise press 2.
-scg_ccc_menu_7004_auth_04_StreetNumberDontKnow = To confirm, you’re not sure about the street number<break time="0.1s"/>  Is that correct?
-scg_ccc_menu_7006_auth_11_AccountNumberConfirmation = Ok<break time="0.1s"/> You said <break time = "0.2s"/>
-scg_ccc_menu_7006_auth_11_AccountNumberConfirmationYN = Is that correct? 
-scg_ccc_prmt_7000_auth_05_CommonTryDiffWay = Let's try this a different way <break time = "0.2s"/>
-scg_ccc_menu_7001_auth_01_AddressConfirmation = Based on your phone number, it looks like the address starts with <break time = "0.2s"/>
-scg_ccc_menu_7001_auth_01_AddressConfirmationYN = Is that correct?
-scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmation = If you're calling about the address starting with
-scg_ccc_menu_ninm1_7001_auth_02_AddressConfirmationYN = <break time = "0.2s"/> say 'yes' or press 1, otherwise say 'no' or press 2.
-scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmation = If you're calling about the address starting with
-scg_ccc_menu_ninm2_7001_auth_03_AddressConfirmationYN = <break time = "0.2s"/> press 1, otherwise press 2.
-scg_ccc_prmt_7006_auth_09_WaitAndContinueDisconnect = This call will now be disconnected<break time="0.1s"/> Please call us back when you have your account information<break time="0.1s"/> If you can’t find it, you can still speak with our customer service team<break time="0.1s"/> Good bye.
-scg_ccc_prmt_7006_auth_10_WaitAndContinueSuccess = Ok<break time="0.1s"/> What is the account number?
-scg_ccc_prmt_7006_auth_07_WaitAndContinue = No problem<break time="0.1s"/> The account number is located at the top of the bill. <break time = "0.2s"/> When ready to move on, please press any key.
-scg_ccc_prmt_7009_auth_01_CommercialTransfer = Our technicians carry a variety of reasonably-priced parts and may be able to repair your gas equipment<break time="0.1s"/>  You would be billed for the charges
-scg_ccc_prmt_1016_init_10_CellNumberNotUpdated = Okay, the cell phone number has <break time = "0.2s"/> not been <break time = "0.2s"/> updated<break time="0.1s"/> Let’s continue.
-scg_ccc_menu_1004_init_01_EmergencyConfirmMenu = Just to confirm, are you calling about a gas emergency? Say "yes" or press 1<break time="0.1s"/> Otherwise, say "no" or press 2.
-scg_ccc_menu_ninm1_1004_Init_02_EmergencyConfirmMenu = If you are calling about a gas emergency? Say ""yes"" or press 1<break time="0.1s"/> Otherwise, say ""no"" or press 2.
+scg_ccc_prmt_2000_main_13_CommonRetry1 =  I didn't get that <break time="0.1s"/>
+scg_ccc_prmt_2000_main_14_CommonRetry2 =  I still  didn't get that <break time="0.1s"/>
+scg_ccc_menu_2000_main_01_ChangeService       = To start new service, say "Start“.  <break time="0.1s"/> To move or stop existing service, say "Move“. <break time="0.1s"/> To restore the service, or for fumigation, say "Restore or Fumigation". <break time="0.1s"/> To hear more options, say "More Options.”
+scg_ccc_menu_ninm1_2000_main_02_ChangeService = To start new service, say "Start“ or press 1. <break time="0.1s"/> To move or stop existing service, say "Move“ or press 2. <break time="0.1s"/> To restore the service, or for fumigation, say "Restore or Fumigation or press 3. <break time="0.1s"/> To hear more options, say "More Options" or press 4.
+scg_ccc_menu_ninm2_2000_main_03_ChangeService = To start new service,  press 1. <break time="0.1s"/> To move or stop existing service, press 2. <break time="0.1s"/> To restore the service, or for fumigation, press 3. <break time="0.1s"/> To hear more options, press 4.
+scg_ccc_prmt_2000_main_04_StartServiceConf = Of course.<break time="0.1s"/> I can assist you with Starting Service..<break time="0.1s"/>
+scg_ccc_prmt_2200_main_04_ConfirmStopServ = Of course,<break time="0.1s"/> I can assist you to stop Service.
+scg_ccc_prmt_2200_main_05_ConfirmMoveServ = Of course.<break time="0.1s"/> I can assist you to Move Service <break time="0.2s"/>
+scg_ccc_prmt_2201_main_01_IntialMoveSMS = You can also complete the move service process online at  So Cal Gas dot com <break time = "0.2s"/>, We can send a text message with the weblink. Message and data rates may apply <break time="0.2s"/>
+scg_ccc_menu_2200_main_01_MoveStop = To stop service at your current address only, say "Stop". <break time="0.1s"/> To move service from your current address to your new address, say "Transfer". <break time="0.1s"/> For all other matters, say "other matters".
+scg_ccc_menu_ninm1_2200_main_02_MoveStop =  To stop service at your current address only,<break time="0.1s"/> say 'Stop' or press 1.<break time="0.1s"/>  To move service from your current address to your new address,<break time="0.1s"/> say 'transfer' or press 2.<break time="0.1s"/> For all other matters, say "Other Matters" or press 3.  To repeat these options,<break time="0.1s"/> say 'repeat or press 7.<break time="0.1s"/>  To return to the previous menu,<break time="0.1s"/> say 'previous' or press 8.<break time="0.1s"/>  To return to the Main Menu,<break time="0.1s"/> say 'main menu' <break time="0.1s"/> or press 9.
+scg_ccc_menu_ninm2_2200_main_03_MoveStop = To stop service at your current address only,<break time="0.1s"/> press 1.  To move service from your current address to your new address,<break time="0.1s"/> press 2.For all other matters, press 3.<break time="0.1s"/> To repeat these options,<break time="0.1s"/> press 7.  To return to the previous menu,<break time="0.1s"/> press 8.  To return to the Main Menu,<break time="0.1s"/>  press 9
+scg_ccc_menu_2500_main_01_FumigationReconnect = For fumigation related help, say "Fumigation." <break time="0.1s"/> To restore service that has been disconnected for non-payment, say "Restore”. <break time="0.1s"/> For any other service restoration questions, say "Other Matters".
+scg_ccc_menu_2000_main_07_ChangeServiceMoreOptions = For new construction,<break time="0.1s"/> say 'new construction'. To check, change, or cancel a request to stop service,<break time="0.1s"/> say 'check, change, or cancel'.<break time="0.1s"/> For other matters,<break time="0.1s"/> say 'other matters'.
+scg_ccc_menu_ninm1_2000_main_08_ChangeServiceMoreOptions = For new construction,<break time="0.1s"/> say "Construction" or press 1.<break time="0.1s"/> To check, change, or cancel a scheduled stop service request,<break time="0.1s"/> say "Check ,Change OR Cancel" or <break time="0.1s"/> press 2. For all other matters, say "Other Matters" or press 3. To repeat these options, <break time="0.1s"/>say "Repeat" or<break time="0.1s"/> press 7. To return to the Main Menu,<break time="0.1s"/> say "MAIN MENU" or <break time="0.1s"/> press 9.
+scg_ccc_menu_ninm2_2000_main_09_ChangeServiceMoreOptions = For New Construction,<break time="0.1s"/> press 1. To check, change, or cancel a scheduled stop service request, <break time="0.1s"/> press 2. For all other matters,<break time="0.1s"/> press 3.  To repeat these options,<break time="0.1s"/> press 7.  To return to the Main Menu,<break time="0.1s"/> press 9.
+scg_ccc_menu_ninm1_2500_main_02_FumigationReconnect = For Fumigation, say "fumigation" or press 1. <break time="0.1s"/> To restore service that has been disconnected for non-payment, say "Restore” or press 2. <break time="0.1s"/> For any other service restoration questions, say "other matters" or press 3. <break time="0.1s"/> To repeat these options, say "repeat" or press 7.  <break time="0.1s"/> To return to the previous menu, say "previous" or press 8. <break time="0.1s"/> To return to the Main Menu, say "main menu" or press 9.
+scg_ccc_menu_ninm2_2500_main_03_FumigationReconnect = For Fumigation, press 1. <break time="0.1s"/> To restore service that has been disconnected for non-payment, press 2. <break time="0.1s"/> For any other service restoration questions, press 3 . <break time="0.1s"/> To repeat these options, press 7.  <break time="0.1s"/> To return to the previous menu, press 8. <break time="0.1s"/> To return to the Main Menu, press 9 .
+scg_ccc_menu_2501_main_01_FNP =  If you haven't paid the full amount shown on the notice, we can't restore your service. If you need to make a payment, say Payment.<break time="0.1s"/> If you've already paid and want to get your service back, say Restore.<break time="0.1s"/> If you're unsure about how much you owe, say Details.
+scg_ccc_menu_2501_main_02_FNPMenu_ampSw = If service has been disconnected for non-payment you may be eligible to qualify for the Residential Past Due Bill Forgiveness through Arrearage Management Plan. This is a debt forgiveness payment plan for CARE customers with past due bills. To see if the account qualifies, say "Forgiveness". <break time="0.1s"/> To restore service, say “Restore”.
+scg_ccc_menu_ninm1_2501_main_05_FNP     = If service has been disconnected for non-payment you may be eligible to qualify for the Residential Past Due Bill Forgiveness through Arrearage Management Plan. This is a debt forgiveness payment plan for CARE customers with past due bills. To see if the account qualifies, say "forgiveness" or press 1. <break time="0.1s"/> To restore service, say “Restore” or press 2. <break time="0.1s"/> To repeat these options, say "repeat" or press 7. <break time="0.1s"/> To return to the previous menu, say "previous" or press 8. <break time="0.1s"/> To return to the Main Menu, say "main menu" or press 9.
+scg_ccc_menu_ninm2_2501_main_06_FNP     = If service has been disconnected for non-payment you may be eligible to qualify for the Residential Past Due Bill Forgiveness through Arrearage Management Plan. This is a debt forgiveness payment plan for CARE customers with past due bills. To see if the account qualifies, press 1. <break time="0.1s"/> To restore service, press 2. <break time="0.1s"/> To repeat these options, press 7. <break time="0.1s"/>  To return to the previous menu, press 8. <break time="0.1s"/> To return to the Main Menu, press 9.
+scg_ccc_menu_ninm1_2501_main_03_FNP = The total amount due, as shown on the notice, must be paid before service can be restored.  If you haven't yet paid that amount, the representative will not be able to help you.  To make a payment, say 'payment' or press 1.  If you have made the payment and are calling to restore service, say 'restore' or press 2.  If you need the total amount due to restore service, say 'details' or press 3. To repeat these options, say 'repeat' or press 7.  To return to the previous menu, say 'previous' or press 8. To return to the Main Menu, say 'main menu' or press 9.
+scg_ccc_menu_ninm2_2501_main_04_FNP = The total amount due, as shown on the notice, must be paid before service can be restored.  If you haven't yet paid that amount, the representative will not be able to help you.  To make a payment press 1.  If you have made the payment and are calling to restore service, press 2.  If you need the total amount due to restore service, press 3.  To repeat these options, press 7.  To return to the previous menu, press 8. To return to the Main Menu, press 9.
+scg_ccc_prmt_2502_main_01_Restore = The restoration of utility service should occur within one business day for field reconnections, except in situations related to safety concerns or extreme weather conditions. If SoCalGas does not meet this timeframe, you may file a complaint with the California Public Utilities Commission. Information for filing a complaint is provided on the last page of your bill under the “Policies and Notices” section.
+scg_ccc_prmt_2502_main_01_PayDueAmount = Based on your account information, the total amount due must be paid before service can be restored,<break time=".5s"/>
+scg_ccc_prmt_2502_main_02_DueBillAmount = The total amount due to restore service is <break time=".5s"/>
+scg_ccc_prmt_2502_main_03_AddFNPAmount = This includes the past-due balance of <break time=".5s"/>
+scg_ccc_prmt_2502_main_04_DepositAmount= a deposit of <break time=".5s"/>
+scg_ccc_prmt_2502_main_05_AdditionalFees =  However additional fees may be required <break time=".5s"/>
+scg_ccc_prmt_2502_main_06_DueAmountPaid = The total amount due takes into account the <break time=".5s"/>
+scg_ccc_prmt_2502_main_07_PaymentsDay =  in payments made through today <break time=".5s"/>
+scg_ccc_menu_2503_main_01_PostFNP       = To hear that information again, say "Hear Details." <break time="0.1s"/> For anything else, say "Other matters".
+scg_ccc_menu_ninm1_2503_main_02_PostFNP = To hear that information again, say "hear details" or press 1. <break time="0.1s"/> For anything else, say "Other matters" or press 2. <break time="0.1s"/> To repeat these options, say "repeat" or press 7. <break time="0.1s"/> To return to the Main Menu,  say "Main Menu" or press  9.
+scg_ccc_menu_ninm2_2503_main_03_PostFNP = To hear this information again, press 1. <break time="0.1s"/> For anything else, press 2. <break time="0.1s"/> To repeat these options, press 7. <break time="0.1s"/> To return to the Main Menu, press 9.
+scg_ccc_prmt_2300_main_01_CloseAccount = You've reach the Close Account self-service process.
+scg_ccc_prmt_2300_main_02_CompleteOrder = We need to collect information before transferring to a representative to complete the order.
+scg_ccc_menu_2301_main_01_NotStopService = Currently,<break time="0.1s"/>  there is no request to stop service for this address.<break time="0.1s"/>  If you want to stop service at your current address, say <break time="0.1s"/>  Yes. Otherwise, say No.
+scg_ccc_menu_ninm1_2301_main_02_NotStopService = Currently,<break time="0.1s"/> there is no request to stop service for this address.<break time="0.1s"/> If you want to stop service at your current address, say 'Yes' <break time="0.1s"/> or press 1. Otherwise say 'No' <break time="0.1s"/> or press 2.
+scg_ccc_menu_ninm2_2301_main_03_NotStopService = Currently,<break time="0.1s"/> there is no request to stop service for this address.<break time="0.1s"/> If you want to stop service at your current address, press 1.<break time="0.1s"/> Otherwise press 2.
+scg_ccc_prmt_2302_main_01_AddrCloseService = To verify, the street number for the address where you’d like to close service is <break time="0.2s"/>
+scg_ccc_menu_2302_main_02_Confirm = <break time="0.1s"/>Is that correct, say “Yes,” otherwise say “No”. To hear that information again, say 'hear details'. 
+scg_ccc_menu_ninm1_2302_main_03_Confirm = if that’s correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2302_main_04_Confirm =  Is that correct, press 1; otherwise, press 2. To hear it again press 3.
+scg_ccc_menu_2311_main_01_PropertyOwnerConfirm = Do you know the name of the property owner? Say 'yes', otherwise, say 'no'.
+scg_ccc_menu_ninm1_2311_main_02_PropertyOwnerConfirm = Do you know the name of the property owner?  If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2311_main_03_PropertyOwnerConfirm = Do you know the name of the property owner?If that's correct, press 1' otherwise, press 2 .
+scg_ccc_menu_2312_main_01_OwnerConfirm = Do you know the Complete address AND zip code of the property owner?  say "Yes" otherwise say "No".
+scg_ccc_menu_ninm1_2312_main_02_OwnerConfirm =  Do you know the Complete address AND zip code of the property owner?  Say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2312_main_03_OwnerConfirm = Do you know the Complete address AND zip code of the property owner?  Press 1 for “Yes” or  press 2 for “No”.
+scg_ccc_prmt_2330_main_21_BillingStopDate = Our records show the new occupant has already called to request service transferred to their name. Therefore, service will be taken out of your name and billing stopped on.
+scg_ccc_prmt_2303_main_02_Date = That date will work
+scg_ccc_menu_2304_main_01_StopServFum = Do you need to stop service for Fumigation ? Say "Yes", Otherwise, say "No".
+scg_ccc_menu_ninm1_2304_main_02_StopServFum = Do you need to stop service for fumigation?  If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2304_main_03_StopServFum = Do you need to stop service for fumigation?  If that's correct, press 1, otherwise, press 2 .
+scg_ccc_prmt_2305_main_01_OrderSchlnumber=Please note, once the order is scheduled a confirmation number will be provided.
+scg_ccc_prmt_2305_main_02_StopServHoliday=We require two business days notice from today to stop service excluding weekends and holidays.
+scg_ccc_prmt_2305_main_03_BillingName=The earliest day we can stop billing in your name is <break time="0.2s"/>
+scg_ccc_menu_2305_main_04_AcceptDate = Do you accept this date?   Say ‘Yes’, otherwise say ‘No’.  To hear that information again say 'hear details'.
+scg_ccc_menu_ninm1_2305_main_05_AcceptDate = Do you accept this date?  Say 'yes' or press 1,  otherwise, say 'no' or press 2.  To hear it again, say 'hear details' or press 3
+scg_ccc_menu_ninm2_2305_main_06_AcceptDate = Do you accept this date?  If yes, Press 1. otherwise, press 2 .  To hear it again, press 3.
+scg_ccc_collect_2306_main_01_StopBillName= Please say or enter the date, within the next 28 days, excluding weekends and holidays, you would like to stop billing in your name. For example, you can say, June 1st or key in 0-6-0-1<break time="0.1s"/> 
+scg_ccc_menu_2306_main_02_Previous = To hear that information again, say "hear details". To return to the previous menu to select the earliest date, say "previous".
+scg_ccc_menu_ninm1_2306_main_07_Previous=To hear that information again, say "hear details" or press 1. To return to the previous menu to select the earliest date, say "previous" or press 8.
+scg_ccc_menu_ninm2_2306_main_08_Previous=To hear that information again, press 1. To return to the previous menu to select the earliest date, press 8.
+scg_ccc_prmt_2306_main_03_StopBillName=To confirm, the date you would like to stop billing in your name is
+scg_ccc_menu_2306_main_04_Confirm=If it’s correct, say ‘Yes’, otherwise, say ‘No.’ To hear that information again, say 'hear details' 
+scg_ccc_menu_ninm1_2306_main_05_Confirm=If it’s correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2306_main_06_Confirm=   If that’s correct, press 1; otherwise, press 2. to hear it again, press 3.
+scg_ccc_prmt_2306_main_07_CheckDate=Checking that date
+scg_ccc_prmt_2307_main_01_StopBillingNextDt=Unfortunately, we’re unable to stop billing in your name on that date. The next available date we can stop billing in your name is
+scg_ccc_menu_2307_main_02_AcceptDt=Do you accept this date? Say ‘Yes’; otherwise, say ‘No’.  To hear it again, say ‘hear details’.
+scg_ccc_menu_ninm1_2307_main_03_AcceptDt=Do you accept this date?  Say 'yes' or press 1,  otherwise, say 'no' or press 2.  To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2307_main_04_AcceptDt= Do you accept this date?  If yes, Press 1; otherwise, press 2 .  To hear it again, press 3.’
+scg_ccc_menu_2308_main_01_OwnerConfirm=Are you the owner of the property?  say ‘Yes’ otherwise  say ‘No’.
+scg_ccc_menu_ninm1_2308_main_02_OwnerConfirm=Are you the owner of the property?  If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2308_main_03_OwnerConfirm=Are you the owner of the property?  If that's correct, press 1; otherwise, press 2 .
+scg_ccc_prmt_2317_main_01_PhNumAreaNum = Our records indicate the cell phone number associated with this account, is
+scg_ccc_menu_2317_main_02_Confirm = If that's correct, say "yes" otherwise  say "no". To hear that information again, say 'hear details'.
+scg_ccc_menu_ninm1_2317_main_03_Confirm = If that's correct, say ‘Yes’ or press 1; otherwise, say ‘No’ or press 2. To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2317_main_04_Confirm = If that's correct, press 1; otherwise, press 2; to hear that  again, press 3. 
+scg_ccc_collect_2318_main_01_PhNum = Please  say the cell phone number associated with the account, starting with the area code  or say I don’t have one.
+scg_ccc_collect_ninm1_2318_main_02_PhNum = Please say or enter the phone number associated with the account, starting with area code. Otherwise say, 'I don't have one' or press 1.
+scg_ccc_collect_ninm2_2318_main_03_PhNum = Please enter the phone number associated with the account, starting with area code or if you don't have one, press 1.
+scg_ccc_prmt_2318_main_04_PhNumConfirm = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_2318_main_05_Confirm = If that's correct, say "Yes" otherwise  say "No". To hear  it again, say 'hear details'.
+scg_ccc_menu_ninm1_2318_main_06_Confirm = If that's correct? Say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3. 
+scg_ccc_menu_ninm2_2318_main_07_Confirm = If that's correct ? if yes, press 1, otherwise, press 2. To hear it again, press 3.
+scg_ccc_prmt_2317_main_05_NotCellNumRecords = Our records indicate that we do not have a cell phone number associated with this account <break time = "0.2s"/>
+scg_ccc_prmt_2314_main_01_PhNumAccount = Our records indicate the business phone number associated with this account, is <break time = "0.2s"/>
+scg_ccc_prmt_2314_main_02_Extension = <break time = "0.2s"/> extension 
+scg_ccc_menu_2314_main_03_Confirm = If that's correct, say "Yes" otherwise say "No". To hear that information again say 'hear details'.
+scg_ccc_menu_ninm1_2314_main_04_Confirm = If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3
+scg_ccc_menu_ninm1_2314_main_05_Confirm = If that's correct, press 1, otherwise, press 2. To hear it again, press 3.
+scg_ccc_prmt_2314_main_06_RecordPhNotAcct = Our records indicate that we do not have a business phone number associated with this account. <break time = "0.2s"/>
+scg_ccc_collect_2315_main_01_PhnumAcctInput = Please  say the business phone number associated with this account, starting with the area code, or if you don’t have the one, say "I don't have one."
+scg_ccc_collect_ninm1_2315_main_02_PhNum =  Please say or enter the business phone number associated with this account, starting with the area code, or if you don’t have, say “I don’t have one” or press 1.
+scg_ccc_collect_ninm2_2315_main_03_PhNum = Please enter the business phone number associated with this account, starting with the area code, or if you don’t have one, press 1.
+scg_ccc_prmt_2315_main_04_Phnumconf = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_2315_main_05_Confirmation = If that's correct, say 'yes', otherwise, say 'no'. To hear that information again, say 'hear details'.
+scg_ccc_menu_ninm1_2315_main_06_Confirm = If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2315_main_07_Confirm = if yes, press 1, if not, press 2. To hear it again, press 3.
+scg_ccc_menu_2315_main_08_ExtensionConfirm = Is there an extension? say 'yes', otherwise, say 'no'.
+scg_ccc_menu_ninm1_2315_main_09_ExtensionConfirm =  Is there an extension, say 'yes' or press 1, or say 'no' or press 2. 
+scg_ccc_menu_ninm2_2315_main_10_ExtensionConfirm = Is there an extension, if yes, press 1, if not, press 2.
+scg_ccc_collect_2316_main_01_ExtensionNum = Please say or enter the extension for the business phone number, otherwise say "I don't have one."
+scg_ccc_collect_ninm1_2316_main_02_ExtensionNum = Please say or enter the extension for the business phone number, or say "I don't have one" or press 1.
+scg_ccc_collect_ninm2_2316_main_03_ExtensionNum = Please enter the extension for the business phone number or if you don’t have, press 1.
+scg_ccc_prmt_2316_main_04_PhNumExt = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_2316_main_05_Confirm = If that's correct, say 'yes', otherwise, say 'no'. To hear that information again, say 'hear details'.
+scg_ccc_prmt_2320_main_01_billsentEmail = Since you currently receive paperless bills, your final bill will be sent by email <break time = "0.1s"/>
+scg_ccc_prmt_2320_main_02_mailaddrs = Our records show you have a mailing address. Your final bill will be mailed to that address <break time = "0.1s"/>
+scg_ccc_prmt_2321_main_01_CloseDt = To confirm, we’re scheduling to take gas service out of your name on <break time = "0.1s"/>
+scg_ccc_prmt_2321_main_02_TagDoNotRemove =<break time = "0.1s"/> However, the gas may remain on for the new tenant. A tag will be left on the door for the next occupant. Please do not remove it <break time = "0.1s"/>
+scg_ccc_menu_2321_main_03_OrderAccept = Do you accept to schedule this order?  If so, say “Yes,” otherwise, say “No.” To hear that information again say "hear details".
+scg_ccc_menu_ninm1_2321_main_04_OrderAccept =  Do you accept to schedule this order?  say “Yes” or press 1, otherwise, say “No” or press 2, To hear it again say "hear details" or press 3.
+scg_ccc_menu_ninm2_2321_main_05_OrderAccept = Do you accept to schedule this order?. If that’s correct, press 1, otherwise, press 2, To hear it again press 3.
+scg_ccc_prmt_2321_main_06_Great = Great <break time = "0.1s"/>
+scg_ccc_prmt_2321_main_07_BillStopDt = Billing will stop on <break time = "0.1s"/>
+scg_ccc_prmt_2321_main_08_Beware = <break time = "0.1s"/> Please Make sure all gates or entryways are unlocked and dogs secured <break time = "0.1s"/>
+scg_ccc_prmt_2321_main_10_EmailBillProgress = As a reminder, your closing bill will be emailed to you in 1-2 weeks after billing has been taken out of your name.
+scg_ccc_prmt_2321_main_09_BillProgress = Your closing bill will be ready in 1-2 weeks after billing has been taken out of your name.
+scg_ccc_prmt_2322_main_01_ConfirmNum = Your order has been scheduled and the confirmation number is <break time = "0.2s"/>
+scg_ccc_prmt_2322_main_02_AgainConfirmNum = <break time = "0.2s"/>Again the confirmation number is <break time = "0.2s"/>
+scg_ccc_menu_2322_main_03_AnthingElseBill = To hear the confirmation number again, say "hear details". To receive your confirmation number via text message, say "text". To make a payment to your current balance, say "pay my bill". If you have everything you need, you can hang up at any time.
+scg_ccc_menu_ninm1_2322_main_04_AnthingElseBill = To hear the confirmation number again, say "hear details" or press 1, To receive your confirmation number via text message, say "text" or press 2, To make a payment to your current balance, say "pay my bill" or press 3, If you have everything you need, you can hang up at any time. <break time = "0.1s"/> To return to the Main Menu, say, "main menu" or press 9.
+scg_ccc_menu_ninm2_2322_main_05_AnthingElseBill = To hear the confirmation number again, press 1, To receive your confirmation number via text message, press 2, To make a payment to your current balance, press 3, If you have everything you need, you can hang up at any time. <break time = "0.1s"/> To return to the Main Menu, press 9.
+scg_ccc_menu_2322_main_07_AnthingElseBill = Is there anything else <break time = "0.1s"/> I can help you with today?
+scg_ccc_prmt_2322_main_08_SelfServiceEnd = If you have any other questions, we invite you to call back or visit our website, So Cal Gas dot com. <break time = "0.1s"/>Thank you, goodbye
+scg_ccc_menu_2323_main_01_BillMailAddr = Where would you like your final bill mailed?  To mail the final bill to the current mailing address, say ‘Current Address’.  To mail the final bill to a different address say ‘Change Address’.
+scg_ccc_menu_ninm1_2323_main_02_BillMailAddr = Where would you like your final bill mailed?<break time = "0.1s"/>  To mail the final bill to the current mailing address, say 'current address' or press 1,  To mail the final bill to a different address, say 'change address' or press 2 .
+scg_ccc_menu_ninm2_2323_main_03_BillMailAddr = Where would you like your final bill mailed? <break time = "0.1s"/> To mail the final bill to the current mailing address, press 1 ,  To mail the final bill to a different address, press 2.
+scg_ccc_menu_2323_main_01_BillMailAddr_New = Where would you like your final bill mailed? <break time = "0.1s"/> To mail the final bill to the current service address, say ‘Current Address’. To mail the final bill to the mailing address, say ‘Mailing Address’. To mail the final bill to a different address, say ‘Change Address’.
+scg_ccc_menu_ninm1_2323_main_02_BillMailAddr_New = Where would you like your final bill mailed? <break time = "0.1s"/> To mail the final bill to the current mailing address, say 'current address' or press 1.  To mail the final bill to the mailing address, say ‘Mailing Address’ or press 2.  To mail the final bill to a different address, say 'change address' or press 3.
+scg_ccc_menu_ninm2_2323_main_03_BillMailAddr_New = Where would you like your final bill mailed? <break time = "0.1s"/> To mail the final bill to the current mailing address, press 1 .  To mail the final bill to the mailing address, press 2. To mail the final bill to a different address, press 3.
+scg_ccc_prmt_2324_main_01_OrdrConfNumClsDt = To change the mailing address for the final bill, please stay on the line to speak with a representative and receive the order confirmation number.  To verify, we’re scheduling to take gas service out of your name on
+scg_ccc_menu_ninm1_2324_main_03_AccptSchedule = To accept the scheduling of this order, say 'yes' or press 1, otherwise, say 'no' or press 2, To hear it again say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2324_main_04_AccptSchedule = To accept the scheduling of this order. Press 1 , Otherwise, press 2, To hear it again press 3. 
+scg_ccc_menu_2324_main_02_AccptSchedule = <break time = "0.1s"/> To accept the scheduling of this order say "Yes",  Otherwise,  say "No", To hear that information again, say 'hear details' 
+scg_ccc_prmt_2324_main_05_CloseDt = Great. Service will be out of your name on 
+scg_ccc_prmt_2324_main_06_Beware = <break time = "0.1s"/> and billing stopped <break time = "0.1s"/> However, the gas may remain on for the new tenant,  A tag will be left on the door for the next occupant,  Please do not remove it,  Make sure all gates or entryways are unlocked and dogs confined,  One moment while I transfer you to a representative to enter a mailing address for your final bill,  Please note, if you hang up, the close order will still be scheduled,  If you are calling outside of our normal business hours and would like to make a change to the mailing address for your final bill, we invite you to call back.
+scg_ccc_menu_2326_main_01_SmartPhnConfirm = Are you calling from a smart phone, say “Yes” , otherwise  say “No”.
+scg_ccc_menu_ninm1_2326_main_02_SmartPhnConfirm = If you're calling from a smart phone, say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2326_main_03_SmartPhnConfirm =  If you calling from a smart phone, press 1, otherwise press 2 .
+scg_ccc_prmt_2326_main_04_WebLinkTxt = We can send a weblink via text message where mailing address can be entered to send the final bill,  Message and data rates may apply.
+scg_ccc_menu_2326_main_06_WebLinkConfirm = Would you like to receive the web link via text message? Say 'yes', otherwise, say 'no'.
+scg_ccc_menu_ninm1_2326_main_07_WebLinkConfirm =  Would you like to receive the web link via text message? Say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2326_main_08_WebLinkConfirm =  Would you like to receive the weblink via text message, if yes, press 1, otherwise press 2. 
+scg_ccc_prmt_2326_main_19_WebLinkPhNum = The weblink will be sent to <break time = "0.1s"/>
+scg_ccc_prmt_2326_main_20_waitcontin = <break time = "0.1s"/> Please continue to wait on the line
+scg_ccc_prmt_2326_main_05_WebLinkDiffPhnTxt = We can send a web link via text message to a different smart phone, where mailing address can be entered to send the final bill,  Message and data rates may apply.
+scg_ccc_menu_2326_main_09_SmartPhWebLinkConfim = <break time = "0.1s"/> Would you like to provide a smart phone number to receive the web link via text message? Say 'yes', otherwise, say 'no'.
+scg_ccc_menu_ninm1_2326_main_10_SmartPhWebLinkConfim =  Would you like to provide a smart phone number to receive the weblink via text message? Say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm2_2326_main_11_SmartPhWebLinkConfim =  Would you like to provide a smart phone number to receive the weblink via text message? If yes, press 1, otherwise  press 2. 
+scg_ccc_collect_2326_main_12_PhNum = Please say the 10 digit smart phone number.
+scg_ccc_collect_ninm1_2326_main_13_PhNum = Please say or enter the 10 digit smart phone number
+scg_ccc_collect_ninm2_2326_main_14_PhNum =  Please enter the 10 digit smart phone number.
+scg_ccc_prmt_2326_main_15_PhNumConfirm = To confirm, that number is <break time = "0.1s"/>
+scg_ccc_menu_2326_main_16_Confirm = <break time = "0.1s"/> If that’s correct, say ‘Yes’ <break time = "0.1s"/> Otherwise, say ‘No’.<break time = "0.1s"/>To hear that information again, say 'hear details' 
+scg_ccc_menu_ninm1_2326_main_17_Confirm = If that’s correct, say 'yes' or press 1, otherwise, say 'no' or press 2, To hear it again say 'hear details' or press 3. 
+scg_ccc_menu_ninm2_2326_main_18_Confirm = If that’s correct, press 1, otherwise, press 2, To hear it again press 3.
+scg_ccc_prmt_2326_main_21_ProcessIssue = There seems to be an issue with the smart phone processing, Let's continue here.  <break time = "0.2s"/>
+scg_ccc_collect_2325_main_01_FullAddr = Please say the complete address, including apartment or unit number if you have one.
+scg_ccc_collect_2325_main_06_StrNum = Let's try this a different way.<break time = "0.1s"/> Can I get just the street number?
+scg_ccc_collect_2325_main_06_StrNumNMNI = Can I get your Street Number?
+scg_ccc_collect_ninm1_2325_main_07_StrNum  = Please say or enter your street number  
+scg_ccc_collect_ninm2_2325_main_08_StrNum = Please enter your street number
+scg_ccc_collect_2325_main_09_StrName = Okay, Can I get the Street Name?
+scg_ccc_collect_ninm1_2325_main_10_StrName = Can I get the Street Name ?
+scg_ccc_collect_ninm2_2325_main_11_StrName = Can I get the Street Name ?
+scg_ccc_collect_2105_main_15_AptNumberOrUnit = If you have apartment number <break time = "0.1s"/> or unit, say yes <break time = "0.1s"/> otherwise, say “No”
+scg_ccc_collect_ninm1_2105_main_16_AptNumberOrUnit =If you have apartment number <break time = "0.1s"/> or unit, say yes or press 1 <break time = "0.1s"/> otherwise, say no or press 2.
+scg_ccc_collect_ninm2_2105_main_17_AptNumberOrUnit = If you have apartment number <break time = "0.1s"/> or unit, press 1 <break time = "0.1s"/> otherwise press 2
+scg_ccc_collect_2325_main_12_CityName = Okay, can I get just the city name?
+scg_ccc_collect_ninm1_2325_main_13_CityName = Can I get the City Name?
+scg_ccc_collect_ninm2_2325_main_14_CityName =  Can I get the City Name?
+scg_ccc_collect_2325_main_15_StateName = Okay, Can I get your State Name?
+scg_ccc_collect_ninm1_2325_main_16_StateName = Can I get your State Name?
+scg_ccc_collect_ninm2_2325_main_17_StateName = Can I get your State Name?
+scg_ccc_collect_2325_main_18_ZipCode = Okay, can I get just the zip code?
+scg_ccc_collect_ninm1_2325_main_19_ZipCode = Please say or enter your zip code?
+scg_ccc_collect_ninm2_2325_main_20_ZipCode = Please enter your zip code?
+scg_ccc_menu_2325_main_21_FullAddrConfirm = Okay, Your address is
+scg_ccc_menu_ninm1_2325_main_22_FullAddrConfirm = your address is
+scg_ccc_menu_ninm1_2325_main_23_FullAddrConfirm = Your address is
+scg_ccc_menu_2325_main_02_AddrConfirm = Okay. You said <break time = "0.1s"/>
+scg_ccc_menu_ninm1_2325_main_03_AddrConfirm = You said address <break time = "0.1s"/>
+scg_ccc_menu_ninm2_2325_main_04_AddrConfirm = You said address <break time = "0.1s"/>
+scg_ccc_prmt_2325_main_05_NotGetAddr = Unfortunately We were unable to capture the mailing address for the final bill <break time = "0.5s"/>
+scg_ccc_menu_ninm1_2325_main_03_AddrConfirm =  You said address
+scg_ccc_menu_2105_main_02_AddrConfirmCrt = <break time = "0.1s"/> is that correct ? 
+scg_ccc_menu_ninm1_2325_main_04_AddrConfirm_Crt = <break time = "0.1s"/> Is that correct? Say 'yes' or press 1, otherwise, say 'no' or press 2.
+scg_ccc_menu_ninm1_2325_main_05_AddrConfirm_Crt = <break time = "0.1s"/> Is that correct? If yes, press one,  Otherwise, press two.
+scg_ccc_prmt_2328_main_01_StopDt = Your service is scheduled to be stopped on <break time = "0.2s"/>
+scg_ccc_menu_2328_main_02_StopServExist = To reschedule, say “Reschedule”.<break time = "0.2s"/> To cancel the request to stop service, say “Cancel”.<break time = "0.2s"/> To hear that information again say "hear details". If you have everything you need, you can hang up at any time.<break time = "0.2s"/>
+scg_ccc_menu_ninm1_2328_main_03_StopServExist = To reschedule, say “Reschedule” or press 1. <break time = "0.1s"/> To cancel the request to stop service, say “Cancel” or press 2. <break time = "0.1s"/> If you have everything you need, you can hang up at any time. <break time = "0.1s"/> To hear that information again, say 'hear details' or press 3 .  <break time = "0.1s"/> To return to the previous menu, say "Previous" or press 4.  <break time = "0.1s"/> To return to the Main Menu, say "Main Menu" or press 9.
+scg_ccc_menu_ninm2_2328_main_04_StopServExist = To reschedule,  press 1. <break time = "0.1s"/> To cancel the request to stop service, press 2. <break time = "0.1s"/>  If you have everything you need, you can hang up at any time. <break time = "0.1s"/> To hear that information again, press 3 .  <break time = "0.1s"/> To return to the previous menu, press 4.  <break time = "0.1s"/> To return to the Main Menu, press 9.
+
+scg_ccc_prmt_2329_main_01_CancelStopDt = To confirm, you'd like to cancel your stop service request for 
+scg_ccc_menu_2329_main_02_Confrim =  If that's correct, say “Yes”.  To keep your appointment, say “No”. To hear that information again, say 'hear details'. 
+scg_ccc_menu_nimm1_2329_main_03_Confrim =  To confirm you'd like to cancel your stop service request, say ‘Yes’ or press 1; to keep your appointment, say ‘No’ or press 2. To hear that information again, say 'Hear Details' or press 3.
+scg_ccc_menu_nimm2_2329_main_04_Confrim = To confirm you'd like to cancel your stop service request, press 1; to keep your appointment, press 2. To hear that information again, press 3.
+scg_ccc_prmt_2329_main_06_StopServCancelNum = Your request to stop service has been cancelled and your service will remain on.  Your confirmation number is.<break time = "0.2s"/>
+scg_ccc_prmt_2329_main_07_StopServCancelConfirmNum = <break time = "0.2s"/> Again, your confirmation number is
+scg_ccc_menu_2329_main_08_AnthingElseStopServ = <break time = "0.4s"/> To hear the confirmation number again, say “hear details”. To receive your confirmation number via text message, say 'text'. If you have everything you need, you can hang up at any time.  
+scg_ccc_menu_ninm1_2329_main_09_AnthingElseStopServ = To hear the confirmation number again, say "hear details" or press 1. To receive your confirmation number via text message, say "text" or press 2. If you have everything you need, you can hang up at any time. To return to the main menu, say "main menu" or press 9.
+scg_ccc_menu_ninm2_2329_main_10_AnthingElseStopServ = To hear the confirmation number again, press 1. To receive your confirmation number via text message, press 2. If you have everything you need, you can hang up at any time. To return to the Main Menu, press 9
+scg_ccc_menu_2329_main_11_AnythingsElse = If you have everything you need, you can hang up whenever you’d like. Is there anything else I can help you with today?
+scg_ccc_prmt_2329_main_12_SelfServiceEnd = If you have any other questions, we invite you to call back or visit our website, So Cal Gas dot com. <break time = "0.1s"/>Thank you, goodbye
+scg_ccc_prmt_2329_main_05_SchStopDt = Your service is scheduled to be stopped on
+scg_ccc_menu_2335_main_01_AnythingElse = If you have everything you need, you can hang-up at any time. <break time = "0.1s"/> Is there anything else I can help you with today?
+scg_ccc_prmt_2100_main_06_DigitalDeflectionService = We are currently closed for non-emergency services ,however ,. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_01_NewConst = You will be transferred to a representative to continue the order, but first, we need to let you know the following. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_02_NewConst = We may request your Social Security Number to confirm your identity and obtain your credit report from Experian, a nationwide consumer reporting agency. You may also obtain your free credit report by calling Experian at 1-888-397-3742. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_03_MoveClose = You will be transferred to a representative to continue the order, but first, we need to let you know the following. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_04_BewareOf = Please make sure all gates and entryways are unlocked and dogs confined. <break time = "0.2s"/>
+scg_ccc_prmt_2100_main_05_Rebate = So Cal Gas offers help to customers who are income qualified, participate in certain public assistance programs, or have specific medical needs. To learn more about a CARE 20% bill discount, no cost home improvements through the Energy Savings Assistance Program, or a Medical Baseline allowance that provides additional gas billed at the lower baseline rate, visit So Cal Gas dot com and search "assistance programs" or ask our representative. <break time = "0.2s"/>
+scg_ccc_prmt_2104_main_01_NoCostServXfer = If you're moving, we can help you set up or transfer other home services, such as T.V., phone, and internet through a company called All Connect.  When we ask if you would like to be transferred to All Connect, simply say "yes", to take advantage of this no cost service or visit So Cal Gas dot com and search "move". <break time = "0.2s"/>
+scg_ccc_prmt_2104_main_02_NoCostServXfer = If you're moving, we can help you set up or transfer other home services, such as T.V., phone, and internet through a company called All Connect.  To take advantage of this no cost service,  visit So Cal Gas dot com and search "move". <break time = "0.2s"/>
+scg_ccc_menu_2101_main_09_DiffNumb = If you’re calling from a smart phone <break time = "0.1s"/> say 'Yes'. To receive the text message on a different smart phone,<break time = "0.1s"/> say 'Different Number'
+scg_ccc_prmt_2101_main_19_SMSProgress = Please continue to wait  on the line while the web link is sent to <break time = "0.1s"/>
+scg_ccc_prmt_2102_main_01_TextIssue = There seems to be an issue <break time = "0.2s"/> with the text message processing.
+scg_ccc_prmt_2102_main_02_WebLinkText = The web link was sent and should reach your smart phone shortly <break time = "0.1s"/>
+scg_ccc_prmt_2101_main_05_PTStartService = Before transferring you to a representative, we need to collect the new address where you'd like to start service <break time = "0.4s"/>
+scg_ccc_menu_2101_main_06_StartServiceAddr = To speak your address, say 'New Address.' To receive a text message with a weblink to enter the new service address, say 'Weblink'. To hear that information again, say 'hear details'.
+scg_ccc_prmt_2101_main_01_WebLink = You can also complete the start service process online at so cal gas dot com, We can send a text messsage with the weblink, Message and data rates may apply <break time = "0.1s"/>
+scg_ccc_menu_2101_main_02_StartServiceProcess = To complete the start service process online,<break time="0.1s"/> say 'Yes', otherwise,<break time="0.1s"/> say 'No'. To hear that information again,<break time="0.2s"/> say 'hear details'.
+scg_ccc_prmt_2000_main_10_NewConstConf = Of course.<break time="0.1s"/>  I can assist you with New Construction
+scg_ccc_prmt_2000_main_11_CloseCheckConf = Of course,<break time="0.1s"/>  I can assist you to check, change, or cancel a request to stop service <break time="0.1s"/>
+scg_ccc_prmt_2105_main_24_Address = The new service address was received and will be verified by a representative. <break time="0.1s"/>
+scg_ccc_prmt_main_configEmail =  <break time = "0.2s"/> If an email address is on file, a confirmation will be sent to that address.
+scg_ccc_menu_2336_main_01_PhNumConfirm = To receive the text message on the same number, say “Same Number”. Otherwise, to enter a different phone number, say “Different Number”.
+scg_ccc_menu_ninm1_2336_main_02_PhNumConfirm = To receive the text message on the same number, say “Same Number” or press 1. Otherwise, to enter a different phone number, say “Different Number” or press 2.
+scg_ccc_menu_ninm2_2336_main_03_PhNumConfirm = To receive the text message on the same number, press 1. Otherwise, to enter a different phone number, press 2.
+scg_ccc_collect_2336_main_04_DiffPhNum = Please say or enter the 10-digit smart phone number you’d like to receive the confirmation number via text message on.
+scg_ccc_collect_ninm1_2336_main_05_DiffPhNum = Please say or enter the 10-digit smart phone number you’d like to receive the confirmation number via text message on..
+scg_ccc_collect_ninm2_2336_main_06_DiffPhNum = Please enter the 10-digit smart phone number you’d like to receive the confirmation number via text message on.
+scg_ccc_prmt_2336_main_07_ConfirmPhnumMsg = To confirm, that number is  <break time = "0.2s"/>
+scg_ccc_menu_2336_main_08_Confirm = If that’s correct, say ‘Yes’  otherwise say ‘No’ , To hear that information again, say 'hear details'
+scg_ccc_menu_ninm1_2336_main_09_Confirm = If that’s correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear that information again, say 'hear details' or press 3
+scg_ccc_menu_nimm2_2336_main_10_Confirm = If that’s correct, press 1; otherwise, press 2.  To hear that information again, Press 3
+scg_ccc_prmt_2336_main_11_ConfNum = The confirmation number was sent and should reach your smart phone shortly <break time = "0.1s"/>
+scg_ccc_prmt_2336_main_12_TextIssue = There seems to be an issue with the text message processing.
+scg_ccc_menu_2101_main_12_PhNum = Please<break time = "0.1s"/>  say the 10-digit smart phone number <break time = "0.2s"/> you’d like to receive the weblink <break time = "0.2s"/> via text message on. To return to the previous menu, <break time = "0.2s"/> say ‘previous’
+scg_ccc_prmt_2101_main_15_PhConf = To confirm, that number is <break time = "0.2s"/>
+scg_ccc_menu_2101_main_16_PhConf = If that’s correct,<break time = "0.2s"/> say ‘Yes’ otherwise<break time = "0.2s"/> say ‘No.’ To hear that information again,<break time = "0.2s"/> say 'hear details'.
+scg_ccc_prmt_2101_main_20_PhConfNo = There was a problem processing your request.
+scg_ccc_prmt_2101_main_21_PhConfNo = There was a problem processing your request. Please try again later or call back during our business hours, Monday through Friday, 7am to 8PM, and Saturday 7AM to 6PM, to speak with a representative.
+scg_ccc_menu_ninm1_2101_main_13_PhNum = Please <break time="0.2s"/> say or enter the 10-digit smart phone number <break time="0.2s"/> you’d like to receive the weblink<break time="0.2s"/> via text message on. To return to the previous menu,<break time="0.2s"/> say ‘previous’ or press 8.
+scg_ccc_menu_ninm2_2101_main_14_PhNum = Please enter <break time="0.1s"/> the 10-digit smart phone number<break time="0.1s"/> you’d like to receive the weblink<break time="0.1s"/> via text message on.  To return to the previous menu,<break time="0.1s"/> press 8
+scg_ccc_collect_2105_main_01_FullAddr = Please say the complete address, including apartment or unit number if you have one.
+
+scg_ccc_prmt_2330_main_12_RepresentCloseOrd = You’ll have to talk to a representative about scheduling a close order.
+
+scg_ccc_prmt_2330_main_01_CloseOrder = You’ll have to talk to a representative about scheduling a close order. 
+scg_ccc_prmt_2330_main_02_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_03_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_04_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_05_CloseOrder = We note that there is an existing order on this account. You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_06_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_07_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_08_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_09_CloseOrder = We note that this account is already closed.  You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_10_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_11_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_12_CloseOrder = We note that there is a Continuous Service Agreement on this account.  You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_13_CloseOrder = You’ll have to talk to a representative about scheduling a close order. 
+scg_ccc_prmt_2330_main_14_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_15_CloseOrder = We note that there is an existing order on this account. You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_16_CloseOrder = We note that there is an existing order on this account. You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_17_CloseOrder = We note that there is an existing order on this account. You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_18_CloseOrder = We note that there is an existing order on this account. You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_19_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+scg_ccc_prmt_2330_main_20_CloseOrder = You’ll have to talk to a representative about scheduling a close order.
+
+
+scg_ccc_menu_2334_main_01_StopServBill =  If you have everything you need, you can hang up at any time. <break time = "0.1s"/> To make a payment, say ‘Pay My Bill’. <break time = "0.2s"/> To speak with a representative, say ‘Representative’. 
+scg_ccc_menu_ninm1_2334_main_02_StopServBill =  If you have everything you need, you can hang up at any time.  To make a payment, say ‘Pay My BIll’ or press 1.  To speak with a representative, say ‘Representative’ or press 2 .  To repeat these options, say 'Repeat' or press 7. To return to the previous menu, say ‘Previous’ or press 8.  To return to the main menu, say ‘Main Menu' or press 9.
+scg_ccc_menu_ninm2_2334_main_03_StopServBill =  If you have everything you need, you can hang up at any time.  To make a payment, press 1. To speak with a representative, press 2.  To repeat these options, press 7. To return to the previous menu, press 8.  To return to the main menu, press 9.
+scg_ccc_prmt_2333_main_04_BillDueDt = <break time = "0.2s"/>due on
+scg_ccc_prmt_2333_main_05_AccClosNowBal= Your account is now closed,  Your final balance is  <break time = "0.4s"/>
+scg_ccc_prmt_2331_main_03_AcctCloseDt = Your account was closed as of <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_02_AcctClose = Your account was closed <break time = "0.2s"/>
+scg_ccc_prmt_2331_main_05_AcctCloseDt = Your account was closed as of <break time = "0.2s"/> 
+scg_ccc_prmt_2331_main_04_StartServAddr =  because we received a request to start new service at this address.  The closing bill will be ready in 1-2 weeks after billing has been taken out of your name,
+scg_ccc_prmt_2331_main_06_AcctClose = Your account was closed.<break time = "0.2s"/>
+scg_ccc_prmt_2331_main_07_CloseBillProcessTime = <break time = "0.4s"/> The closing bill will be ready in 1-2 weeks after billing has been taken out of your name <break time = "0.4s"/>
+scg_ccc_prmt_2333_main_01_AccClosStartNewServ = Your account was closed<break time = "0.2s"/> because we received a request to start new service <break time = "0.2s"/>  at this address,<break time = "0.2s"/> The balance was paid or transferred to a new account,<break time = "0.2s"/>
+scg_ccc_prmt_2333_main_02_AccClosNewServ = Your account was closed<break time = "0.2s"/> because we received a request to start new service at this address
+scg_ccc_prmt_2333_main_03_AccClosCurBal = Your account was closed because we received a request to start new service at this address. Your final balance is
+scg_ccc_prmt_2331_main_01_CloseOrd = You’ll have to talk to a representative about scheduling a close order
+scg_ccc_prmt_2333_main_08_AccClose = Your account is now closed <break time = "0.2s"/>and the balance was paid <break time = "0.1s"/>or transferred to a new account <break time = "0.1s"/>
+scg_ccc_prmt_2333_main_07_AccNowClos = Your account is now closed.
+scg_ccc_prmt_2333_main_06_BilldueDt = <break time = "0.2s"/> due on<break time = "0.2s"/>
+scg_ccc_collect_2105_main_15_AptNumberOrUnit_Yes =  please say your apartment number or unit 
+scg_ccc_menu_ninm1_2101_main_03_StartServiceProcess = To complete the start service process online,<break time = "0.1s"/> say ‘Yes’ or press 1, otherwise,<break time = "0.1s"/> say ‘No’ or press 2. To hear that information again,<break time = "0.1s"/> say 'Hear Details'. or press 3,
+scg_ccc_menu_ninm2_2101_main_04_StartServiceProcess = To complete the start service process online press 1 .otherwise, press 2. To hear that information again,  press 3.
+scg_ccc_menu_ninm1_2101_main_10_DiffNumb = If you’re calling from a smart phone,<break time = "0.1s"/>say 'Yes' or <break time = "0.1s"/> press 1. To receive the text message on a different smart phone,<break time = "0.1s"/>  say 'Different Number' or <break time = "0.1s"/> press 2 ,
+scg_ccc_menu_ninm2_2101_main_11_DiffNumb = If you’re calling from a smart phone,<break time = "0.1s"/> press 1. To receive the text message on a different smart phone,<break time = "0.1s"/> press 2 
+scg_ccc_menu_ninm1_2101_main_17_PhConf =  If that’s correct,<break time = "0.1s"/> say Yes or press 1. otherwise<break time = "0.1s"/> say No or press 2. To hear that information again,<break time = "0.1s"/> say hear details Or press 3
+scg_ccc_menu_ninm2_2101_main_18_PhConf = If that’s correct <break time = "0.1s"/>,press 1 .otherwise,<break time = "0.1s"/>  press 2.To hear It again,<break time = "0.1s"/> Press 3.
+scg_ccc_menu_ninm1_2101_main_07_StartServiceAddr =  To speak your address, say 'New Address' or press 1. To receive a text message with a weblink to enter the new service address, say 'Weblink' or press 2.  To hear that information again,  press 3.
+scg_ccc_menu_ninm2_2101_main_08_StartServiceAddr = To speak your address, press 1. To receive a text message with a weblink to enter the new service address, press 2.  To hear that information again,  press 3
+scg_ccc_menu_ninm1_2316_main_06_Confirm = If that's correct, say 'yes' or press 1, otherwise, say 'no' or press 2. To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2316_main_07_Confirm =  If that's correct, press 1 otherwise press 2. To hear it again, press 3.
+scg_ccc_menu_ninm2_2335_main_03_AnythingElse = If you have everything you need, you can hang up at any time. Is there anything else I can help you with today?
+scg_ccc_menu_ninm1_2335_main_02_AnythingElse = If you have everything you need, you can hang up at any time. Is there anything else I can help you with today?
+scg_ccc_collect_2325_main_06_StrNumFirstAttempt = Okay, can I get just the street number?
+scg_ccc_prmt_2335_main_05_AnythingElse = <break time = "0.2s"/> If you have any other questions, <break time = "0.2s"/>  we invite you to call back or visit our website,<break time = "0.4s"/> So Cal Gas dot com <break time = "0.2s"/> Thank you, goodbye.
+scg_ccc_prmt_2200_main_07_DigitalDeflectionService = We are currently closed for non-emergency services,<break time = "0.1s"/> however, <break time = "0.2s"/> 
+scg_ccc_menu_2201_main_02_MoveProcessConfirm =<break time = "0.4s"/> To complete the move service process online, say 'Yes'. <break time = "0.2s"/> Otherwise, say 'No'. <break time = "0.2s"/> To hear that information again, say 'Hear Details'. <break time = "0.2s"/>
+scg_ccc_menu_ninm1_2201_main_03_MoveProcessConfirm = To complete the move service process online, say 'yes' or press 1. <break time = "0.2s"/> Otherwise, say 'no' or press 2. <break time = "0.2s"/> To hear that information again, say 'hear details' or press 3. <break time = "0.2s"/>
+scg_ccc_menu_ninm2_2201_main_04_MoveProcessConfirm = To complete the move service process online, press 1.  <break time = "0.2s"/> Otherwise, press 2.  <break time = "0.2s"/> To hear that information again, press 3. <break time = "0.2s"/>
+scg_ccc_menu_2201_main_05_PhNumConfirm = If you’re calling from a smart phone<break time = "0.1s"/> say ‘Same Number’, To receive the text message on a different smart phone <break time = "0.1s"/> say ‘Different Number’, To continue through the phone system <break time = "0.1s"/> say ‘Continue’.
+scg_ccc_menu_ninm1_2201_main_06_PhNumConfirm = If you’re calling from a smart phone,<break time = "0.1s"/> say 'same number' or press 1, To receive the text message on a different smart phone,<break time = "0.1s"/> say 'different number' or press 2, To continue through the phone system,<break time = "0.1s"/> say 'continue' or press 3, To repeat these options,<break time = "0.1s"/> say 'repeat' or press 7.
+scg_ccc_menu_ninm2_2201_main_07_PhNumConfirm =  If you’re calling from a smart phone<break time = "0.1s"/> press 1, To receive the text message on a different smart phone,<break time = "0.1s"/> press 2, To continue through the phone system,<break time = "0.1s"/> press 3 , To repeat these options,<break time = "0.1s"/> press 7.
+scg_ccc_collect_2201_main_08_PhNum = Please say the 10-digit smart phone number you’d like to receive the weblink via text message on. To return to the previous menu, say ‘previous’.
+scg_ccc_collect_ninm1_2201_main_09_PhNum =   Please say or enter the 10-digit smart phone number you’d like to receive the weblink via text message on. To return to the previous menu, say ‘previous’ or press 8. 
+scg_ccc_collect_ninm2_2201_main_10_PhNum = Please enter the 10-digit smart phone number you’d like to receive the weblink via text message on.  To return to the previous menu, press 8.
+scg_ccc_prmt_2201_main_11_ConfirmPhnumMsg = To confirm, that number  <break time = "0.1s"/> is
+scg_ccc_menu_2201_main_12_Confirm = If that's correct <break time = "0.1s"/> say 'yes', otherwise,<break time = "0.1s"/> say 'no', to hear that information again,<break time = "0.1s"/> say 'hear details'.
+scg_ccc_menu_ninm1_2201_main_13_Confirm = If that’s correct,<break time = "0.1s"/> say 'yes' or press 1, Otherwise say 'no' or press 2<break time = "0.1s"/> to hear that information again,<break time = "0.1s"/> say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2201_main_14_Confirm =  If that’s correct press 1 or <break time = "0.1s"/> if it’s wrong otherwise press 2 Or<break time = "0.1s"/> To hear it again,<break time = "0.1s"/> press 3.
+scg_ccc_prmt_2201_main_16_WeblinkPhNm = Please continue to wait on the line while the web link is sent to
+scg_ccc_prmt_2201_main_15_PbmProce = There was a problem processing your request.
+scg_ccc_menu_ninm1_2306_main_07_Confirm = If you’d like to go to the previous menu to select the earliest date, say 'Previous' or press 8, To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2306_main_08_Confirm =  If you’d like to go to the previous menu to select the earliest date, press 8, to hear it again, press 3.
+scg_ccc_prmt_2322_main_06_FinalBillNotCalculated = Please note, the final bill amount has not been calculated.
+scg_ccc_prmt_2327_main_08_Issue = There seems to be an issue with the smart phone processing, Let's continue here. <break time = "0.2s"/>
+scg_ccc_prmt_2327_main_03_RecMailAddr = We have received the updated mailing address  <break time = "0.2s"/>
+scg_ccc_prmt_2327_main_04_ConfirmFullAddress =  To confirm, the mailing address is <break time = "0.2s"/>
+scg_ccc_menu_2327_main_05_Confirm = <break time = "0.2s"/> If that’s correct say ‘Yes’ , otherwise  say “No”, To hear it again, say 'hear details'.
+scg_ccc_prmt_2327_main_07_MailAddrSuce = The mailing address has been successfully updated <break time = "0.2s"/>
+scg_ccc_prmt_2327_main_08_Issue = There seems to be an issue with the smart phone processing, Let's continue here.
+scg_ccc_menu_ninm1_2327_main_06_Confirm = If that’s correct, say 'yes' or press 1, otherwise, say 'no' or press 2, To hear it again, say 'hear details' or press 3.
+scg_ccc_menu_ninm2_2327_main_07_Confirm = If that’s correct, press 1, otherwise press 2, To hear it again, press 3.
+scg_ccc_prmt_2103_main_03_TextIssue = There seems to be an issue with the text message processing.
+scg_ccc_prmt_2103_main_02_AddVer  = The new service address was received and will be verified by a representative.
+scg_ccc_prmt_2202_main_02_Issue = There seems to be an issue with the text message processing
+scg_ccc_prmt_2202_main_01_WebLinkConfirm = The web link was sent and should reach your smart phone shortly
+
+//----------DD offered --------------------------
+
+scg_ccc_prmt_2201_main_01_DD_Day1 = You can create and manage service requests online at So Cal Gas dot com. We can send a text message with the weblink. Message and data rates may apply.
+scg_ccc_prmt_2201_main_01_DD_Day1_1 =service process online at socalgas.com. We can send a text message with the weblink. Message and data rates may apply.
+scg_ccc_menu_2201_main_02_DD_Day1 = To complete the service request online, say 'Yes', otherwise,  say 'No'. To hear that information again, say Hear Details.
+scg_ccc_menu_2201_main_02_DD_Day1_1 = service process online, say 'Yes', otherwise,  say 'No'. To hear that information again, say 'Hear Details'.
+scg_ccc_menu_2201_main_05_PhNumConfirm_Day1 = If you’re calling from a smart phone, say 'Same Number'. To receive the text message on a different smart phone, say 'Different Number'. 
+scg_ccc_prmt_2201_main_16_WeblinkPhNm = Please continue to wait on the line while the web link is sent to
+ scg_ccc_collect_2201_main_08_PhNum = Please say the 10-digit smart phone number you’d like to receive the weblink via text message on. To return to the previous menu, say 'previous'. 
+ scg_ccc_collect_ninm1_2201_main_09_PhNum = Please say or enter the 10-digit smart phone number you’d like to receive the weblink via text message on. To return to the previous menu, say ‘previous’ or press 8. 
+ scg_ccc_collect_ninm2_2201_main_10_PhNum = Please enter the 10-digit smart phone number you’d like to receive the weblink via text message on.  To return to the previous menu, press 8.
+scg_ccc_menu_2201_main_12_Confirm = If that's correct, say 'yes', otherwise, say 'no'. to hear that information again, say 'hear details'
+scg_ccc_prmt_2201_main_15_PbmProce = There was a problem processing your request.
+scg_ccc_menu_ninm1_2201_main_06_PhNumConfirm_Day1 = If you’re calling from a smart phone, say 'same number' or press 1. To receive the text message on a different smart phone, say 'different number' or press 2. To repeat these options, say 'repeat' or press 7.
+scg_ccc_menu_ninm2_2201_main_07_PhNumConfirm_Day1 =If you’re calling from a smart phone, press 1. To receive the text message on a different smart phone, press 2.. To repeat these options, press 7.

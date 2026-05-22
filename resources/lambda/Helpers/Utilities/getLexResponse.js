@@ -1,7 +1,9 @@
 const logger = require("../Utilities/logger");
 const getSessionAttributes = require("../Utilities/getSessionAttributes");
 const logData = require("../Utilities/loggingData");
-exports.DialogAction = function (
+const loggingDatafunc = require("../Utilities/loggingData");
+
+exports.DialogAction = function(
     type,
     intentRequest,
     name,
@@ -13,54 +15,56 @@ exports.DialogAction = function (
 ) {
     let sessionAttributes = intentRequest.sessionState.sessionAttributes;
     sessionAttributes = getSessionAttributes.getSessionAttributes(sessionAttributes, intentRequest, type, messages);
+
+
     switch (type) {
         case "ElicitSlot":
             return {
                 sessionState: {
-                    dialogAction: {
-                        type: "ElicitSlot",
-                        slotToElicit,
+                        dialogAction: {
+                            type: "ElicitSlot",
+                            slotToElicit,
+                        },
+                        intent: {
+                            state,
+                            name,
+                            slots,
+                        },
+                        sessionAttributes,
                     },
-                    intent: {
-                        state,
-                        name,
-                        slots,
-                    },
-                    sessionAttributes,
-                },
-                messages,
+                    messages,
             };
 
         case "ElicitIntentActiveContext":
             return {
                 sessionState: {
-                    dialogAction: {
-                        type: "ElicitIntent"
+                        dialogAction: {
+                            type: "ElicitIntent"
+                        },
+                        intent: {
+                            state,
+                            name,
+                            slots: {},
+                            confirmationState: "None"
+                        },
+                        activeContexts,
+                        sessionAttributes,
                     },
-                    intent: {
-                        state,
-                        name,
-                        slots: {},
-                        confirmationState: "None"
-                    },
-                    activeContexts,
-                    sessionAttributes,
-                },
-                messages,
+                    messages,
             };
 
         case "StartIntent":
             return {
                 sessionState: {
-                    dialogAction: {
-                        type: "StartIntent",
+                        dialogAction: {
+                            type: "StartIntent",
+                        },
+                        intent: {
+                            name,
+                        },
+                        sessionAttributes,
                     },
-                    intent: {
-                        name,
-                    },
-                    sessionAttributes,
-                },
-                messages,
+                    messages,
             };
         case "SwitchToIntentSlot":
             let session_data = {
@@ -80,43 +84,53 @@ exports.DialogAction = function (
             session_data.intent.slots[slotToElicit] = null;
             return {
                 sessionState: session_data,
-                messages,
+                    messages,
 
             };
         case "Close":
             return {
                 sessionState: {
-                    dialogAction: {
-                        type: "Close",
+                        dialogAction: {
+                            type: "Close",
+                        },
+                        intent: {
+                            state,
+                            name,
+                        },
+                        sessionAttributes,
                     },
-                    intent: {
-                        state,
-                        name,
-                    },
-                    sessionAttributes,
-                },
-                messages,
+                    messages,
             };
         case "ElicitIntent":
             return {
                 sessionState: {
-                    dialogAction: {
-                        type: "ElicitIntent",
+                        dialogAction: {
+                            type: "ElicitIntent",
+                        },
+                        sessionAttributes,
                     },
-                    sessionAttributes,
-                },
-                messages,
+                    messages,
             };
             case "Delegate":
                 let key = Object.keys(slots);
                 //For phone number slot DTMF option
-                if ([key[0]] == "phoneNumber" || [key[0]] == "accountNumber" ) {
+                if ([key[0]] == "phoneNumber" || 
+                    key[0] == "getStreetNumber" || 
+                    key[0] == "getStreetName" ||
+                    key[0] == "getApartmentNumber" || 
+                    key[0] == "getCity" ||
+                    key[0] == "getState" || 
+                    key[0] == "getZipCode" ||
+                    key[0] == "date" 
+                 ) {
+                    logger.info("Delegate condition true in getLexResponse");
                     slots[key[0]] = {
                         value: {
                             interpretedValue: "1"
                         }
                     };
                 } else {
+                    logger.info("Delegate condition false in getLexResponse");
                     let value = Object.values(slots);
                     //For slots
                     value = key[0] == undefined || key[0] == "undefined" ? value : value[0]["value"]["interpretedValue"];
@@ -143,7 +157,7 @@ exports.DialogAction = function (
     }
 };
 
-exports.SetActiveContexts = function (activeContexts, name, timeToLiveInSeconds = 500, turnsToLive = 8) {
+exports.SetActiveContexts = function(activeContexts, name, timeToLiveInSeconds = 1500, turnsToLive = 15) {
     //logger.info("Set active context for " + name);
     let contextObj = {
         contextAttributes: {},
@@ -157,22 +171,23 @@ exports.SetActiveContexts = function (activeContexts, name, timeToLiveInSeconds 
     return activeContexts;
 };
 
-exports.DeleteSessionValues = function (sessionList, deleteList) {
+exports.DeleteSessionValues = function(sessionList, deleteList) {
     logger.info("Delete List session values  " + sessionList);
     deleteList.forEach(element => {
         delete sessionList[element];
+        //console.log("after remove keys", sessionList);
     });
 
 };
 
-exports.BuildMessage = function (messageContent) {
+exports.BuildMessage = function(messageContent) {
     return [{
         contentType: "PlainText",
         content: messageContent,
-    },];
+    }, ];
 };
 
-exports.BuildValidationResult = function (
+exports.BuildValidationResult = function(
     isValid,
     violatedSlot,
     messageContent
@@ -181,22 +196,22 @@ exports.BuildValidationResult = function (
         isValid,
         violatedSlot,
         message: { contentType: "PlainText", content: messageContent },
-    },];
+    }, ];
 };
 
-exports.BuildSSMLMessage = function (messageContent) {
+exports.BuildSSMLMessage = function(messageContent) {
     return [{
         contentType: "SSML",
         content: "<speak>" + messageContent + "</speak>",
-    },];
+    }, ];
 };
 
-exports.getStartTime = function (dateTime) {
+exports.getStartTime = function(dateTime) {
     //logger.info("Enter time duration calculation");
     let date = dateTime;
-    /* let current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-      let current_time = date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
-      let date_time = current_date+" "+current_time;
-      return date_time; */
+ /*   let current_date = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
+    let current_time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    let date_time = current_date + " " + current_time;
+    return date_time; */
     return date;
 };
